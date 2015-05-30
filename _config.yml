@@ -18,18 +18,18 @@ avatar: /images/jekyll-logo.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: spoonman.desarrollo@gmail.com
+  facebook: SunsetRoboto
   flickr:
-  github: SpoonmanGames/spoonmangames.github.io
+  github: SpoonmanGames
   instagram:
-  linkedin:
+  linkedin: estebangaeteflores
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter:
+  rss: RSS # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  youtube: UCadVStHH2qNE7ki4f6VqqIw # channel/<your_long_string> or user/<user-name>
+  googleplus: u/0/b/101984937289844921367/101984937289844921367/about # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
