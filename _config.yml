@@ -1,28 +1,30 @@
 # Site wide configuration
 
-title:
-description:
+title: Spoonman Games
+description: ¡Vídeo Juegos con cariño y locura!
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
-locale:
-url:
+locale: es_CL
+url: # http:://spoonmangames.github.io
 
 # Jekyll configuration
 
 sass:
     sass_dir: _sass
     style: compressed
-permalink: /:categories/:title/
+permalink: /blog/:categories/:title/
+markdown: redcarpet
 kramdown:
   toc_levels: 1..2
 highlighter: pygments
 gems:
+  - jekyll-redirect-from  # Se usa 'redirect_from: "/foo"' en el header
   - jekyll-sitemap
 
 
 # Site owner
 owner:
-  name:
+  name: Esteban Gaete
   email:
   twitter:
   google:
@@ -30,7 +32,9 @@ owner:
     ad-slot: 
   bio: 
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+  disqus-shortname: spoonmangames
 
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "CNAME"]
