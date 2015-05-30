@@ -4,3 +4,11 @@
   url: /blog/
   excerpt: "What a blog"
   image: teaser.png
+- title: RoadMaps
+  url: /roadmap/
+  excerpt: "Roadmap"
+  image: teaser.png
+- title: About
+  url: /about/
+  excerpt: "About"
+  image: teaser.png
