@@ -2,8 +2,29 @@
 
 esteban_gaete:
   name: Esteban Gaete
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
+  rol: Creador de Spoonman Games
   avatar: bio-photo.jpg
-  twitter: extravagantman
+  bio: "What do you want, jewels? I am a very extravagant man."
+  web: www.estebangaete.cl
+  email: esteban.gaete@usach.cl
+  facebook: esteban.g.flores
+  twitter: TebiFestival
+  github: Theby
+  linkedin: estebangaeteflores
+  tumblr: thebyable
+  youtube: UC0Lo-I3ugIUuCD2Wi5AdAcg
+  googleplus: +EstebanGaeteFlores
+ejemplo:
+  name: # nombre o nickname
+  rol: # rol dentro de Spoonman Games
+  avatar: # foto ubicada en /images/ debe llevar extensión
+  bio: # Texto, ojala no muy largo
+  web: # Debe ir la web completa por ejemplo www.spoonmangames.cl, sin http://
+  email: # mail completo, por jemplo spoonman.desarrollo@gmail.com
+  facebook: # solo el nombre de la página o perfil después de https://www.facebook.com/, por ejemplo spoonman.games
+  twitter: # solo nombre de usuario después de https://twitter.com/, por ejemplo TebiFestival
+  github: # solo nombre de usuario u organización después de https://github.com/, por ejemplo SpoonmanGames
+  linkedin: # solo el nombre después de https://cl.linkedin.com/in/, por ejemplo estebangaeteflores
+  tumblr: # nombre de usuario, por ejemplo en thebyable.tumblr.com es thebyable
+  youtube: # gran grupo de numeros o nombre del canal después de https://www.youtube.com/channel/, por ejemplo UC0Lo-I3ugIUuCD2Wi5AdAcg o AvispasDeMarmol
+  googleplus: # nombre de usuario espues de https://plus.google.com/u/0/, por ejemplo +EstebanGaeteFlores

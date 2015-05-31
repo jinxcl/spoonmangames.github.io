@@ -4,6 +4,10 @@
   url: /blog/
   excerpt: Noticias y avances de todos los juegos de Spoonman Games
   image: teaser.png
+- title: Juegos
+  url: /juegos/
+  excerpt: Lista de los juegos de Spoonman Games
+  image: teaser.png
 - title: RoadMaps
   url: /roadmap/
   excerpt: Las fechas más importantes de cada proyecto.

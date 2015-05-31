@@ -23,14 +23,22 @@ gems:
 
 # Site owner
 owner:
-  name: Esteban Gaete
+  name: Spoonman Games
+  rol: 
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  bio: Amante de la programación y los vídeo juegos.
+  web:
   email: esteban.gaete@usach.cl
+  facebook:
   twitter: Thebyable
+  github:
+  linkedin:
+  tumblr:
+  youtube:
+  googleplus:
   google:
     ad-client: 
     ad-slot: 
-  bio: Amante de la programación y los vídeo juegos.
-  avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname: spoonmangames
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
