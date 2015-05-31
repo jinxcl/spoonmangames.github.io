@@ -4,4 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
-blogginggggg like a pro
+<div class="tiles">
+{% for post in site.posts %}
+    {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->

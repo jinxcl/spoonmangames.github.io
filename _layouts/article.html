@@ -14,16 +14,31 @@ layout: default
 		{% endif %}
 		{% include breadcrumbs.html %}
 		<div class="page-title">
-			<h1>{{ page.title }}</h1>
+			<h1>{{ page.title }}</h1>			
+			{% include page-meta.html %}
 		</div>
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
+				{% if page.previous.url || if page.next.url %}
+					<hr />
+					<p>
+					    {% if page.previous.url %}
+					        <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+					            izq - {{page.previous.title}}
+					        </a>
+					    {% endif %}
+					    {% if page.next.url %}
+					        <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">
+					            der - {{page.next.title}}
+					        </a>
+					    {% endif %}
+					</p>
+				{% endif %}
 				<hr />
 				<footer class="page-footer">
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
-					{% include page-meta.html %}
 				</footer><!-- /.footer -->
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}

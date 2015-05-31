@@ -143,6 +143,13 @@
    ========================================================================== */
 
 #main {
+	.page-meta {
+		p{
+			@include font-size(14,no);
+			font-family: $alt-font;
+			color: lighten($black,60);
+		}
+	}
 	.inner-wrap {
 		@include media($medium) {
 			@include span-columns(9);
@@ -303,6 +310,11 @@
 
 .page-footer {
 	position: relative;
+	margin-top: -23px;
+}
+
+.page-footer .inline-btn{
+	margin-top: 15px;
 }
 
 /* Author block */

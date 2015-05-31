@@ -1,3 +1,25 @@
-{% if page.date %}<div class="page-meta">
-	<p>Updated {% if page.modified %}<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% else %}<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+{% if page.date %}
+    <div class="page-meta">
+	   <p>Actualizado el 
+            {% if page.modified %}
+                <time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
+                    {{ page.modified | date: "%B %d, %Y" }}
+                </time>
+            {% else %}
+                <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
+                    {{ page.date | date: "%B %d, %Y" }}
+                </time>
+            {% endif %}
+            {% if site.owner.disqus-shortname %}
+               |  <a href="{{ post.url }}#disqus_thread">Actualizando Disqus</a>
+            {% endif %}
+            {% if page.tags.size > 0 %}
+               |  Tags: 
+              {% for tag in page.tags %}
+                <a href="/tag/{{ tag }}" class="badge warning">{{ tag }} </a> 
+              {% endfor %}
+            {% else %}
+               | Sin tags
+            {% endif %}
+        </p>
 </div><!-- /.page-meta -->{% endif %}
