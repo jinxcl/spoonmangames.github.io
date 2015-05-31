@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: Roadmap
+title: Roadmaps
 permalink: /roadmap/
 ---
 
-Soon...
+Próximamente...

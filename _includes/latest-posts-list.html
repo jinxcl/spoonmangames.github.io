@@ -1,3 +1,5 @@
+<!-- USAR EN EL MARKDOWN DE UN POST -->
+
 <h3>Latest {{ page.categories | first | replace: '-',' ' | capitalize }}</h3>
 <ul>
 {% capture category_name %}{{ page.categories | first }}{% endcapture %}

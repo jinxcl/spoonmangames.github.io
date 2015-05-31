@@ -1,4 +1,8 @@
 # Footer navigation links
 
-- title: I'm a footer
-  url: /footer/
+- title: Blogs
+  url: /blog/
+- title: RoadMaps
+  url: /roadmap/
+- title: Acerca De
+  url: /about/

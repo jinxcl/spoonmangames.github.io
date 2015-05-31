@@ -2,13 +2,13 @@
 
 - title: Blogs
   url: /blog/
-  excerpt: "What a blog"
+  excerpt: Noticias y avances de todos los juegos de Spoonman Games
   image: teaser.png
 - title: RoadMaps
   url: /roadmap/
-  excerpt: "Roadmap"
+  excerpt: Las fechas más importantes de cada proyecto.
   image: teaser.png
-- title: About
+- title: Acerca De
   url: /about/
-  excerpt: "About"
+  excerpt: Conoce más sobre Spoonman Games, sus miembros y colaboradores!
   image: teaser.png

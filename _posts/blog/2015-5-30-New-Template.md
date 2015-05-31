@@ -9,7 +9,7 @@ tags:
 - test
 image:
  feature: skinny-bones-demo.gif
- credit: creditos
+ credit: créditos
  creditlink: http://no.com
  teaser: teaser.png
 ---

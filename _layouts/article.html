@@ -20,21 +20,8 @@ layout: default
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
-				{% if page.previous.url || if page.next.url %}
-					<hr />
-					<p>
-					    {% if page.previous.url %}
-					        <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
-					            izq - {{page.previous.title}}
-					        </a>
-					    {% endif %}
-					    {% if page.next.url %}
-					        <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">
-					            der - {{page.next.title}}
-					        </a>
-					    {% endif %}
-					</p>
-				{% endif %}
+				<hr />
+				{% include pagination.html %}			
 				<hr />
 				<footer class="page-footer">
 					{% if page.categories %}{% include page-author.html %}{% endif %}

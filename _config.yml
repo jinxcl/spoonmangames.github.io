@@ -12,7 +12,7 @@ url: # http:://spoonmangames.github.io
 sass:
     sass_dir: _sass
     style: compressed
-permalink: /blog/:categories/:title/
+permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: pygments
@@ -24,12 +24,12 @@ gems:
 # Site owner
 owner:
   name: Esteban Gaete
-  email:
-  twitter:
+  email: esteban.gaete@usach.cl
+  twitter: Thebyable
   google:
     ad-client: 
     ad-slot: 
-  bio: 
+  bio: Amante de la programación y los vídeo juegos.
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname: spoonmangames
 

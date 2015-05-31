@@ -11,7 +11,7 @@
             <time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">
                 {{ post.date | date: "%B %d, %Y" }}
                 {% if site.owner.disqus-shortname %}
-                   |  <a href="{{ post.url }}#disqus_thread">Actualizando Disqus</a>
+                   |  <a href="{{ post.url }}#disqus_thread"><i class="fa fa-cog fa-spin"></i> Actualizando Disqus</a>
                 {% endif %}
                 {% if post.tags.size > 0 %}
                    <br>Tags: 
