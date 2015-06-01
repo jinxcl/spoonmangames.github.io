@@ -24,18 +24,18 @@ gems:
 # Site owner
 owner:
   name: Spoonman Games
-  rol: 
+  rol: La gran cuchara
   avatar: bio-photo.jpg # 160x160 px image for author byline
   bio: Amante de la programación y los vídeo juegos.
-  web:
-  email: esteban.gaete@usach.cl
-  facebook:
-  twitter: Thebyable
-  github:
+  web: www.spoonmangames.cl
+  email: spoonman.desarrollo@gmail.com
+  facebook: spoonman.games
+  twitter: 
+  github: SpoonmanGames
   linkedin:
   tumblr:
-  youtube:
-  googleplus:
+  youtube: UCadVStHH2qNE7ki4f6VqqIw
+  googleplus: b/101984937289844921367/101984937289844921367/about
   google:
     ad-client: 
     ad-slot: 
