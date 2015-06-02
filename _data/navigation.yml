@@ -3,16 +3,20 @@
 - title: Blogs
   url: /blog/
   excerpt: Noticias y avances de todos los juegos de Spoonman Games
-  image: teaser.png
+  image:
 - title: Juegos
   url: /juegos/
   excerpt: Lista de los juegos de Spoonman Games
-  image: teaser.png
+  image:
 - title: RoadMaps
   url: /roadmap/
   excerpt: Las fechas más importantes de cada proyecto.
-  image: teaser.png
+  image:
+- title: Descargas
+  url: /download/
+  excerpt: ¡Herramientas y vídeo juegos gratuitos! :D
+  image:
 - title: Acerca De
   url: /about/
-  excerpt: Conoce más sobre Spoonman Games, sus miembros y colaboradores!
-  image: teaser.png
+  excerpt: ¡Conoce más sobre Spoonman Games, sus miembros y colaboradores!
+  image:
