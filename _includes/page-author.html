@@ -5,7 +5,7 @@
 {% endif %}
 
 <div class="author-image">
-	<img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
+	   <img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >
@@ -20,7 +20,7 @@
     </h3>
 	<p class="author-bio">
         {% if author.rol %}
-            <small>author.rol</small><br>
+            <small>{{ author.rol }}</small><br>
         {% endif %}
         {{ author.bio }}
     </p>

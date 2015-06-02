@@ -12,6 +12,6 @@
     {% if post_index0 == forloop.index %}{% assign next_post = post %}{% endif %}
     {% if post_index1 == forloop.index0 %}{% assign prev_post = post %}{% endif %}
   {% endfor %}
-  {% if prev_post %}<a class="prev pull-left" href="{{ site.url }}{{ prev_post.url }}"><i class="fa fa-arrow-left"></i> Post anterior: {{ prev_post.title }}</a>{% endif %}
-  {% if next_post %}<a class="next pull-right" href="{{ site.url }}{{ next_post.url }}">Post siguiente: {{ next_post.title }} <i class="fa fa-arrow-right"></i></a>{% endif %}
+  {% if prev_post %}<a class="prev pull-left" href="{{ site.url }}{{ prev_post.url }}">Post anterior<br><i class="fa fa-arrow-left"></i> {{ prev_post.title }}</a>{% endif %}
+  {% if next_post %}<a class="next pull-right" href="{{ site.url }}{{ next_post.url }}">Post siguiente<br><div class="pull-right">{{ next_post.title }} <i class="fa fa-arrow-right"></i></div></a>{% endif %}
 </div>

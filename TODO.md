@@ -1,11 +1,10 @@
 # Cosas por hacer
 
-* Agregar "últimos post" en la columna derecha de los post
-* Agregar imagenes de spoonman y sunset roboto
 * Hacer About
 * Hacer Roadmap
-* Agregar como subsribirse al Feed RSS (o por mail) en el home
+* Agregar como subscribirse al Feed RSS (o por mail) en el home [tutorial]
 * Agregar primeros post
+* Agregar imágenes de sunset roboto
 * Averiguar si se puede cambiar el color del theme
 
 # Nice to Have

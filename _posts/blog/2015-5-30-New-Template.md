@@ -7,11 +7,6 @@ categories:
 - blog
 tags:
 - test
-image:
- feature: skinny-bones-demo.gif
- credit: créditos
- creditlink: http://no.com
- teaser: teaser.png
 ---
 
 I'm a new template

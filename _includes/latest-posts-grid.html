@@ -2,11 +2,21 @@
 <!-- Necesita que este fijado el Thumb del post -->
 
 <div class="archive-wrap">
-  <h3>Latest {{ page.categories | first | replace: '-',' ' | capitalize }}</h3>
-  <ul class="th-grid">
-  {% capture category_name %}{{ page.categories | first }}{% endcapture %}
-  {% for post in site.categories.[category_name] limit:4 %}
-    <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a></li>
-  {% endfor %}
-  </ul>
+    <h3>Últimos {{ page.categories | first | replace: '-',' ' | capitalize }}</h3>
+    <ul>
+        {% capture category_name %}{{ page.categories | first }}{% endcapture %}
+        {% for post in site.categories.[category_name] limit:4 %}
+            <li class="latest-post">
+                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+                    {% if post.image.teaser %}
+                        <img src="{{ site.url }}/images/{{ post.image.teaser }}" alt="{{ post.title }}" />
+                    {% else %}
+                        <img src="{{ site.url }}/images/{{ site.teaser }}" alt="{{ site.teaser-alt }}" />
+                    {% endif %}
+                </a>
+                <br>
+                <p class="latest-post-title">{{ post.title }}</p>
+            </li>
+        {% endfor %}
+    </ul>
 </div><!-- /.archive-wrap -->

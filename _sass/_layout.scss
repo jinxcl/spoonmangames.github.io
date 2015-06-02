@@ -232,6 +232,43 @@
 			border-width: 0;
 		}
 	}
+  /* latest post */
+	.latest {
+		position: relative;
+		text-align: center;
+		margin-top: $gutter;
+		margin-left: -$gutter;
+		margin-right: -$gutter;
+		padding: 10px 0 20px;
+		background: lighten($border-color,5);
+		@include media($medium) {
+			@include span-columns(3);
+			margin-left: 0;
+			margin-right: 0;
+		}
+		&:after {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+			display: block;
+			@include font-size(9,no);
+			font-family: $alt-font;
+		}
+		ins {
+			border-width: 0;
+		}
+	}
+	.latest ul {
+		list-style-type: none;
+	}
+	.latest .latest-post{
+		margin-left: -29px;
+		margin-right: 11px;
+	}
+	.latest .latest-post-title{
+		margin-top: -2px;
+	}
 }
 // page lead
 .page-lead {

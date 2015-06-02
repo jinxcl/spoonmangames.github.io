@@ -7,6 +7,8 @@ categories:
 - blog
 tags:
 - test
+image:
+    thumb: logo.png
 ---
 
 

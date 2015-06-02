@@ -12,7 +12,7 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
       self.data['tag'] = tag
-      self.data['title'] = "Etiquetas &ldquo;"+tag+"&rdquo;"
+      self.data['title'] = "Etiqueta:" + (tag + "").capitalize
     end
   end
 

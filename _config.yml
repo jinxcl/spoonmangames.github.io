@@ -2,10 +2,11 @@
 
 title: Spoonman Games
 description: ¡Vídeo Juegos con cariño y locura!
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+logo: sp-twitter-logo.png # 120x120 px default image used for Twitter summary card
+teaser: sp-teaser.png # 400x250 px default teaser image used in image archive grid
+teaser-alt: Spoonman Games! # alt showed in images of site.teaser
 locale: es_CL
-url: # http:://spoonmangames.github.io
+url: # http://spoonmangames.github.io
 
 # Jekyll configuration
 
@@ -25,8 +26,8 @@ gems:
 owner:
   name: Spoonman Games
   rol: La gran cuchara
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  bio: Amante de la programación y los vídeo juegos.
+  avatar: sp-avatar.png # 100x100 px image for author byline
+  bio: Una noche leí Kafka, al amanecer - ¡Cuchara!
   web: www.spoonmangames.cl
   email: spoonman.desarrollo@gmail.com
   facebook: spoonman.games
