@@ -1,5 +1,6 @@
 # Cosas por hacer
 
+* Agregar analytics y webmaster tools
 * Hacer Roadmap (agregar publiciddad)
 * Hacer Download (agregar publicidad)
 * Hacer Portada
