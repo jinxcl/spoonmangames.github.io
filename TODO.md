@@ -1,7 +1,10 @@
 # Cosas por hacer
 
-* Hacer About: Agregar imágenes a los autores (usar {{ author }} y esas cosas)
-* Hacer Roadmap
+* Hacer Roadmap (agregar publiciddad)
+* Hacer Download (agregar publicidad)
+* Hacer Portada
+* Hacer latest post en Portada (crear un nuevo html para mostrarlos horizontalmente)
+* En about mejorar la info de los miembros y como es mostrada
 * Agregar como subscribirse al Feed RSS (o por mail) en el home [tutorial]
 * Agregar primeros post
 * Agregar imágenes de sunset roboto

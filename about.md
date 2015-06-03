@@ -4,6 +4,13 @@ title: Acerca de Spoonman Games
 permalink: /about/
 image:
     feature: sp-portada.png
+members:
+- esteban_gaete
+- victor_gaete
+- corvus
+- ragnaroz
+- graca
+- mitzy
 ---
 
 Bienvenidos a este rincón de desarrollo de vídeo juegos en el que encontraras
@@ -12,6 +19,7 @@ comentarios y por supuesto **juegos desarrollados por nosotros**!
 
 {% include toc.html %}
 
+<hr/>
 # Historia de Spoonman Games
 
 **Spoonman Games** es un grupo independiente de desarrollo de vídeo juegos que 
@@ -48,23 +56,81 @@ la gran fecha **¡15 Mayo del 2015!**
 
 **Una nueva era a comenzado...**
 
+<hr/>
 # Miembros de Spoonman Games
 
 Acá encontrarás información y links relevantes de cada uno de los miembros
 actuales de este pequeño y modesto grupo de desarrolladores :)
 
-* Esteban Gaete
-* Victor Gaete
-* Manuel Ǵonzález
-* Matías Lobos
-* Sebastián Delgadillo
-* Juan Pablo graca
-* Mitzy Vicencio
+<p>
+    <br>
+    <div class="page-footer">
+        <ul style="list-style-type: none;">
+            {% for member in page.members %}
+                {% assign author = site.data.authors[member] %}                
+                <div class="author-image">
+                    {% if author.avatar %}
+                       <img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
+                    {% else %}
+                        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.description }}">
+                    {% endif %}
+                </div><!-- ./author-image -->
+                <div class="author-content">
+                    <h3 class="author-name" >
+                        {% if author.web %}
+                            <a href="http://{{ author.web }}" itemprop="author">
+                                {{ author.name }}
+                            </a>
+                        {% else %}
+                            <span itemprop="author">{{ author.name }}</span>
+                        {% endif %}
+                    </h3>
+                    <p class="author-bio">
+                        {% if author.rol %}
+                            <small>{{ author.rol }}</small><br>
+                        {% endif %}
+                        {{ author.bio }}
+                    </p>                    
+                    <p class="author-social">
+                        {% if author.web %}
+                            <a href="http://{{ author.web }}" class="badge"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.email %}
+                            <a href="mailto:{{ author.email }}" class="badge inverse"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.facebook %}
+                            <a href="https://www.facebook.com/{{ author.facebook }}" class="badge info"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.github %}
+                            <a href="https://github.com/{{ author.github }}" class="badge"><i class="fa fa-git" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.twitter %}
+                            <a href="https://twitter.com/{{ author.twitter }}" class="badge info"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.youtube %}
+                            <a href="https://www.youtube.com/channel/{{ author.youtube }}" class="badge danger"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.linkedin %}
+                            <a href="https://cl.linkedin.com/in/{{ author.linked }}" class="badge info"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.googleplus %}
+                            <a href="https://plus.google.com/u/0/{{ author.googleplus }}" class="badge danger"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.tumblr %}
+                            <a href="https://{{ author.tumblr }}.tumblr.com" class="badge info"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                        {% endif %}
+                    </p>
+                </div><!-- ./author-content -->
+            {% endfor %}
+        </ul>
+    </div>
+</p>
 
+<hr/>
 # Contactanos
 
 ¿Interesado en ser parte de la gran cuchara? o quizás solo deseas saber más
 de nosotros o hacer contactos, sea cual sea el caso puedes contactarnos al
 siguiente e-mail:
 
-* spoonman.desarrollo@gmail.com
+* <p><a href="mailto:spoonman.desarrollo@gmail.com">spoonman.desarrollo@gmail.com</a></p>

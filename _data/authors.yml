@@ -3,7 +3,7 @@
 esteban_gaete:
   name: Esteban Gaete
   rol: Creador de Spoonman Games
-  avatar: bio-photo.jpg
+  avatar: tebi-avatar.jpg
   bio: "What do you want, jewels? I am a very extravagant man."
   web: www.estebangaete.cl
   email: esteban.gaete@usach.cl
@@ -14,6 +14,90 @@ esteban_gaete:
   tumblr: thebyable
   youtube: UC0Lo-I3ugIUuCD2Wi5AdAcg
   googleplus: +EstebanGaeteFlores
+victor_gaete:
+  name: Victor Gaete
+  rol: Programador
+  avatar: victor-avatar.jpg
+  bio:
+  web:
+  email: victor.gaete.flores@gmail.com
+  facebook:
+  twitter:
+  github:
+  linkedin:
+  tumblr:
+  youtube:
+  googleplus:
+corvus:
+  name: Manuel Gonzalez
+  rol: Director artisico y animador
+  avatar: corvus-avatar.jpg
+  bio:
+  web:
+  email: z4knafein1234@gmail.com
+  facebook:
+  twitter:
+  github:
+  linkedin:
+  tumblr:
+  youtube:
+  googleplus:
+ragnaroz:
+  name: Sebastián Delgadillo
+  rol: Diseñador gráfico
+  avatar: ra-avatar.jpg
+  bio:
+  web:
+  email: ragnaroz.delga@gmail.com
+  facebook:
+  twitter:
+  github:
+  linkedin:
+  tumblr:
+  youtube:
+  googleplus:
+graca:
+  name: Juan Pablo Graca
+  rol: Diseñador gráfico
+  avatar: graca-avatar.jpg
+  bio:
+  web:
+  email: graca.juanpablo@gmail.com
+  facebook:
+  twitter:
+  github:
+  linkedin:
+  tumblr:
+  youtube:
+  googleplus:
+matias:
+  name: Matías Lobos
+  rol: Músico
+  avatar: matias-avatar.jpg
+  bio:
+  web:
+  email: matikep@gmail.com
+  facebook:
+  twitter:
+  github:
+  linkedin:
+  tumblr:
+  youtube:
+  googleplus:
+mitzy:
+  name: Mitzy Vicencio
+  rol: Manejo de redes sociales
+  avatar: mitzy-avatar.jpg
+  bio:
+  web:
+  email: Mitzy.vicencio.a@gmail.com
+  facebook:
+  twitter:
+  github:
+  linkedin:
+  tumblr:
+  youtube:
+  googleplus:
 ejemplo:
   name: # nombre o nickname
   rol: # rol dentro de Spoonman Games

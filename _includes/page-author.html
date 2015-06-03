@@ -5,7 +5,11 @@
 {% endif %}
 
 <div class="author-image">
+    {% if author.avatar %}
 	   <img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
+    {% else %}
+        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.description }}">
+    {% endif %}
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >
