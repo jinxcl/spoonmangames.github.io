@@ -8,6 +8,11 @@ Acá podrás encontrar todas las fechas principales, objetivos y carácteristica
 
 {% include toc.html %}
 
+Simbolos usados:
+
+ * a
+ * b
+
 <hr/>
 # Sunset Roboto: The Eternal Rider
 
