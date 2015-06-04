@@ -19,6 +19,11 @@ Simbolos usados:
 Proximámente...
 
 <hr/>
+# LOAI: Lines of Artificial Inteligence
+
+Proximámente...
+
+<hr/>
 # ScreenManager para Monogame
 
 Proximámente...
