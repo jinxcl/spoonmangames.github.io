@@ -1,8 +1,9 @@
 # Cosas por hacer
 
-* Agregar analytics y webmaster tools
-* Hacer Roadmap (agregar publiciddad)
-* Hacer Download (agregar publicidad)
+* VERIFICAR analytics, webmaster tools y google ads
+* Hacer Download
+* Hacer Roadmap
+* Hacer Juegos
 * Hacer Portada
 * Hacer latest post en Portada (crear un nuevo html para mostrarlos horizontalmente)
 * En about mejorar la info de los miembros y como es mostrada
