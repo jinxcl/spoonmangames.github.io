@@ -1,6 +1,5 @@
 # Cosas por hacer
 
-* Cambiar layout roadmap por uno general con advertising
 * Agregar analytics y webmaster tools
 * Hacer Roadmap (agregar publiciddad)
 * Hacer Download (agregar publicidad)

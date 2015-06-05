@@ -1,5 +1,5 @@
 ---
-layout: roadmap
+layout: page_wad
 title: Juegos
 permalink: /juegos/
 ---
