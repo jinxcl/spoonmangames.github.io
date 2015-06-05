@@ -2,6 +2,7 @@
 layout: page_wad
 title: Roadmaps
 permalink: /roadmap/
+ads: true
 ---
 
 Acá podrás encontrar todas las fechas principales, objetivos y carácteristicas más importantes a implementar en cada uno de los juegos en los que **Spoonman Games** está trabajando, tan solo selecciona un título de la siguiente lista y podrás ver qué es lo que se viene ;)
