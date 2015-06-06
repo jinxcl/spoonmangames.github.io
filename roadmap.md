@@ -5,14 +5,19 @@ permalink: /roadmap/
 ads: true
 ---
 
-Acá podrás encontrar todas las fechas principales, objetivos y carácteristicas más importantes a implementar en cada uno de los juegos en los que **Spoonman Games** está trabajando, tan solo selecciona un título de la siguiente lista y podrás ver qué es lo que se viene ;)
+Acá podrás encontrar todas las fechas principales, objetivos y características 
+más importantes a implementar en cada uno de los juegos y herramientas en los 
+que **Spoonman Games** está trabajando, tan solo selecciona un título de la 
+siguiente lista y podrás ver qué es lo que se viene ;)
 
 {% include toc.html %}
 
-Simbolos usados:
+Símbolos usados:
 
- * a
- * b
+ * Tarea terminada: <span class="badge success">terminado</span> <small>día/mes/año</small>
+ * Tarea en progreso <span class="badge info">haciendo</span>
+ * Idea desechada <span class="badge warning">desechada</span> <small>día/mes/año</small>
+ * Si aun no se comienza a hacer no tendrán ningún tipo de etiqueta.
 
 <hr/>
 # Sunset Roboto: The Eternal Rider

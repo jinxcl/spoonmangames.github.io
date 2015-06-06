@@ -1,10 +1,9 @@
-<!-- USAR EN EL MARKDOWN DE UN POST -->
+<!-- USAR EN EL MARKDOWN DE LA PORTADA -->
 
-<div class="archive-wrap">
-    <h3>Últimos {{ page.categories | first | replace: '-',' ' | capitalize }}</h3>
+<div>
+    <h3>Últimas Publicaciones</h3>
     <ul>
-        {% capture category_name %}{{ page.categories | first }}{% endcapture %}
-        {% for post in site.categories.[category_name] limit:4 %}
+        {% for post in site.posts %}
             <li class="latest-post">
                 <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
                     {% if post.image.teaser %}
@@ -18,4 +17,4 @@
             </li>
         {% endfor %}
     </ul>
-</div><!-- /.archive-wrap -->
+</div>

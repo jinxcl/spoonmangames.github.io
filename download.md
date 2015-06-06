@@ -12,15 +12,11 @@ Tan solo presiona una de las opciones de abajo para navegar rápidamente a lo qu
 de Spoonman Games
 
 <p class="notice-success">
-    <code><a href="https://github.com/SpoonmanGames" style="color: #000000;">Github - SpoonmanGames</a></code> Algunos repositorios podrían estar en estados experimentales por lo que ruega bajar las versiones listadas en esta página a menos que se desee experimentar con los códigos fuentes.
+    <code><a href="https://github.com/SpoonmanGames" style="color: #000000;">Github - SpoonmanGames</a></code> Algunos repositorios podrían estar en estados experimentales por lo que se ruega bajar las versiones listadas en esta página a menos que se desee experimentar con códigos fuentes no estables.
 </p>
 
 {% include toc.html %}
 
-# Juegos
-
-Lista de todos los juegos desarrollados por **Spoonman Games**
-
-## Bomber-Chan
+# Bomber-Chan!
 
 Próximamente
