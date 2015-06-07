@@ -6,7 +6,7 @@ logo: sp-twitter-logo.png # 120x120 px default image used for Twitter summary ca
 teaser: sp-teaser.png # 400x250 px default teaser image used in image archive grid
 teaser-alt: Spoonman Games! # alt showed in images of site.teaser
 locale: es_CL
-url: #http://www.spoonmangames.cl
+url: http://www.spoonmangames.cl
 
 # Jekyll configuration
 

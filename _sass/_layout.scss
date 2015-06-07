@@ -346,6 +346,31 @@
 	margin-top: -35px;
 }
 
+.latest-portada {
+		position: relative;
+		text-align: center;
+		margin-top: $gutter;
+		margin-left: -$gutter;
+		margin-right: -$gutter;
+		padding: 0px 0px 120px 20px;
+	}
+	.latest-portada .latest-post {
+		font-size: 0.78em;
+      	height: 8em;
+      	// margin-top: 2em;
+      	@include span-columns(3);
+      	@include omega(4n);
+	}
+	.latest-portada ul {
+		list-style-type: none;
+	}
+	.latest-portada .latest-post{
+		margin-left: -29px;
+		margin-right: 11px;
+	}
+	.latest-portada .latest-post-title{
+		margin-top: -2px;
+	}
 /*
    Page footer
    ========================================================================== */
