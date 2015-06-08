@@ -10,26 +10,28 @@ esteban_gaete:
   facebook: esteban.g.flores
   twitter: TebiFestival
   github: Theby
-  linkedin: estebangaeteflores
+  linkedin: in/estebangaeteflores
   tumblr: thebyable
   youtube: UC0Lo-I3ugIUuCD2Wi5AdAcg
   googleplus: +EstebanGaeteFlores
   instagram:
+  blog:
 victor_gaete:
   name: Victor Gaete
   rol: Programador
   avatar: victor-avatar.jpg
-  bio:
-  web:
+  bio: Emotional Developer xD , hacer lo que te hace feliz!.
+  web: www.dacs.cl
   email: victor.gaete.flores@gmail.com
-  facebook:
-  twitter:
-  github:
-  linkedin:
+  facebook: victor.g.flores.39
+  twitter: VictorGaeteF
+  github: jinxcl
+  linkedin: pub/victor-gaete/33/320/411
   tumblr:
-  youtube:
-  googleplus:
-  instagram:
+  youtube: UCW88idD2-NqhTCjbCABr_bw
+  googleplus: 110758171289448510450/posts
+  instragram:
+  blog: victordeveloper.blogspot.com
 corvus:
   name: Manuel Gonzalez
   rol: Director artisico y animador
@@ -60,6 +62,7 @@ ragnaroz:
   youtube:
   googleplus:
   instagram:
+  blog:
 graca:
   name: Juan Pablo Graca
   rol: Diseñador Gráfico e Ilustrador
@@ -75,6 +78,7 @@ graca:
   youtube:
   googleplus:
   instagram: gracajuanpablo
+  blog:
 matias:
   name: Matías Lobos
   rol: Músico
@@ -90,13 +94,14 @@ matias:
   youtube:
   googleplus:
   instagram:
+  blog:
 mitzy:
   name: Mitzy Vicencio
   rol: Manejo de redes sociales
   avatar: mitzy-avatar.jpg
   bio: Vengo a Flotar :D !! ~
   web:
-  email: Mitzy.vicencio.a@gmail.com
+  email: mitzy.vicencio.a@gmail.com
   facebook: m.vicencio.a
   twitter:
   github:
@@ -105,6 +110,7 @@ mitzy:
   youtube:
   googleplus:
   instagram:
+  blog:
 ejemplo:
   name: # nombre o nickname
   rol: # rol dentro de Spoonman Games
