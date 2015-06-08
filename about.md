@@ -112,7 +112,7 @@ actuales de este pequeño y modesto grupo de desarrolladores :)
                             <a href="https://www.youtube.com/channel/{{ author.youtube }}" class="badge danger"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                         {% endif %}
                         {% if author.linkedin %}
-                            <a href="https://cl.linkedin.com/{{ author.linked }}" class="badge info"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://cl.linkedin.com/{{ author.linkedin }}" class="badge info"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         {% endif %}
                         {% if author.googleplus %}
                             <a href="https://plus.google.com/u/0/{{ author.googleplus }}" class="badge danger"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
