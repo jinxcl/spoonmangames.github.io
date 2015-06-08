@@ -1,6 +1,5 @@
 # Cosas por hacer
 
-* En about mejorar la info de los miembros y como es mostrada
 * Agregar imágenes de sunset roboto
 * Agregar primeros post
 * Webmaster Tools, falta sitemap
