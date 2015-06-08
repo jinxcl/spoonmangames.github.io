@@ -10,6 +10,7 @@ members:
 - corvus
 - ragnaroz
 - graca
+- matias
 - mitzy
 ---
 
@@ -111,13 +112,19 @@ actuales de este pequeño y modesto grupo de desarrolladores :)
                             <a href="https://www.youtube.com/channel/{{ author.youtube }}" class="badge danger"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                         {% endif %}
                         {% if author.linkedin %}
-                            <a href="https://cl.linkedin.com/in/{{ author.linked }}" class="badge info"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://cl.linkedin.com/{{ author.linkedin }}" class="badge info"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         {% endif %}
                         {% if author.googleplus %}
                             <a href="https://plus.google.com/u/0/{{ author.googleplus }}" class="badge danger"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         {% endif %}
                         {% if author.tumblr %}
                             <a href="https://{{ author.tumblr }}.tumblr.com" class="badge info"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.instagram %}
+                            <a href="https://instagram.com/{{ author.instagram }}" class="badge success"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.blog %}
+                            <a href="https://{{ author.blog }}" class="badge"><i class="fa fa-rss" aria-hidden="true"></i></a>
                         {% endif %}
                     </p>
                 </div><!-- ./author-content -->

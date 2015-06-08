@@ -10,24 +10,28 @@ esteban_gaete:
   facebook: esteban.g.flores
   twitter: TebiFestival
   github: Theby
-  linkedin: estebangaeteflores
+  linkedin: in/estebangaeteflores
   tumblr: thebyable
   youtube: UC0Lo-I3ugIUuCD2Wi5AdAcg
   googleplus: +EstebanGaeteFlores
+  instagram:
+  blog:
 victor_gaete:
   name: Victor Gaete
   rol: Programador
   avatar: victor-avatar.jpg
-  bio:
-  web:
+  bio: Emotional Developer xD , hacer lo que te hace feliz!.
+  web: www.dacs.cl
   email: victor.gaete.flores@gmail.com
-  facebook:
-  twitter:
-  github:
-  linkedin:
+  facebook: victor.g.flores.39
+  twitter: VictorGaeteF
+  github: jinxcl
+  linkedin: pub/victor-gaete/33/320/411
   tumblr:
-  youtube:
-  googleplus:
+  youtube: UCW88idD2-NqhTCjbCABr_bw
+  googleplus: 110758171289448510450/posts
+  instragram:
+  blog: victordeveloper.blogspot.com
 corvus:
   name: Manuel Gonzalez
   rol: Director artisico y animador
@@ -42,6 +46,7 @@ corvus:
   tumblr:
   youtube:
   googleplus:
+  instagram:
 ragnaroz:
   name: Sebastián Delgadillo
   rol: Diseñador gráfico
@@ -56,20 +61,24 @@ ragnaroz:
   tumblr:
   youtube:
   googleplus:
+  instagram:
+  blog:
 graca:
   name: Juan Pablo Graca
-  rol: Diseñador gráfico
+  rol: Diseñador Gráfico e Ilustrador
   avatar: graca-avatar.jpg
-  bio:
-  web:
+  bio: 
+  web: www.facebook.com/pages/Graca/1412631239011248?ref=settings  
   email: graca.juanpablo@gmail.com
-  facebook:
+  facebook: Graka.Zombie
   twitter:
   github:
   linkedin:
   tumblr:
   youtube:
   googleplus:
+  instagram: gracajuanpablo
+  blog:
 matias:
   name: Matías Lobos
   rol: Músico
@@ -84,20 +93,24 @@ matias:
   tumblr:
   youtube:
   googleplus:
+  instagram:
+  blog:
 mitzy:
   name: Mitzy Vicencio
   rol: Manejo de redes sociales
   avatar: mitzy-avatar.jpg
-  bio:
+  bio: Vengo a Flotar :D !! ~
   web:
-  email: Mitzy.vicencio.a@gmail.com
-  facebook:
+  email: mitzy.vicencio.a@gmail.com
+  facebook: m.vicencio.a
   twitter:
   github:
   linkedin:
   tumblr:
   youtube:
   googleplus:
+  instagram:
+  blog:
 ejemplo:
   name: # nombre o nickname
   rol: # rol dentro de Spoonman Games
