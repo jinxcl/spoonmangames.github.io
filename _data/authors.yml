@@ -14,6 +14,7 @@ esteban_gaete:
   tumblr: thebyable
   youtube: UC0Lo-I3ugIUuCD2Wi5AdAcg
   googleplus: +EstebanGaeteFlores
+  instagram:
 victor_gaete:
   name: Victor Gaete
   rol: Programador
@@ -28,6 +29,7 @@ victor_gaete:
   tumblr:
   youtube:
   googleplus:
+  instagram:
 corvus:
   name: Manuel Gonzalez
   rol: Director artisico y animador
@@ -42,6 +44,7 @@ corvus:
   tumblr:
   youtube:
   googleplus:
+  instagram:
 ragnaroz:
   name: Sebastián Delgadillo
   rol: Diseñador gráfico
@@ -56,20 +59,22 @@ ragnaroz:
   tumblr:
   youtube:
   googleplus:
+  instagram:
 graca:
   name: Juan Pablo Graca
-  rol: Diseñador gráfico
+  rol: Diseñador Gráfico e Ilustrador
   avatar: graca-avatar.jpg
-  bio:
-  web:
+  bio: 
+  web: www.facebook.com/pages/Graca/1412631239011248?ref=settings  
   email: graca.juanpablo@gmail.com
-  facebook:
+  facebook: Graka.Zombie
   twitter:
   github:
   linkedin:
   tumblr:
   youtube:
   googleplus:
+  instagram: gracajuanpablo
 matias:
   name: Matías Lobos
   rol: Músico
@@ -84,6 +89,7 @@ matias:
   tumblr:
   youtube:
   googleplus:
+  instagram:
 mitzy:
   name: Mitzy Vicencio
   rol: Manejo de redes sociales
@@ -98,6 +104,7 @@ mitzy:
   tumblr:
   youtube:
   googleplus:
+  instagram:
 ejemplo:
   name: # nombre o nickname
   rol: # rol dentro de Spoonman Games
