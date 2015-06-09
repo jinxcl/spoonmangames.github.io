@@ -151,7 +151,6 @@
    ========================================================================== */
 
 #page-wrapper {
-	margin-top: -30px;
 	background-color: $black;
 	padding: 0 $gutter; // add white space for smaller screens
 	@include size(100% 100%);
