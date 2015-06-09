@@ -11,6 +11,11 @@
 	z-index: 5;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+	background-color: $yellow;
+    border-bottom: thick dotted $black;
+    border-top: $yellow;
+    border-left: $yellow;
+    border-right: $yellow;    
 	&.slide {
 		@include transform(translate(-1600px,0));
 	}
@@ -33,7 +38,26 @@
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
-
+.portada {
+	margin-top: 70px;
+}
+#main {
+	background-color: $white;	
+	border-left: thick solid $yellow;
+	border-right: thick solid $yellow;
+	border-left-width: 5px;
+	border-right-width: 5px;
+}
+.footer-page {
+	background-color: $yellow;
+    border-top: thick dotted $black;
+    border-left: $yellow;
+    border-right: $yellow; 
+    border-bottom: $yellow;
+}
+#footer-page-wrapper {
+	margin-bottom: -23px;
+}
 
 /*
    Menus
@@ -127,6 +151,8 @@
    ========================================================================== */
 
 #page-wrapper {
+	margin-top: -30px;
+	background-color: $black;
 	padding: 0 $gutter; // add white space for smaller screens
 	@include size(100% 100%);
 	-webkit-overflow-scrolling: touch;
@@ -309,18 +335,22 @@
 	}
 }
 // page header
-.page-feature {
+.page-feature {	
 	@include fill-parent;
 	// expand image to cover full width of header
 	img {
 		width: 100%;
+		padding-top: 45px;
 	}
 }
 // make image flush with edges on small screens
 .page-image {
+	max-width: 98%;
+	height: auto;
 	position: relative;
 	margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;
+	margin-left: 0.382em;
 	// feature image caption
 	.image-credit {
 		position: absolute;
@@ -352,7 +382,8 @@
 		margin-top: $gutter;
 		margin-left: -$gutter;
 		margin-right: -$gutter;
-		padding: 0px 0px 120px 20px;
+		padding: 0px 0px 150px 20px;
+		margin-bottom: 4.382em;
 	}
 	.latest-portada .latest-post {
 		font-size: 0.78em;
@@ -419,7 +450,8 @@
 	@include outer-container;
 	margin-top: (3 * (0px + $doc-line-height));
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-	padding-bottom: $gutter;
+	margin-top: 0.5rem;
+	padding-bottom: 0.618em;
 	font-family: $alt-font;
   /* Copyright text */
 	.copyright {

@@ -12,8 +12,7 @@ páginas con solo publicaciones relacionadas a cada uno de los juego, sin ver
 publicaciones de otros temas entremedio.
 
 <p class="notice-info" align="justify"><strong>Pro Tip:</strong> Todas las 
-publicaciones pueden tener una o más etiquetas(tags), las cuáles se encuentran 
-listadas a la derecha de la fecha de cada publicación. 
+publicaciones pueden tener una o más etiquetas (tags), las cuáles se encuentran listadas a la derecha de la fecha de cada publicación. 
 Haciendo <strong>click</strong> sobre una de ellas te permitirá acceder a una 
 página dónde podrás ver todas las publicaciones bajo la misma etiqueta.</p>
 

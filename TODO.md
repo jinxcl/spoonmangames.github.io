@@ -1,6 +1,6 @@
 # Cosas por hacer
 
-* Agregar imágenes de sunset roboto
+* hacer que el footer siempre esté abajo
 * Agregar primeros post
 * Webmaster Tools, falta sitemap
 * Agregar como subscribirse al Feed RSS (o por mail) en el home [tutorial]

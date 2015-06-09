@@ -17,19 +17,19 @@ Símbolos usados:
  * Tarea terminada: <span class="badge success">terminado</span> <small>día/mes/año</small>
  * Tarea en progreso <span class="badge info">haciendo</span>
  * Idea desechada <span class="badge warning">desechada</span> <small>día/mes/año</small>
- * Si aun no se comienza a hacer no tendrán ningún tipo de etiqueta.
+ * Si aún no se comienza a hacer no tendrán ningún tipo de etiqueta.
 
 <hr/>
 # Sunset Roboto: The Eternal Rider
 
-Proximámente...
+Próximamente...
 
 <hr/>
 # LOAI: Lines of Artificial Inteligence
 
-Proximámente...
+Próximamente...
 
 <hr/>
 # ScreenManager para Monogame
 
-Proximámente...
+Próximamente...

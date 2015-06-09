@@ -8,7 +8,7 @@ ads: true
 Aquí podrás encontrar links de descargas a todos nuestros juegos y 
 herramientas en sus últimas **versiones estables**.
 
-Tan solo presiona una de las opciones de abajo para navegar rápidamente a lo que buscas o presiona el siguiente link para acceder al repositorio publico
+Tan solo presiona una de las opciones de abajo para navegar rápidamente a lo que buscas o presiona el siguiente link para acceder al repositorio público
 de Spoonman Games
 
 <p class="notice-success">

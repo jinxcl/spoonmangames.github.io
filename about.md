@@ -18,6 +18,10 @@ Bienvenidos a este rincón de desarrollo de vídeo juegos en el que encontraras
 tips para desarrollar tus propios juegos, códigos fuentes de ayuda, tutoriales,
 comentarios y por supuesto **juegos desarrollados por nosotros**!
 
+Si deseas contactarnso directamente para una reunión, conferencia, charla o 
+simplemente para hablar de vídeo juegos entra aquí y contáctanos:
+<a href="{{ site.url }}/contact/"><strong>Página de contácto</strong></a>
+
 {% include toc.html %}
 
 <hr/>
@@ -34,7 +38,7 @@ a seguir adelante! Sin embargo esta no es una historia de éxito tras éxito...
 
 Durante el siguiente año de **Spoonman Games** mucha gente se interesó
 en el proyecto, pero nunca lograron mostrar un real interés por los vídeo
-juegos, lo que hacia muy difícil trabajar en proyectos y además de esto la 
+juegos, lo que hacía muy difícil trabajar en proyectos y además de esto la 
 cuchara *Nikolai Muñoz* tuvo que dejar los estudios lo que dificulto e hizo 
 más lento todo el proceso.
 
@@ -55,7 +59,7 @@ Y así paso el tiempo, la cuchara *Esteban Gaete* siguió mejorando sus
 habilidades de programación y de ingeniería en sus estudios hasta que llegó
 la gran fecha **¡15 Mayo del 2015!**
 
-**Una nueva era a comenzado...**
+**Una nueva era ha comenzado...**
 
 <hr/>
 # Miembros de Spoonman Games
@@ -132,12 +136,3 @@ actuales de este pequeño y modesto grupo de desarrolladores :)
         </ul>
     </div>
 </p>
-
-<hr/>
-# Contactanos
-
-¿Interesado en ser parte de la gran cuchara? o quizás solo deseas saber más
-de nosotros o hacer contactos, sea cual sea el caso puedes contactarnos al
-siguiente e-mail:
-
-* <p><a href="mailto:spoonman.desarrollo@gmail.com">spoonman.desarrollo@gmail.com</a></p>
