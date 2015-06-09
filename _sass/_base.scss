@@ -10,7 +10,6 @@ body {
 	font-family: $base-font;
 	color: $text-color;
 	@include font-size(16);
-    height: 100%;
 }
 
 p {
