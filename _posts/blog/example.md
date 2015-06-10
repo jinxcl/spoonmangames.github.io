@@ -8,8 +8,8 @@ categories:
 tags:
 - 
 image:
-    feature:
-    teaser:
+    feature:  # 1600x413
+    teaser:   # 400x250
     credit:
     creditlink:
 ---

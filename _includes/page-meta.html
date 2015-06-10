@@ -14,12 +14,12 @@
          |  <a href="{{ post.url }}#disqus_thread"><i class="fa fa-cog fa-spin"></i> Actualizando Disqus</a>
       {% endif %}
       {% if page.tags.size > 0 %}
-         |  Tags: 
+        <br>Tags: 
         {% for tag in page.tags %}
           <a href="/tag/{{ tag }}" class="badge warning">{{ tag }} </a> 
         {% endfor %}
       {% else %}
-         | Sin tags
+        <br>Sin tags
       {% endif %}
     </p>
   </div><!-- /.page-meta -->
