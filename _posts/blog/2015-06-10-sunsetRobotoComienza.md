@@ -12,7 +12,7 @@ image:
     teaser: sr-teaser.png
 ---
 
-¡¡Hoy a comenzado oficialmente el desarrollo de **Sunset Robot: The Eternal Rider**!!
+¡¡Hoy ha comenzado oficialmente el desarrollo de **Sunset Robot: The Eternal Rider**!!
 
 Como habrán leído en la publicación anterior ([Win 10 Game Jam]({{ site.url }}/blog/win10gamejam)) **Spoonman Games** está en proceso de desarrollo de un 
 vídeo juego creado inicialmente durante la Windows 10 Game Jam. El juego en cuestión se llama **Sunset Roboto: The Eternal Rider** el cuál planea ser un endless runner en un mundo post-apocalíptico.
