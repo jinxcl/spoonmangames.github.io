@@ -16,8 +16,18 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:image" content="{% if page.image.teaser %}{{ site.url }}/images/{{ page.image.teaser }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
 	{% endif %}
+	<!-- Facebook META -->
+	<meta property="fb:app_id" content="{{ site.owner.facebook-sdk.appId }}">
+	<meta property="fb:admins" content="747429333"/>
 	<!-- Open Graph -->
 	<meta property="og:type" content="article">
+	{% if page.author %}
+	    {% assign author = site.data.authors[page.author] %}
+	{% else %}
+	    {% assign author = site.owner %}
+	{% endif %}
+	<meta property="article:author" content="{{ author.name }}">
+	<meta property="article:publisher" content="http://www.spoonmangames.cl">
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 	{% if page.excerpt %}
