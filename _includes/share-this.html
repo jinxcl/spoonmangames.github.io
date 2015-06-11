@@ -6,6 +6,20 @@
          data-show-faces="true" 
          data-share="true"
     ></div>
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Comparte en Twitter</a>
-	<a class="btn-social google-plus"  href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Comparte en Google+</a>
+
+    <a class="twitter-share-button"
+      href="https://twitter.com/intent/tweet"
+      data-url="{{ page.url | replace:'index.html','' | prepend: site.url }}"
+      data-via="{{ site.owner.twitter }}"
+      data-counturl="{{ page.url | replace:'index.html','' | prepend: site.url }}"
+      data-text="{{ page.title }}"
+      data-size="large"
+      data-count="vertical"
+      data-hashtags="{% if page.tags.size > 0 %}{% for tag in page.tags %}{{ tag | replace:' ','' }},{% endfor %}{% endif %}SpoonmanGames">
+    Tweet</a>
+
+    <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
 </div><!-- /.share-this -->
+
+
+

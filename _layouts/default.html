@@ -31,10 +31,11 @@
       <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
       <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
     <![endif]-->
-
+    {% include googleplus-sdk.html %}
   </head>
 
   <body id="js-body">
+    {% include twitter-sdk.html %}
     {% include browser-upgrade.html %}
     {% include facebook-sdk.html %}
     {% include header.html %}
