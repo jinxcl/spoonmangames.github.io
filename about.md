@@ -65,17 +65,16 @@ la gran fecha [**¡15 Mayo del 2015!**]({{ site.url }}/blog/win10gamejam).
 Acá encontrarás información y links relevantes de cada uno de los miembros
 actuales de este pequeño y modesto grupo de desarrolladores.
 
-<p>
-    <br>
+<div class="miembros-spoonman">
     <div class="page-footer">
         <ul style="list-style-type: none;">
             {% for member in page.members %}
                 {% assign author = site.data.authors[member] %}                
                 <div class="author-image">
                     {% if author.avatar %}
-                       <img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
+                       <img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}"/>
                     {% else %}
-                        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.description }}">
+                        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.description }}"/>
                     {% endif %}
                 </div><!-- ./author-image -->
                 <div class="author-content">
@@ -133,4 +132,4 @@ actuales de este pequeño y modesto grupo de desarrolladores.
             {% endfor %}
         </ul>
     </div>
-</p>
+</div>

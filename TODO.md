@@ -1,7 +1,6 @@
 # Cosas por hacer
 
-* Footer corrido en about, extraña raya en los post en el home.
-* Sacar cosas sociales de descargas, roadmap y juegos
+* Footer corrido en about y otras pantallas.
 
 * Agregara contenido a download
 * Agregar contenido a roadmap

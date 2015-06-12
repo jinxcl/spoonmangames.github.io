@@ -18,10 +18,6 @@ layout: default
         <div class="inner-wrap">
             <div id="content" class="page-content" itemprop="articleBody">
                 {{ content }}
-                <br>
-                <footer class="page-footer">
-                    {% if page.share != false %}{% include share-this.html %}{% endif %}
-                </footer><!-- /.footer -->
             </div><!-- /.content -->
         </div><!-- /.inner-wrap -->
         {% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
