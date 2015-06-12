@@ -1,7 +1,5 @@
 # Cosas por hacer
 
-* Footer corrido en about y otras pantallas.
-
 * Agregara contenido a download
 * Agregar contenido a roadmap
 * Agregar como subscribirse al Feed RSS (o por mail) en el home [tutorial]
