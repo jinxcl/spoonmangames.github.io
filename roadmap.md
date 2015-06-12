@@ -8,7 +8,7 @@ ads: true
 Acá podrás encontrar todas las fechas principales, objetivos y características 
 más importantes a implementar en cada uno de los juegos y herramientas en los 
 que **Spoonman Games** está trabajando, tan solo selecciona un título de la 
-siguiente lista y podrás ver qué es lo que se viene ;)
+siguiente lista y podrás ver qué es lo que se viene!
 
 {% include toc.html %}
 

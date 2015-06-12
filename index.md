@@ -7,7 +7,9 @@ image:
 ---
 
 ¡Bienvenidos a nuestro pequeño grupo de desarrollo de vídeo juegos llamado 
-[**Spoonman Games**]({{ site.url }}/about/)! Espero que disfrutes de este espacio, que participes en cada una de las publicaciones dándonos tus comentarios y que disfrutes nuestros juegos :)
+[**Spoonman Games**]({{ site.url }}/about/)! Espero que disfrutes de este espacio, de nuestros juegos y que participes en cada una de las publicaciones dándonos tus comentarios.
+
+<i class="fa fa-smile-o"></i>
 
 Acá podrás encontrar:
 

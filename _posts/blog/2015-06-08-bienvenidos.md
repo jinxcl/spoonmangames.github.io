@@ -10,7 +10,7 @@ categories:
 ¡Bienvenidos sean todos!
 
 Después de años de invernación y espera al fin la Gran Cuchara está firme y de 
-pie ante esta nueva era de vídeo juegos. Todo comenzó el *15 de marzo del 2015*
+pie ante esta nueva era de vídeo juegos. Todo comenzó el *15 de mayo del 2015*
 durante la Windows 10 Game Jam en la que participé y logré llegar al tercer 
 lugar. Haber programado y creado un vídeo juego durante 24 horas me hizo darme 
 cuenta de que debía volver, una vez más, a intentarlo con **Spoonman Games**, 
