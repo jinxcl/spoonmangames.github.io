@@ -6,7 +6,7 @@ author: esteban_gaete
 categories:
 - blog
 tags:
-- Sunset Roboto
+- SunsetRoboto
 image:
     feature: sr-featured.png
     teaser: sr-teaser.png
