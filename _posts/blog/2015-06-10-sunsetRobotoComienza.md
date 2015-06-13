@@ -37,7 +37,10 @@ contar de nuestras fechas más importantes:
 Para el beta público planeamos abarcar al menos Windows 8.1, Windows Phone 8.1 
 y Android.
 
-Si estás interesado en saber sobre las siguientes noticias de **Sunset Roboto: The Eternal Rider** te aconsejo seguir [nuestra página oficial en <span class="fa fa-facebook"></span>acebook](https://www.facebook.com/spoonman.games) y la [página oficial de **Sunset Roboto** en <span class="fa fa-facebook"></span>acebook](https://www.facebook.com/SunsetRoboto).
+Si estás interesado en saber sobre las siguientes noticias de **Sunset Roboto: The Eternal Rider** te aconsejo seguir:
+
+* [Nuestra página oficial en <span class="fa fa-facebook"></span>acebook](https://www.facebook.com/spoonman.games) y
+* [Página oficial de **Sunset Roboto** en <span class="fa fa-facebook"></span>acebook](https://www.facebook.com/SunsetRoboto).
 
 También puedes revisar cual es el avance de cada una de las características de 
 este juego y los demás proyectos de **Spoonman Games** en la sección de 
