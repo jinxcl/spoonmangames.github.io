@@ -1,6 +1,5 @@
 # Cosas por hacer
 
-* Agregara contenido a download
 * Agregar contenido a roadmap
 * Agregar como subscribirse al Feed RSS (o por mail) en el home [tutorial]
 
@@ -8,6 +7,7 @@
 * hacer que el footer siempre esté abajo
 * Cambiar idioma de Jekyll para las fechas
 
+* Ver si se pueden agregar botones sociales por sección en juegos/roadmap/descargas
 
 # Nice to Have
 
