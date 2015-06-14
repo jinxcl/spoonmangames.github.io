@@ -1,7 +1,10 @@
 # Cosas por hacer
 
-* Agregar contenido a roadmap
+* Agregar a descargas un link a Roadmap (por cada juego).
+* Agregar contenido a roadmap (incluir zelda y bomberman).
+* Agregar contenido a juegos
 * Agregar como subscribirse al Feed RSS (o por mail) en el home [tutorial]
+* Ver que abajo de roadmap,juegos y descarga haya más espacio antes del footer.
 
 * copiar barra derecha de información http://blog.desafiolatam.com/javascript-en-el-head-o-en-el-cierre-del-body-estas-equivocado/
 * hacer que el footer siempre esté abajo
