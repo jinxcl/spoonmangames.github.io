@@ -3,6 +3,7 @@
 * Agregar a descargas un link a Roadmap (por cada juego).
 * Agregar contenido a roadmap (incluir zelda y bomberman).
 * Agregar contenido a juegos
+* Poner marca de agua (sp trasparente) a todas las fotos del blog y de facebook / twitter.
 * Agregar como subscribirse al Feed RSS (o por mail) en el home [tutorial]
 * Ver que abajo de roadmap,juegos y descarga haya más espacio antes del footer.
 
@@ -11,6 +12,7 @@
 * Cambiar idioma de Jekyll para las fechas
 
 * Ver si se pueden agregar botones sociales por sección en juegos/roadmap/descargas
+* Devlog en Impulsa Games
 
 # Nice to Have
 
