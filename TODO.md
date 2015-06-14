@@ -1,5 +1,6 @@
 # Cosas por hacer
 
+* Poner marca de agua (sp trasparente) a todas las fotos del blog y de facebook / twitter.
 * Agregar contenido a roadmap
 * Agregar como subscribirse al Feed RSS (o por mail) en el home [tutorial]
 
@@ -8,6 +9,7 @@
 * Cambiar idioma de Jekyll para las fechas
 
 * Ver si se pueden agregar botones sociales por sección en juegos/roadmap/descargas
+* Devlog en Impulsa Games
 
 # Nice to Have
 
