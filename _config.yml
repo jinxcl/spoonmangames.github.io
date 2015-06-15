@@ -26,7 +26,7 @@ gems:
 owner:
   name: Spoonman Games
   rol: La gran cuchara
-  avatar: sp-avatar.png # 100x100 px image for author byline
+  avatar: sp-logo-transparente.png # 100x100 px image for author byline
   bio: Una noche leí Kafka, al amanecer - ¡Cuchara!
   web: www.spoonmangames.cl
   email: spoonman.desarrollo@gmail.com

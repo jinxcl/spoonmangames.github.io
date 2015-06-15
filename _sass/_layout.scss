@@ -472,3 +472,12 @@
 		}
 	}
 }
+
+.copyright-text {
+		@include font-size(14);
+		color: lighten($black,60);
+		a {
+			color: lighten($black,60);
+			text-decoration: none;
+		}
+	}

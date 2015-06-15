@@ -1,5 +1,7 @@
 # Footer navigation links
 
+- title: Inicio
+  url: /
 - title: Blogs
   url: /blog/
 - title: Juegos
@@ -10,3 +12,5 @@
   url: /download/
 - title: Acerca De
   url: /about/
+- title: Contáctanos
+  url: /contact/

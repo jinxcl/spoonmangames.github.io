@@ -18,9 +18,80 @@ Bienvenidos a este rincón de desarrollo de vídeo juegos en el que encontrarás
 tips para desarrollar tus propios juegos, códigos fuentes de ayuda, tutoriales,
 comentarios y por supuesto **juegos desarrollados por nosotros**!
 
+# Contacto
+
 Si deseas contactarnos directamente para una reunión, conferencia, charla o 
 simplemente para hablar de vídeo juegos entra aquí y contáctanos:
-<a href="{{ site.url }}/contact/"><strong>Página de contacto</strong></a>.
+<a href="{{ site.url }}/contact/" style="color: red;"><strong>Página de contacto</strong></a>.
+
+<div class="miembros-spoonman">
+    <div class="page-footer">
+        <ul style="list-style-type: none;">
+            {% assign author = site.owner %}                
+            <div class="author-image">
+                <a href="{{ site.url }}/contact/">
+                    {% if author.avatar %}
+                       <img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}"/>
+                    {% else %}
+                        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.description }}"/>
+                    {% endif %}
+                </a>
+            </div><!-- ./author-image -->
+            <div class="author-content">
+                <h3 class="author-name" >
+                    {% if author.web %}
+                        <a href="{{ site.url }}/contact/" itemprop="author">
+                            {{ author.name }}
+                        </a>
+                    {% else %}
+                        <span itemprop="author">{{ author.name }}</span>
+                    {% endif %}
+                </h3>
+                <p class="author-bio">
+                    {% if author.rol %}
+                        <small>{{ author.rol }}</small><br>
+                    {% endif %}
+                    {{ author.bio }}
+                </p>                    
+                <p class="author-social">
+                    {% if author.web %}
+                        <a href="http://{{ author.web }}" class="badge"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.email %}
+                        <a href="{{ site.url }}/contact/" class="badge inverse"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.facebook %}
+                        <a href="https://www.facebook.com/{{ author.facebook }}" class="badge info"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.github %}
+                        <a href="https://github.com/{{ author.github }}" class="badge"><i class="fa fa-git" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.twitter %}
+                        <a href="https://twitter.com/{{ author.twitter }}" class="badge info"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.youtube %}
+                        <a href="https://www.youtube.com/channel/{{ author.youtube }}" class="badge danger"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.linkedin %}
+                        <a href="https://cl.linkedin.com/{{ author.linkedin }}" class="badge info"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.googleplus %}
+                        <a href="https://plus.google.com/u/0/{{ author.googleplus }}" class="badge danger"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.tumblr %}
+                        <a href="https://{{ author.tumblr }}.tumblr.com" class="badge info"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.instagram %}
+                        <a href="https://instagram.com/{{ author.instagram }}" class="badge success"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.blog %}
+                        <a href="https://{{ author.blog }}" class="badge"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                    {% endif %}
+                </p>
+            </div><!-- ./author-content -->
+        </ul>
+    </div>
+</div>
 
 {% include toc.html %}
 

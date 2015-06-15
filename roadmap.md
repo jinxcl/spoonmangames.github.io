@@ -22,7 +22,7 @@ Símbolos usados:
 <hr/>
 # Sunset Roboto: The Eternal Rider
 
-Proyecto en Desarrollo
+Proyecto en Desarrollo.
 
 * Traslado del proyecto a Visual Studio 2013. <span class="badge success">terminado</span> <small>22/05/2015</small>
 * Compatibilidad con Windows 8.1 y Windows Phone 8.1. <span class="badge success">terminado</span> <small>24/05/2015</small>
