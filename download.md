@@ -25,6 +25,7 @@ versión (VII Tebi's Festival).
 
 * [Versión 4.0](https://github.com/SpoonmanGames/BomberChan/archive/v0.4.zip).
 * [Revisa la FAQ](https://github.com/SpoonmanGames/BomberChan/releases/tag/v0.4).
+* [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#bomber-chan-beta).
 
 # The Legend of Zelda: Remade
 
@@ -35,4 +36,5 @@ automáticamente.
 
 * [Test Demo](https://github.com/SpoonmanGames/ZeldaRemade/archive/v0.0.26.zip)
 * [Revisa la FAQ](https://github.com/SpoonmanGames/ZeldaRemade/releases/tag/v0.0.26)
+* * [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#the-legend-of-zelda-remade).
 
