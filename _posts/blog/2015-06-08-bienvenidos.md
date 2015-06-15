@@ -5,6 +5,7 @@ comments: true
 author: esteban_gaete
 categories:
 - blog
+summary: "¡Bienvenidos sean todos!"
 ---
 
 ¡Bienvenidos sean todos!

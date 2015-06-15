@@ -36,5 +36,5 @@ automáticamente.
 
 * [Test Demo](https://github.com/SpoonmanGames/ZeldaRemade/archive/v0.0.26.zip)
 * [Revisa la FAQ](https://github.com/SpoonmanGames/ZeldaRemade/releases/tag/v0.0.26)
-* * [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#the-legend-of-zelda-remade).
+* [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#the-legend-of-zelda-remade).
 
