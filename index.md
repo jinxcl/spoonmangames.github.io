@@ -20,5 +20,7 @@ Acá podrás encontrar:
 Si deseas conocer más sobre nosotros puedes hacer click aquí: 
 [**Spoonman Games**]({{ site.url }}/about/)
 
+{% include mailchimp-htmlform.html %}
+
 <hr />
 {% include latest-posts-portada.html %}
