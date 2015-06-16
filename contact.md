@@ -14,7 +14,7 @@ de nosotros o hacer contactos, sea cual sea el caso puedes enviarnos un mensaje 
     Mensaje:<input type="text" name="name" placeholder="Escribe tu mensaje aquí" required>
     <input type="hidden" name="_subject" value="Nuevo Mensaje en Spoonman Games" />
     <input type="hidden" name="_next" value="{{ url.site }}/thanks.html" />
-    <input type="submit" value="Send">
+    <input type="submit" value="Enviar">
 </form>
 
 <p class="copyright-text" align="center"><small>Form powered by <a href="http://formspree.io/">FORMSPREE</a></small></p>
