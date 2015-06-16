@@ -1,8 +1,7 @@
 # Cosas por hacer
 
-* Crear un devlog en impulsa game, 
-
 * Mejorar Portada (Agregar RSS y link a contacto)
+* Revisar mailchimp para que funcione el popup o se tenga un mejor form en html.
 * Cambiar idioma de Jekyll para las fechas
 * hacer que el footer siempre esté abajo
 * copiar barra derecha de información http://blog.desafiolatam.com/javascript-en-el-head-o-en-el-cierre-del-body-estas-equivocado/
