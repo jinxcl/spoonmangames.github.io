@@ -10,7 +10,6 @@ members:
 - corvus
 - ragnaroz
 - graca
-- matias
 - mitzy
 ---
 
