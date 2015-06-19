@@ -3,11 +3,11 @@
     <p>
       {% if page.modified %}
           <time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
-              {{ page.modified | date: "%B %d, %Y" }}
+              {% include page-date.html %}
           </time>
       {% else %}
           <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
-              {{ page.date | date: "%B %d, %Y" }}
+              {% include page-date.html %}
           </time>
       {% endif %}
       {% if site.owner.disqus-shortname %}

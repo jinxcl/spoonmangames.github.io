@@ -9,7 +9,7 @@
     <p class="entry-date date published">
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">
             {% if post.date %}
-                {{ post.date | date: "%B %d, %Y" }}
+                {% include post-date.html %}
             {% endif %}
             {% if site.owner.disqus-shortname %}
                |  <a href="{{ post.url }}#disqus_thread"><i class="fa fa-cog fa-spin"></i> Actualizando Disqus</a>
