@@ -8,7 +8,7 @@ categories:
 tags:
 - Sunset Roboto
 image:
-    feature: sr-featured.png
+    feature: sr-featured.jpg
     teaser: sr-teaser.png
 summary: "¡¡Hoy ha comenzado oficialmente el desarrollo de Sunset Robot: The Eternal Rider!!"
 ---

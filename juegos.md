@@ -18,4 +18,4 @@ página dónde podrás ver todas las publicaciones bajo la misma etiqueta.</p>
 
 # Lista de juegos
 
-[![Sunset Roboto]({{ site.url }}/images/sr-title.png)]({{ site.url }}/tags/Sunset Roboto/){: .link-image}
+[![Sunset Roboto]({{ site.url }}/images/sr-title.jpg)]({{ site.url }}/tags/Sunset Roboto/){: .link-image}
