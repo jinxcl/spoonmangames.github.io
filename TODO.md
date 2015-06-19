@@ -1,9 +1,12 @@
 # Cosas por hacer
 
+* Abajo de autor y sobre los comentarios poner 3 post relacioados
+* Mejorar estilo de donde dice "Post siguiente / Post Anterior"
+* linkedin share
+* reddit share
 * Mejorar Portada (Agregar RSS y link a contacto)
 * Revisar mailchimp para que funcione el popup o se tenga un mejor form en html.
 * hacer que el footer siempre esté abajo.
-* copiar barra derecha de información http://blog.desafiolatam.com/javascript-en-el-head-o-en-el-cierre-del-body-estas-equivocado/
 
 
 # Nice to Have

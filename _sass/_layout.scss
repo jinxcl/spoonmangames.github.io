@@ -184,6 +184,7 @@
 		}
 	}
 	.inner-wrap {
+		width: 70% !important;
 		@include media($medium) {
 			@include span-columns(9);
 		}
@@ -267,6 +268,7 @@
 	}
   /* latest post */
 	.latest {
+		width: 26% !important;
 		position: relative;
 		text-align: center;
 		margin-top: $gutter;
