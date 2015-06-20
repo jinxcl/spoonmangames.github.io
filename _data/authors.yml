@@ -9,6 +9,8 @@ esteban_gaete:
   email: esteban.gaete@usach.cl
   facebook: esteban.g.flores
   twitter: TebiFestival
+  soundcloud: esteban-gaete-flores
+  deviantart:
   github: Theby
   linkedin: in/estebangaeteflores
   tumblr: thebyable
@@ -25,6 +27,8 @@ victor_gaete:
   email: victor.gaete.flores@gmail.com
   facebook: victor.g.flores.39
   twitter: VictorGaeteF
+  soundcloud:
+  deviantart:
   github: jinxcl
   linkedin: pub/victor-gaete/33/320/411
   tumblr:
@@ -41,6 +45,8 @@ corvus:
   email: z4knafein1234@gmail.com
   facebook:
   twitter:
+  soundcloud:
+  deviantart:
   github:
   linkedin:
   tumblr:
@@ -56,6 +62,8 @@ ragnaroz:
   email: ragnaroz.delga@gmail.com
   facebook:
   twitter:
+  soundcloud:
+  deviantart:
   github:
   linkedin:
   tumblr:
@@ -72,6 +80,8 @@ graca:
   email: graca.juanpablo@gmail.com
   facebook: Graka.Zombie
   twitter:
+  soundcloud:
+  deviantart:
   github:
   linkedin:
   tumblr:
@@ -88,6 +98,8 @@ mitzy:
   email: mitzy.vicencio.a@gmail.com
   facebook: m.vicencio.a
   twitter:
+  soundcloud:
+  deviantart:
   github:
   linkedin:
   tumblr:
@@ -95,6 +107,24 @@ mitzy:
   googleplus:
   instagram:
   blog:
+ivania:
+  name: Ivania Lobos
+  rol: Game Audio - Musical Composer
+  avatar: ivania-avatar.jpg
+  bio: La la la la  ~
+  web:
+  email: kristanae@gmail.com
+  facebook: ivanialobosa
+  twitter: Ivanialobosa 
+  soundcloud: ivania-lobos-1
+  deviantart: kristanae
+  github:
+  linkedin: pub/ivania-lobos/bb/299/998
+  tumblr:
+  youtube:
+  googleplus:
+  instagram:
+  blog: ivanialobosa.blogspot.com
 ejemplo:
   name: # nombre o nickname
   rol: # rol dentro de Spoonman Games
@@ -104,6 +134,8 @@ ejemplo:
   email: # mail completo, por jemplo spoonman.desarrollo@gmail.com
   facebook: # solo el nombre de la página o perfil después de https://www.facebook.com/, por ejemplo spoonman.games
   twitter: # solo nombre de usuario después de https://twitter.com/, por ejemplo TebiFestival
+  soundcloud:
+  deviantart:
   github: # solo nombre de usuario u organización después de https://github.com/, por ejemplo SpoonmanGames
   linkedin: # solo el nombre después de https://cl.linkedin.com/in/, por ejemplo estebangaeteflores
   tumblr: # nombre de usuario, por ejemplo en thebyable.tumblr.com es thebyable

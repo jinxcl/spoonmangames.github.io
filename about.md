@@ -10,6 +10,7 @@ members:
 - corvus
 - ragnaroz
 - graca
+- ivania
 - mitzy
 ---
 
@@ -70,6 +71,13 @@ simplemente para hablar de vídeo juegos entra aquí y contáctanos:
                     {% endif %}
                     {% if author.youtube %}
                         <a href="https://www.youtube.com/channel/{{ author.youtube }}" class="badge danger"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    {% endif %}
+                    asdasdadas
+                    {% if author.deviantart %}
+                        <a href="https://www.{{ author.deviantart }}.deviantart.com/" class="badge success"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if author.soundcloud %}
+                        <a href="https://www.soundcloud.com/{{ author.soundcloud }}" class="badge danger"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
                     {% endif %}
                     {% if author.linkedin %}
                         <a href="https://cl.linkedin.com/{{ author.linkedin }}" class="badge info"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -176,11 +184,17 @@ actuales de este pequeño y modesto grupo de desarrolladores.
                         {% if author.github %}
                             <a href="https://github.com/{{ author.github }}" class="badge"><i class="fa fa-git" aria-hidden="true"></i></a>
                         {% endif %}
+                        {% if author.youtube %}
+                            <a href="https://www.youtube.com/channel/{{ author.youtube }}" class="badge danger"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        {% endif %}
                         {% if author.twitter %}
                             <a href="https://twitter.com/{{ author.twitter }}" class="badge info"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         {% endif %}
-                        {% if author.youtube %}
-                            <a href="https://www.youtube.com/channel/{{ author.youtube }}" class="badge danger"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        {% if author.deviantart %}
+                            <a href="https://www.{{ author.deviantart }}.deviantart.com/" class="badge success"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if author.soundcloud %}
+                            <a href="https://www.soundcloud.com/{{ author.soundcloud }}" class="badge danger"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
                         {% endif %}
                         {% if author.linkedin %}
                             <a href="https://cl.linkedin.com/{{ author.linkedin }}" class="badge info"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
