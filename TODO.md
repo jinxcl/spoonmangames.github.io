@@ -4,6 +4,7 @@
 * Mejorar estilo de donde dice "Post siguiente / Post Anterior"
 * linkedin share
 * reddit share
+* Mejorar página "Blog"
 * Mejorar Portada (Agregar RSS y link a contacto)
 * Revisar mailchimp para que funcione el popup o se tenga un mejor form en html.
 * hacer que el footer siempre esté abajo.

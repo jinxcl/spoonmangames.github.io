@@ -1,7 +1,7 @@
 <!-- USAR EN EL MARKDOWN DE UN POST -->
 
 <div class="archive-wrap">
-    <h3>Últimos {{ page.categories | first | replace: '-',' ' | capitalize }}</h3>
+    <h3>Últimas Publicaciones</h3>
     <ul>
         {% capture category_name %}{{ page.categories | first }}{% endcapture %}
         {% for post in site.categories.[category_name] limit:4 %}

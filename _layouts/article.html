@@ -35,11 +35,8 @@ layout: default
 		<div class="latest">
 			{% include facebook-pagebox.html %}
 			{% include latest-posts-grid.html %}
-			Etiquetas Populares:
-			<br>
-			Twitter Feed:
-			<br>
-			Comentarios Recientes:
+			{% include popular-tags.html %}
+			{% include twitter-feedbox.html %}
 		</div>	
 		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
 	</article><!-- ./wrap -->
