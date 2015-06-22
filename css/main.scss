@@ -11,12 +11,15 @@ sitemap: false
  *
 */
 
+@charset "utf-8";
 @import "variables";
 
 /*
    Vendor
    ========================================================================== */
 
+@import "vendor/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "vendor/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "vendor/bourbon/bourbon";
 @import "grid-settings";
 @import "vendor/neat/neat";

@@ -1,6 +1,5 @@
 # Cosas por hacer
 
-* Mejorar estilo de donde dice "Post siguiente / Post Anterior"
 * Mejorar página "Blog"
 * Mejorar Portada (Agregar RSS y link a contacto)
 * Revisar mailchimp para que funcione el popup o se tenga un mejor form en html.
