@@ -1,9 +1,9 @@
 # Cosas por hacer
 
+* hacer que el footer siempre esté abajo.
 * Mejorar página "Blog"
 * Mejorar Portada (Agregar RSS y link a contacto)
 * Revisar mailchimp para que funcione el popup o se tenga un mejor form en html.
-* hacer que el footer siempre esté abajo.
 
 
 # Nice to Have
