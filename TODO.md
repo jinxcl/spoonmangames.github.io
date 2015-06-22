@@ -1,6 +1,5 @@
 # Cosas por hacer
 
-* Abajo de autor y sobre los comentarios poner 3 post relacioados
 * Mejorar estilo de donde dice "Post siguiente / Post Anterior"
 * linkedin share
 * reddit share
@@ -17,4 +16,4 @@
 # Notas importantes
 
 * Ver http://forums.tigsource.com/index.php?board=27.0 para inspirarse en hacer un buen devlog.
-* * Crear un devlog otro en tigsource (?) y ver la opción de tener un mirror en el blog de spoonmangames
+* Crear un devlog otro en tigsource (?) y ver la opción de tener un mirror en el blog de spoonmangames

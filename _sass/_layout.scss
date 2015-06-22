@@ -412,6 +412,33 @@
 	.latest-portada .latest-post-title{
 		margin-top: -2px;
 	}
+
+.related-posts {
+		position: relative;
+		text-align: center;
+		margin-top: $gutter;
+		margin-left: -$gutter;
+		margin-right: -$gutter;
+		padding: 0px 0px 95px 20px;
+		margin-bottom: 4.382em;
+	}
+	.related-posts .related-post {
+		font-size: 0.78em;
+      	height: 8em;
+      	// margin-top: 2em;
+      	@include span-columns(3);
+      	@include omega(4n);
+	}
+	.related-posts ul {
+		list-style-type: none;
+	}
+	.related-posts .related-post{
+		margin-left: 44px;
+		margin-right: 11px;
+	}
+	.related-posts .related-post-title{
+		margin-top: -2px;
+	}
 /*
    Page footer
    ========================================================================== */
@@ -419,7 +446,7 @@
 .page-footer {
 	position: relative;
 	margin-top: -23px;
-	margin-bottom: -39px;
+	margin-bottom: -23px;
 }
 
 .page-footer .inline-btn{

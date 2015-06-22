@@ -20,13 +20,17 @@ layout: default
 			</div>
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
+				{% if page.share != false %}{% include share-this.html %}{% endif %}
 				<hr />
 				{% include pagination.html %}			
 				<hr />
 				<footer class="page-footer">
 					{% if page.categories %}{% include page-author.html %}{% endif %}
-					{% if page.share != false %}{% include share-this.html %}{% endif %}
 				</footer><!-- /.footer -->
+				<hr />
+				<div>
+					{% include related-posts.html %}
+				</div>
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
 				</aside>
