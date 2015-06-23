@@ -48,6 +48,8 @@
 	border-left-width: 5px;
 	border-right-width: 5px;
 	padding-bottom: 50px;
+	width: 1295px;
+	margin-left: 220px;
 }
 .footer-page {
 	background-color: $yellow;
@@ -170,8 +172,6 @@
 
 #page-wrapper {
 	background-color: $black;
-	padding-right: 3.618em !important;
-	padding-left: 3.618em !important;
 	padding-bottom: 144px !important; /* Height of the footer element */
 	padding: 0 $gutter; // add white space for smaller screens
 	@include size(100% 100%);
