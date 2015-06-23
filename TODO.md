@@ -1,8 +1,5 @@
 # Cosas por hacer
 
-* Mejorar Portada: Agregar RSS, link a pág de contacto y subscripción de mailchimp.
-
-
 # Nice to Have
 
 * Multi-idioma https://github.com/screeninteraction/jekyll-multiple-languages-plugin
