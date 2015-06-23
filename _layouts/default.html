@@ -38,14 +38,16 @@
     {% include twitter-sdk.html %}
     {% include browser-upgrade.html %}
     {% include facebook-sdk.html %}
-    {% include header.html %}
-    {% include navigation-sliding.html %}
+    <div id="sticky-footer">
+      {% include header.html %}
+      {% include navigation-sliding.html %}
 
-    <div id="page-wrapper">
-      {{ content }}
-    </div>
-    <div id="footer-page-wrapper">
-      {% include footer.html %}
+      <div id="page-wrapper">
+        {{ content }}
+      </div>
+      <div id="footer-page-wrapper">
+        {% include footer.html %}
+      </div>
     </div>
 
     <!-- Scripts -->
