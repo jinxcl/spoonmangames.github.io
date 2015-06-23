@@ -1,14 +1,12 @@
 # Cosas por hacer
 
-* hacer que el footer siempre esté abajo.
-* Mejorar página "Blog"
-* Mejorar Portada (Agregar RSS y link a contacto)
-* Revisar mailchimp para que funcione el popup o se tenga un mejor form en html.
+* Mejorar Portada: Agregar RSS, link a pág de contacto y subscripción de mailchimp.
 
 
 # Nice to Have
 
 * Multi-idioma https://github.com/screeninteraction/jekyll-multiple-languages-plugin
+* Mejorar el estilo general de la página
 
 # Notas importantes
 
