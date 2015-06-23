@@ -38,9 +38,10 @@ Proyecto en Desarrollo.
 * Refactory del engine básico del juego. <span class="badge info">haciendo</span>
 * Diseño gráfico del Menú principal. <span class="badge info">haciendo</span>
 * Teaser del musica del primer escenario. <span class="badge success">terminado</span> <small>19/06/2015</small>
-* Música del primer escenario.
+* Música del primer escenario. <span class="badge info">haciendo</span>
 * Sistema de intro.
 * Menú principal.
+* Música del menú principal.
 * Transición entre menú principal y el juego.
 * Transición entre menú principal y el opciones.
 * Afinamiento del movimiento de Roboto.
