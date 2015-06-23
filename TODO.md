@@ -7,6 +7,7 @@
 
 * Multi-idioma https://github.com/screeninteraction/jekyll-multiple-languages-plugin
 * Mejorar el estilo general de la página
+* Ribbons http://www.sitepoint.com/pure-css3-ribbons/
 
 # Notas importantes
 
