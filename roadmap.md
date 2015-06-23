@@ -33,9 +33,11 @@ Proyecto en Desarrollo.
 * Diseño de un título artístico <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Prototipo de animación del personaje principal. <span class="badge info">haciendo</span>
 * Bocetos del Menú Principal. <span class="badge info">haciendo</span>
-* Bocetos de la GUI. <span class="badge info">haciendo</span>
+* Bocetos de la GUI. <span class="badge success">terminado</span> <small>17/06/2015</small>
 * Bosquejo 360 del personaje principal. <span class="badge info">haciendo</span>
 * Refactory del engine básico del juego. <span class="badge info">haciendo</span>
+* Diseño gráfico del Menú principal. <span class="badge info">haciendo</span>
+* Teaser del musica del primer escenario. <span class="badge success">terminado</span> <small>19/06/2015</small>
 * Música del primer escenario.
 * Sistema de intro.
 * Menú principal.
