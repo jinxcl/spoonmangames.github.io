@@ -1,5 +1,7 @@
 # Cosas por hacer
 
+* Agregar Ribbons a las otras vistas y publicaciones para embellecer el sitio
+
 # Nice to Have
 
 * Multi-idioma https://github.com/screeninteraction/jekyll-multiple-languages-plugin
