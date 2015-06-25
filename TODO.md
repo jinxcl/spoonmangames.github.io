@@ -1,6 +1,5 @@
 # Cosas por hacer
 
-* Revisar el ancho del cuerpo de la página.
 * Agregar TOC a roadmap, download y about.
     - http://www.jankoatwarpspeed.com/automatically-generate-table-of-contents-using-jquery/
     - https://css-tricks.com/automatic-table-of-contents/
