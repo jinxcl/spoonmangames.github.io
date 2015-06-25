@@ -19,16 +19,14 @@ layout: default
 				{% include page-meta.html %}
 			</div>
 			<div id="content" class="page-content" itemprop="articleBody">
+				<br>
 				{{ content }}
-				{% if page.share != false %}{% include share-this.html %}{% endif %}
-				<hr />
-				{% include pagination.html %}			
-				<hr />
+				{% if page.share != false %}{% include share-this.html %}{% endif %}				
+				{% include pagination.html %}							
 				<footer class="page-footer">
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 				</footer><!-- /.footer -->
-				<hr />
-				<div>
+				<div class="sec-related-posts">
 					{% include related-posts.html %}
 				</div>
 				<aside>

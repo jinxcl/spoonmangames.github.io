@@ -15,9 +15,7 @@ de **Spoonman Games**.
     <code><a href="https://github.com/SpoonmanGames" style="color: #000000;">Github - SpoonmanGames</a></code> Algunos repositorios podrían estar en estados experimentales por lo que se ruega bajar las versiones listadas en esta página a menos que se desee trabajar con códigos fuentes no estables.
 </p>
 
-{% include toc.html %}
-
-# Bomber-Chan! Beta
+<h2 class="ribbon">Bomber-Chan! Beta</h2>
 
 Bomber-CHAN! Beta (v.0.4) fue anunciado y presentado el Sábado 23 de Julio del 
 2011 a las 4am durante el primer aniversario del Tebi's Festival en su séptima 
@@ -27,7 +25,7 @@ versión (VII Tebi's Festival).
 * [Revisa la FAQ](https://github.com/SpoonmanGames/BomberChan/releases/tag/v0.4).
 * [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#bomber-chan-beta).
 
-# The Legend of Zelda: Remade
+<h2 class="ribbon">The Legend of Zelda: Remade</h2>
 
 The Legend of Zelda: Remade Test Demo corresponde a una versión de prueba en 
 la que solo es posible explorar los primeros espacios del juego usando el 

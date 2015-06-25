@@ -8,7 +8,7 @@
             {% for thisTag in page.tags %}
                 {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
                     {% if hasSimilar.size == 0 %}
-                    <h4>Publicaciones Relacionadas</h4>
+                    <h4 class="ribbon">Publicaciones Relacionadas</h4>
                     <div class="related-posts">
                         <ul>
                     {% endif %}

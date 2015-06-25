@@ -18,7 +18,7 @@ Bienvenidos a este rincón de desarrollo de vídeo juegos en el que encontrarás
 tips para desarrollar tus propios juegos, códigos fuentes de ayuda, tutoriales,
 comentarios y por supuesto **juegos desarrollados por nosotros**!
 
-# Contacto
+<h2 class="ribbon">Contacto</h2>
 
 Si deseas contactarnos directamente para una reunión, conferencia, charla o 
 simplemente para hablar de vídeo juegos entra aquí y contáctanos:
@@ -72,7 +72,6 @@ simplemente para hablar de vídeo juegos entra aquí y contáctanos:
                     {% if author.youtube %}
                         <a href="https://www.youtube.com/channel/{{ author.youtube }}" class="badge danger"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                     {% endif %}
-                    asdasdadas
                     {% if author.deviantart %}
                         <a href="https://www.{{ author.deviantart }}.deviantart.com/" class="badge success"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
                     {% endif %}
@@ -100,10 +99,7 @@ simplemente para hablar de vídeo juegos entra aquí y contáctanos:
     </div>
 </div>
 
-{% include toc.html %}
-
-<hr/>
-# Historia de Spoonman Games
+<h2 class="ribbon">Historia de Spoonman Games</h2>
 
 **Spoonman Games** es un grupo independiente de desarrollo de vídeo juegos que 
 nació a finales del año 2010 de la mano de *Esteban Gaete* y *Nikolai Muñoz* 
@@ -137,8 +133,7 @@ la gran fecha [**¡15 Mayo del 2015!**]({{ site.url }}/blog/win10gamejam).
 
 **Una nueva era ha comenzado...**
 
-<hr/>
-# Miembros de Spoonman Games
+<h2 class="ribbon">Miembros de Spoonman Games</h2>
 
 Acá encontrarás información y links relevantes de cada uno de los miembros
 actuales de este pequeño y modesto grupo de desarrolladores.

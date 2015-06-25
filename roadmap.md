@@ -10,8 +10,6 @@ más importantes a implementar en cada uno de los juegos y herramientas en los
 que **Spoonman Games** está trabajando, tan solo selecciona un título de la 
 siguiente lista y podrás ver qué es lo que se viene!
 
-{% include toc.html %}
-
 Símbolos usados:
 
  * Tarea terminada: <span class="badge success">terminado</span> <small>día/mes/año</small>
@@ -19,8 +17,7 @@ Símbolos usados:
  * Idea desechada <span class="badge warning">desechada</span> <small>día/mes/año</small>
  * Si aún no se comienza a hacer no tendrán ningún tipo de etiqueta.
 
-<hr/>
-# Sunset Roboto: The Eternal Rider
+<h2 class="ribbon">Sunset Roboto: The Eternal Rider</h2>
 
 Proyecto en Desarrollo.
 
@@ -49,8 +46,7 @@ Proyecto en Desarrollo.
 * Sistema día/noche.
 * Engine de colisiones.
 
-<hr/>
-# LOAI: Lines of Artificial Inteligence
+<h2 class="ribbon">LOAI: Lines of Artificial Inteligence</h2>
 
 Este proyecto aún no comienza.
 
@@ -62,8 +58,7 @@ Este proyecto aún no comienza.
 * Pasar proyecto del Servidor a Monogame.
 * Pasar proyecto del Cliente a Monogame.
 
-<hr/>
-# ScreenManager para Monogame
+<h2 class="ribbon">ScreenManager para Monogame</h2>
 
 Este proyecto aún no comienza.
 
@@ -74,8 +69,7 @@ Este proyecto aún no comienza.
 * Limpiar variables y librerías.
 * Crear proyecto y repositorio exclusivo para ScreenManager
 
-<hr/>
-# Bomber-Chan! Beta
+<h2 class="ribbon">Bomber-Chan! Beta</h2>
 
 Este juego no está en desarrollo, la versión actual es la última y no se 
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 
@@ -85,8 +79,7 @@ Spoonman Games.
 * Publicar Beta Demo v0.4. <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Publicar código fuente v0.4.8. <span class="badge success">terminado</span> <small>14/06/2015</small>
 
-<hr/>
-# The Legend of Zelda: Remade
+<h2 class="ribbon">The Legend of Zelda: Remade</h2>
 
 Este juego no está en desarrollo, la versión actual es la última y no se 
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 

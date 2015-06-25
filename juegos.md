@@ -16,6 +16,6 @@ publicaciones pueden tener una o más etiquetas (tags), las cuales se encuentran
 Haciendo <strong>click</strong> sobre una de ellas te permitirá acceder a una 
 página dónde podrás ver todas las publicaciones bajo la misma etiqueta.</p>
 
-# Lista de juegos
+<h2 class="ribbon">Lista de juegos</h2>
 
 [![Sunset Roboto]({{ site.url }}/images/sr-title.jpg)]({{ site.url }}/tags/Sunset Roboto/){: .link-image}
