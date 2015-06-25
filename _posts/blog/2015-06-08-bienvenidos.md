@@ -34,7 +34,7 @@ actualizaciones a través de este medio, mientras que para lo segundo los
 diferentes [miembros]({{ site.url }}/about/#miembros-de-spoonman-games) se mantienen activos en los siguientes sitios:
 
 * <a href="http://www.reddit.com/r/gamedev/"><span class="fa fa-reddit"></span> /r/gamedev</a>
-* <a href="http://www.impulsagames.com/foro/"><span class="fa fa-rocket"></span> Impulsa Games</a>
+* <a href="http://impulsagames.com/foro/"><span class="fa fa-rocket"></span> Impulsa Games</a>
 * <a href="https://www.facebook.com/groups/comunidad.duval/"><span class="fa fa-facebook"></span> Comunidad de desarrolladores de vídeojuegos</a>
 * <a href="https://www.facebook.com/groups/GameDevSantiago/"><span class="fa fa-facebook"></span> Game Dev Santiago</a>
 * <a href="https://www.facebook.com/groups/indiegamedevchile/"><span class="fa fa-facebook"></span> Indie GameDev Chile</a>

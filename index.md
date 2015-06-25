@@ -4,6 +4,7 @@ layout: archive
 permalink: /
 image:
     feature: sp-portada.png
+title: ¡Bienvenidos!
 ---
 
 ¡Bienvenidos a nuestro pequeño grupo de desarrollo de vídeo juegos llamado 
@@ -23,7 +24,7 @@ Acá podrás encontrar:
 
 <h3 class="ribbon">Diarios de desarrollador (Devlog)</h3>
 
-* <p><a href="http://www.impulsagames.com/foro/viewtopic.php?f=11&t=42"><i class="fa fa-book"></i> 'Sunset Roboto: The Eternal Rider' en Impulsa Games</a></p>
+* <p><a href="http://impulsagames.com/foro/showthread.php?tid=27"><i class="fa fa-book"></i> 'Sunset Roboto: The Eternal Rider' en Impulsa Games</a></p>
 
 {% include latest-posts-portada.html %}
 

@@ -1,8 +1,8 @@
 ---
 layout: page_wad
-title: Juegos
 permalink: /juegos/
 ads: true
+title: Juegos
 ---
 
 Mientras la información y publicaciones de esta página vaya creciendo cada vez 

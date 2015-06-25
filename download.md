@@ -1,8 +1,8 @@
 ---
 layout: page_wad
-title: Descargas
 permalink: /download/
 ads: true
+title: Descargas
 ---
 
 Aquí podrás encontrar links de descargas a todos nuestros juegos y 
