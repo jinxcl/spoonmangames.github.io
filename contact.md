@@ -1,8 +1,7 @@
 ---
 layout: archive
 permalink: /contact/
+title: Contáctanos
 ---
-
-# Contáctanos
 
 {% include contact-body.html %}

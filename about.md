@@ -1,6 +1,6 @@
 ---
-title: Acerca de Spoonman Games
 layout: archive
+title: Acerca de Spoonman Games
 permalink: /about/
 image:
     feature: sp-portada.png

@@ -1,6 +1,6 @@
 ---
-portada: true
 layout: archive
+portada: true
 permalink: /
 image:
     feature: sp-portada.png
