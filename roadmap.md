@@ -17,7 +17,17 @@ Símbolos usados:
  * Idea desechada <span class="badge warning">desechada</span> <small>día/mes/año</small>
  * Si aún no se comienza a hacer no tendrán ningún tipo de etiqueta.
 
-<h2 class="ribbon">Sunset Roboto: The Eternal Rider</h2>
+<nav class="toc">
+    <ul id="markdown-toc">
+      <li><a href="#uno">Sunset Roboto: The Eternal Rider</a></li>
+      <li><a href="#dos">LOAI: Lines of Artificial Inteligence</a></li>
+      <li><a href="#tres">ScreenManager para Monogame</a></li>
+      <li><a href="#cuatro">Bomber-Chan! Beta</a></li>
+      <li><a href="#cinco">The Legend of Zelda: Remade</a></li>
+    </ul>
+</nav>
+
+<h2 id="uno" class="ribbon">Sunset Roboto: The Eternal Rider</h2>
 
 Proyecto en Desarrollo.
 
@@ -46,7 +56,7 @@ Proyecto en Desarrollo.
 * Sistema día/noche.
 * Engine de colisiones.
 
-<h2 class="ribbon">LOAI: Lines of Artificial Inteligence</h2>
+<h2 id="dos" class="ribbon">LOAI: Lines of Artificial Inteligence</h2>
 
 Este proyecto aún no comienza.
 
@@ -58,7 +68,7 @@ Este proyecto aún no comienza.
 * Pasar proyecto del Servidor a Monogame.
 * Pasar proyecto del Cliente a Monogame.
 
-<h2 class="ribbon">ScreenManager para Monogame</h2>
+<h2 id="tres" class="ribbon">ScreenManager para Monogame</h2>
 
 Este proyecto aún no comienza.
 
@@ -69,7 +79,7 @@ Este proyecto aún no comienza.
 * Limpiar variables y librerías.
 * Crear proyecto y repositorio exclusivo para ScreenManager
 
-<h2 class="ribbon">Bomber-Chan! Beta</h2>
+<h2 id="cuatro" class="ribbon">Bomber-Chan! Beta</h2>
 
 Este juego no está en desarrollo, la versión actual es la última y no se 
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 
@@ -79,7 +89,7 @@ Spoonman Games.
 * Publicar Beta Demo v0.4. <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Publicar código fuente v0.4.8. <span class="badge success">terminado</span> <small>14/06/2015</small>
 
-<h2 class="ribbon">The Legend of Zelda: Remade</h2>
+<h2 id="cinco" class="ribbon">The Legend of Zelda: Remade</h2>
 
 Este juego no está en desarrollo, la versión actual es la última y no se 
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 

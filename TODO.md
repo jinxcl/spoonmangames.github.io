@@ -1,13 +1,13 @@
 # Cosas por hacer
 
-* Agregar TOC a roadmap, download y about.
-    - http://www.jankoatwarpspeed.com/automatically-generate-table-of-contents-using-jquery/
-    - https://css-tricks.com/automatic-table-of-contents/
 
 # Nice to Have
 
 * Multi-idioma https://github.com/screeninteraction/jekyll-multiple-languages-plugin
 * Mejorar el estilo general de la página.
+* Agregar TOC automatico a roadmap, download y about.
+    - http://www.jankoatwarpspeed.com/automatically-generate-table-of-contents-using-jquery/
+    - https://css-tricks.com/automatic-table-of-contents/
 
 # Notas importantes
 
