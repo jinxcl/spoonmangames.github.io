@@ -27,8 +27,8 @@ de **Spoonman Games**.
 
 ScreenManager para Monogame (v.1.0)
 
-* [Código fuente](https://github.com/SpoonmanGames/MonoGame-ScreenManager/tree/master)
-* [Página oficial con tutoriales](http://www.spoonmangames.cl/MonoGame-ScreenManager/)
+* [Código fuente](https://github.com/SpoonmanGames/MonoGame-ScreenManager/tree/master).
+* [Página oficial con tutoriales](http://www.spoonmangames.cl/MonoGame-ScreenManager/).
 * [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#tres).
 
 <h2 id="uno" class="ribbon">Bomber-Chan! Beta</h2>
@@ -48,7 +48,7 @@ la que solo es posible explorar los primeros espacios del juego usando el
 teclado. Si se sale de las áreas implementadas el juego se cierra 
 automáticamente.
 
-* [Test Demo](https://github.com/SpoonmanGames/ZeldaRemade/archive/v0.0.26.zip)
-* [Revisa la FAQ](https://github.com/SpoonmanGames/ZeldaRemade/releases/tag/v0.0.26)
+* [Test Demo](https://github.com/SpoonmanGames/ZeldaRemade/archive/v0.0.26.zip).
+* [Revisa la FAQ](https://github.com/SpoonmanGames/ZeldaRemade/releases/tag/v0.0.26).
 * [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#cinco).
 
