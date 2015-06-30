@@ -74,13 +74,13 @@ Proyecto en Desarrollo.
 
 * Crear proyecto y repositorio exclusivo para ScreenManager. <span class="badge success">terminado</span> <small>28/06/2015</small>
 * Refactor de Namespaces. <span class="badge success">terminado</span> <small>28/06/2015</small>
+* Configurar para soporte con Windows 8 y 8.1. <span class="badge success">terminado</span> <small>28/06/2015</small>
 * Comentarios a todo el código fuente. <span class="badge success">terminado</span> <small>28/06/2015</small>
 * Documentación via Doxygen. <span class="badge success">terminado</span> <small>28/06/2015</small>
 * Crear Github-Page para el proyecto. <span class="badge info">haciendo</span>
-* Hacer tutorial de implementación.
+* Hacer tutorial de implementación. <span class="badge info">haciendo</span>
 * Hacer tutoriales de usos básicos.
 * Crear proyectos de prueba con ejemplos.
-* Configurar para soporte con Windows 8 y 8.1.
 * Agregar cambios y mejoras hechas a partir del proyecto LOAI.
 
 <h2 id="cuatro" class="ribbon">Bomber-Chan! Beta</h2>
