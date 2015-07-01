@@ -29,6 +29,7 @@ ScreenManager para Monogame (v.1.0) es un proyecto para Visual Studio que
 permite crear y manipular diferentes pantallas/screens en un juego, también
 permite crear menús, opciones configurables, pausar el juego y mucho más!
 
+* [Versión 1.0.1](https://github.com/SpoonmanGames/MonoGame-ScreenManager/archive/v1.0.1.zip).
 * [Código fuente](https://github.com/SpoonmanGames/MonoGame-ScreenManager/tree/master).
 * [Página oficial con tutoriales](http://www.spoonmangames.cl/MonoGame-ScreenManager/).
 * [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#tres).
