@@ -10,7 +10,7 @@ tags:
 image:
     feature: featured/sr2-featured.png
     teaser: teaser/sr2-teaser.png
-summary: 
+summary: Recopilación de los updates hechos en el Devlog de Impulsa Games
 ---
 
 <p class="notice-info" align="justify"><strong>Pro Tip:</strong> Pro tip: Si más de alguno de ustedes ha estado al tanto del <a href="http://impulsagames.com/foro/thread-27.html"><i class="fa fa-book"></i> Devlog de 'Sunset Roboto: The Eternal Rider' en Impulsa Games</a> no leerán nada nuevo aquí ya que este post es para tener un respaldo de las actualizaciones hasta ahora respecto al proyecto. </p>
