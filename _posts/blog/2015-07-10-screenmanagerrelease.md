@@ -6,7 +6,7 @@ author: esteban_gaete
 categories:
 - blog
 tags:
-- herramientas
+- Herramientas
 image:
     feature: featured/sm-featured.png
     teaser: teaser/sm-teaser.png
