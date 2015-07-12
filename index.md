@@ -24,7 +24,12 @@ Acá podrás encontrar:
 
 <h3 class="ribbon">Diarios de desarrollador (Devlog)</h3>
 
-* <p><a href="http://impulsagames.com/foro/showthread.php?tid=27"><i class="fa fa-book"></i> 'Sunset Roboto: The Eternal Rider' en Impulsa Games</a></p>
+* <p><a href="http://impulsagames.com/foro/thread-27.html"><i class="fa fa-book"></i> 'Sunset Roboto: The Eternal Rider'</a></p>
+* <p><a href="http://impulsagames.com/foro/thread-43.html"><i class="fa fa-book"></i> 'Papayapa (Nombre Tentativo)' - hecho para la Impulsa Game Jams</a></p>
+
+<h3 class="ribbon">Herramientas Desarrolladas</h3>
+
+* <p><a href="http://www.spoonmangames.cl/MonoGame-ScreenManager/"><i class="fa fa-wrench"></i> ScreenManager para Monogame C#</a></p> 
 
 {% include latest-posts-portada.html %}
 
