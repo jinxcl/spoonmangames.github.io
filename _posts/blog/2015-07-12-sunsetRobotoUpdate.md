@@ -41,9 +41,11 @@ Los sprites usados son de librerías de assets gratuitos de encontrados en Inter
 * Creación de primeros logos, banner y título.
 
 El logo actual es:
+
 <p align="center"><img src="http://www.spoonmangames.cl/images/sr-teaser.png"></p>
 
 También se ha estado trabajando en varios prototipos relacionados:
+
 <p align="center"><img src="http://www.spoonmangames.cl/images/sr-featured.png"></p>
 
 Creo que es fácil darse cuenta a qué pertenece cada parte de la imagen :3
@@ -57,9 +59,11 @@ Creo que es fácil darse cuenta a qué pertenece cada parte de la imagen :3
 * Bocetos para las animaciones de Roboto.
 
 Por ahora se trabaja en la animación de las piernas principalmente. Ya que Roboto estará corriendo continuamente esto se debe ver bien animado:
+
 <p align="center"><img src="https://trello-attachments.s3.amazonaws.com/557df4698bc31c1c937bd02b/250x200/09476f48e52bfa92b884954b81ce0012/test12frames.gif"></p>
 
 En cuanto al diseño, ha avanzado lento debido a periodos de exámenes pero ya estamos terminando el menú principal, aquí les dejo una pequeña imagen del avance.
+
 <p align="center"><img src="http://www.spoonmangames.cl/images/preview/menu2-preview.png"></p>
 
 Como ya algunos sabrán, hemos liberado una herramienta que estamos usando en Sunset Roboto, está sirve para manejar menús y pantallas de diferente tipo. Acá un link a los interesados: <a href="http://www.spoonmangames.cl/MonoGame-ScreenManager/">ScreenManager para Monogame 3.4</a>.
@@ -68,4 +72,4 @@ Lo otro en lo que hemos estado trabajando es en mejorar el movimiento vertical a
 
 <p align="center"><img src="http://www.spoonmangames.cl/images/preview/debug1-preview.gif"></p>
 
-El menú y la GUI han avanzado bastante, pero dejaremos esas actualizaciones para más adelante! 
+El menú y la GUI han avanzado bastante, pero dejaremos esas actualizaciones para más adelante!
