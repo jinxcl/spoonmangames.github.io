@@ -8,8 +8,8 @@ categories:
 tags:
 - Sunset Roboto
 image:
-    feature: sr2-featured.png
-    teaser: sr2-teaser.png
+    feature: featured/sr2-featured.png
+    teaser: teaser/sr2-teaser.png
 summary: 
 ---
 
