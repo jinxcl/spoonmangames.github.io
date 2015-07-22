@@ -60,13 +60,13 @@ Proyecto en Desarrollo.
 
 Este proyecto aún no comienza.
 
-* Diseñar interfaz gráfica para creación de IAs.
 * Implementar Salas de espera.
 * Terminar Modo Torneo.
 * Subir el Servidor a la Nube.
-* Re.implementar WCF con .NET 4.5.
-* Pasar proyecto del Servidor a Monogame.
 * Pasar proyecto del Cliente a Monogame.
+* Pasar proyecto del Servidor a Monogame.
+* Re.implementar WCF con .NET 4.5.
+* Diseñar interfaz gráfica para creación de IAs.
 
 <h2 id="tres" class="ribbon">ScreenManager para Monogame</h2>
 
@@ -79,9 +79,15 @@ Proyecto en Desarrollo.
 * Documentación via Doxygen. <span class="badge success">terminado</span> <small>28/06/2015</small>
 * Crear Github-Page para el proyecto. <span class="badge success">terminado</span> <small>3/07/2015</small>
 * Hacer tutorial de implementación. <span class="badge success">terminado</span> <small>5/07/2015</small>
-* Hacer tutoriales de usos básicos. <span class="badge info">haciendo</span>
-* Crear proyectos de prueba con ejemplos. <span class="badge info">haciendo</span>
-* Agregar cambios y mejoras hechas a partir del proyecto LOAI.
+* Hacer tutoriales de usos básicos. <span class="badge success">terminado</span> <small>22/07/2015</small>
+* Crear proyectos de prueba con ejemplos. <span class="badge success">terminado</span> <small>22/07/2015</small>
+* Agregar cambios y mejoras hechas a partir del "DebugManger"
+* Agregar cambios y mejoras hechas a partir del "proyecto LOAI".
+* Agregar soporte con mouse.
+* Agregar versión antigua de XNA 4.0.
+* Agregar código base para usar en todo tipo de proyectos.
+* Implementar en conjunto con "Monogame Helpers".
+* Implementar en conjunto con "DebugManager".
 
 <h2 id="cuatro" class="ribbon">Bomber-Chan! Beta</h2>
 
