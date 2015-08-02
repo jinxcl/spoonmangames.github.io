@@ -119,7 +119,7 @@ Proyecto en Desarrollo.
 * Implementar en conjunto con "Monogame Helpers".
 * Implementar en conjunto con "DebugManager".
 
-<h2 id="b-chan" class="ribbon">Bomber-Chan! Beta <span class="badge success">terminado</span></h2>
+<h2 id="b-chan" class="ribbon">Bomber-Chan! Beta</h2>
 
 Este juego no está en desarrollo, la versión actual es la última y no se 
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 
@@ -129,7 +129,7 @@ Spoonman Games.
 * Publicar Beta Demo v0.4. <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Publicar código fuente v0.4.8. <span class="badge success">terminado</span> <small>14/06/2015</small>
 
-<h2 id="z-remade" class="ribbon">The Legend of Zelda: Remade <span class="badge success">terminado</span></h2>
+<h2 id="z-remade" class="ribbon">The Legend of Zelda: Remade</h2>
 
 Este juego no está en desarrollo, la versión actual es la última y no se 
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 
