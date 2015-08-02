@@ -8,7 +8,9 @@ title: ¡Bienvenidos!
 ---
 
 ¡Bienvenidos a nuestro pequeño grupo de desarrollo de vídeo juegos llamado 
-[**Spoonman Games**]({{ site.url }}/about/)! Espero que disfrutes de este espacio, de nuestros juegos y que participes en cada una de las publicaciones dándonos tus comentarios.
+[**Spoonman Games**]({{ site.url }}/about/)! 
+
+Espero que disfrutes de este espacio, de nuestros juegos y que participes en cada una de las publicaciones dándonos tus comentarios.
 
 Acá podrás encontrar:
 
@@ -19,13 +21,13 @@ Acá podrás encontrar:
     <a href="{{ site.url }}/roadmap/"><i class="fa fa-calendar"></i> Fechas y tareas más importantes a desarrollar de cada proyecto</a>
   </p>
 * <p>
-    <a href="{{ site.url }}/download/"><i class="fa fa-download"></i> Descargas y acceso al código fuente de algunos proyecto desarrollado</a>
+    <a href="{{ site.url }}/download/"><i class="fa fa-download"></i> Video juegos y acceso al código fuente</a>
   </p>
 
 <h3 class="ribbon">Diarios de desarrollador (Devlog)</h3>
 
 * <p><a href="http://impulsagames.com/foro/thread-27.html"><i class="fa fa-book"></i> 'Sunset Roboto: The Eternal Rider'</a></p>
-* <p><a href="http://impulsagames.com/foro/thread-43.html"><i class="fa fa-book"></i> 'Papayapa (Nombre Tentativo)' - hecho para la Impulsa Game Jams</a></p>
+* <p><a href="http://impulsagames.com/foro/thread-43.html"><i class="fa fa-book"></i> 'King K. A Goblin Defense Game'</a></p>
 
 <h3 class="ribbon">Herramientas Desarrolladas</h3>
 

@@ -19,15 +19,45 @@ Símbolos usados:
 
 <nav class="toc">
     <ul id="markdown-toc">
-      <li><a href="#uno">Sunset Roboto: The Eternal Rider</a></li>
-      <li><a href="#dos">LOAI: Lines of Artificial Inteligence</a></li>
-      <li><a href="#tres">ScreenManager para Monogame</a></li>
-      <li><a href="#cuatro">Bomber-Chan! Beta</a></li>
-      <li><a href="#cinco">The Legend of Zelda: Remade</a></li>
+      <li><a href="#KK">King K. A Goblin Defense Game</a></li>
+      <li><a href="#sunset-roboto">Sunset Roboto: The Eternal Rider</a></li>
+      <li><a href="#LOAI">LOAI: Lines of Artificial Inteligence</a></li>
+      <li><a href="#screenmanager">ScreenManager para Monogame</a></li>
+      <li><a href="#b-chan">Bomber-Chan! Beta</a></li>
+      <li><a href="#z-remade">The Legend of Zelda: Remade</a></li>
     </ul>
 </nav>
 
-<h2 id="uno" class="ribbon">Sunset Roboto: The Eternal Rider</h2>
+<h2 id="KK" class="ribbon">King K. A Goblin Defense Game</h2>
+
+Proyecto en Desarrollo.
+
+* Creando la historia. <span class="badge success">terminado</span> <small>10/07/2015</small>
+* Diseño de la arquitectura. <span class="badge success">terminado</span> <small>11/07/2015</small>
+* Agregando ScreenManager. <span class="badge success">terminado</span> <small>13/07/2015</small>
+* Creando el personaje. <span class="badge success">terminado</span> <small>15/07/2015</small>
+* Creando el goblin. <span class="badge success">terminado</span> <small>17/07/2015</small>
+* Controlando múltiples goblins. <span class="badge success">terminado</span> <small>18/07/2015</small>
+* Comportamiento del goblin. <span class="badge success">terminado</span> <small>19/07/2015</small>
+* Escenario. <span class="badge success">terminado</span> <small>20/07/2015</small>
+* Creando el humano. <span class="badge success">terminado</span> <small>21/07/2015</small>
+* Colisiones. <span class="badge success">terminado</span> <small>22/07/2015</small>
+* Comportamiento del humano. <span class="badge success">terminado</span> <small>23/07/2015</small>
+* Daño tipo RPG. <span class="badge success">terminado</span> <small>25/07/2015</small>
+* Barra de Vida. <span class="badge success">terminado</span> <small>26/07/2015</small>
+* Creando al rey.. <span class="badge success">terminado</span> <small>27/07/2015</small>
+* Creando la forja. <span class="badge success">terminado</span> <small>28/07/2015</small>
+* Creando sistema de hordas de humano. <span class="badge success">terminado</span> <small>29/07/2015</small>
+* Niveles y dificultad. <span class="badge success">terminado</span> <small>30/07/2015</small>
+* Ganar y perder. <span class="badge success">terminado</span> <small>30/07/2015</small>
+* Trampas. <span class="badge success">terminado</span> <small>30/07/2015</small>
+* Sistema de level para goblins. <span class="badge success">terminado</span> <small>30/07/2015</small>
+* --- tareas pendientes ---.
+* Subir el código fuente.
+* Crear un time-lapse del desarrollo del juego.
+* Pasar el juego de Monogame a Unity.
+
+<h2 id="sunset-roboto" class="ribbon">Sunset Roboto: The Eternal Rider</h2>
 
 Proyecto en Desarrollo.
 
@@ -56,7 +86,7 @@ Proyecto en Desarrollo.
 * Sistema día/noche.
 * Engine de colisiones.
 
-<h2 id="dos" class="ribbon">LOAI: Lines of Artificial Inteligence</h2>
+<h2 id="LOAI" class="ribbon">LOAI: Lines of Artificial Inteligence</h2>
 
 Este proyecto aún no comienza.
 
@@ -68,7 +98,7 @@ Este proyecto aún no comienza.
 * Re.implementar WCF con .NET 4.5.
 * Diseñar interfaz gráfica para creación de IAs.
 
-<h2 id="tres" class="ribbon">ScreenManager para Monogame</h2>
+<h2 id="screenmanager" class="ribbon">ScreenManager para Monogame</h2>
 
 Proyecto en Desarrollo.
 
@@ -89,7 +119,7 @@ Proyecto en Desarrollo.
 * Implementar en conjunto con "Monogame Helpers".
 * Implementar en conjunto con "DebugManager".
 
-<h2 id="cuatro" class="ribbon">Bomber-Chan! Beta</h2>
+<h2 id="b-chan" class="ribbon">Bomber-Chan! Beta <span class="badge success">terminado</span></h2>
 
 Este juego no está en desarrollo, la versión actual es la última y no se 
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 
@@ -99,7 +129,7 @@ Spoonman Games.
 * Publicar Beta Demo v0.4. <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Publicar código fuente v0.4.8. <span class="badge success">terminado</span> <small>14/06/2015</small>
 
-<h2 id="cinco" class="ribbon">The Legend of Zelda: Remade</h2>
+<h2 id="z-remade" class="ribbon">The Legend of Zelda: Remade <span class="badge success">terminado</span></h2>
 
 Este juego no está en desarrollo, la versión actual es la última y no se 
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 
