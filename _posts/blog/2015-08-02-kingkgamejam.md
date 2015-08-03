@@ -6,7 +6,7 @@ author: esteban_gaete
 categories:
 - blog
 tags:
-- King K.
+- King K
 - GameJam
 image:
     feature: featured/kk-featured.png
@@ -45,7 +45,7 @@ De modo que un nivel se compone de una sección de estadísticas, una GUI para m
 
 Pero que hermosura de pixeles.
 
-Afortunadamente no alcancé a usar estos gráficos en el desarrollo ya que nuestro bien amigo Don Calaca nos proporcionó estos excelentes gráficos:
+Afortunadamente no alcancé a usar estos gráficos en el desarrollo ya que nuestro buen amigo [Don Calaca](http://c1ic.mx/) nos proporcionó estos excelentes gráficos:
 
 <p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif-preview.gif"></p>
 
