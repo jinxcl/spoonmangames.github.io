@@ -47,27 +47,27 @@ Pero que hermosura de pixeles.
 
 Afortunadamente no alcancé a usar estos gráficos en el desarrollo ya que nuestro bien amigo Don Calaca nos proporcionó estos excelentes gráficos:
 
-<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif-preview.png"></p>
+<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif-preview.gif"></p>
 
 El paso siguiente consistió en crear los cinco goblins principales y poder cambiar el control sobre ellos.
 
-<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif2-preview.png"></p>
+<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif2-preview.gif"></p>
 
 Se usa también una letra S a modo de prueba para marcar cual goblin está siendo seleccionado. A continuación se ingresaron los humanos al escenario y se hicieron pruebas de colisión para poder chocar con el humano y poder atacarlo, todo esto tomó bastante tiempo pero dio buenos resultados.
 
-<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif3-preview.png"></p>
+<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif3-preview.gif"></p>
 
-<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif4-preview.png"></p>
+<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif4-preview.gif"></p>
 
-<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif5-preview.png"></p>
+<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif5-preview.gif"></p>
 
 El problema que se hizo evidente al desarrollar esto fue que no es posible determinar si se golpeó realmente al humano, cuánto daño se hizo ni cuanta vida le queda, por ello se hizo un sistema muy simple tipo RPG para mostrar la vida y el daño.
 
-<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif6-preview.png"></p>
+<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif6-preview.gif"></p>
 
 Con esto solo falta el Rey y...
 
-<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif7-preview.png"></p>
+<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblingif7-preview.gif"></p>
 
 La mecánica principal ya está implementada! Los siguientes pasos fue implementar las estadísticas y hacer la forja,
 lo primero consistió en acceder a diferentes variables generales del Nivel y globales para luego mostrarlas en textos.
@@ -92,7 +92,7 @@ la música puede ser escuchada directamente en la página de gamejolt sin tener 
 
 Lo último a realizar fue el menú y las imágenes de presentación del juego:
 
-<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblin-portada.png"></p>
+<p align="center"><img src="http://www.spoonmangames.cl/images/preview/goblin-portada.gif"></p>
 
 Y con esto el juego se dio por finalizado :D Una grata experiencia con Monogame 3.4 y C#, sí, no lo dije antes pero todo esto fue hecho con Monogame, partiendo desde cero.
 
