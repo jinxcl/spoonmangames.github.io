@@ -7,11 +7,6 @@ image:
 members:
 - esteban_gaete
 - victor_gaete
-- corvus
-- ragnaroz
-- graca
-- ivania
-- mitzy
 ---
 
 Bienvenidos a este rincón de desarrollo de vídeo juegos en el que encontrarás
