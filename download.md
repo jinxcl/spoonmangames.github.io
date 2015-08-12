@@ -36,8 +36,9 @@ horda de furiosos y sucios humanos. La vida por **King K.**!!
 
 * [Versión 1.2.0](http://gamejolt.com/games/king-k-a-goblin-defense-game/82821).
 * [Código fuente (Soon)](http://www.spoonmangames.cl/download/#KK).
-* [Time-Lapse (Soon)](http://www.spoonmangames.cl/download/#KK).
+* [Time-Lapse](https://www.youtube.com/watch?v=PUiRDrq3Ux8).
 * [Diario del desarrollador](http://impulsagames.com/foro/thread-43.html).
+* [Devlog Improvisado](https://www.youtube.com/watch?v=qzD_GePo96s&list=PLsHCX_FQmzl10YF_8m0oxfsLPKwhw7kXb).
 * [Revisa el estado actual del proyecto en el Roadmap]({{ site.url }}/roadmap/#KK).
 
 <h2 id="screenmanager" class="ribbon">ScreenManager para Monogame</h2>

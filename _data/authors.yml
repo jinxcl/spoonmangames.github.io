@@ -2,7 +2,7 @@
 
 esteban_gaete:
   name: Esteban Gaete
-  rol: Fundador de Spoonman Games
+  rol: "Fundador de Spoonman Games / Director / Productor / Desarrollador C#"
   avatar: tebi-avatar.jpg
   bio: "Programming it Personal. ¡Por el poder de la cuchara! ¡¡DOLADOLA!!"
   web: www.estebangaete.cl
@@ -20,7 +20,7 @@ esteban_gaete:
   blog:
 victor_gaete:
   name: Victor Gaete
-  rol: Co-Fundador / Desarrollador
+  rol: "Co-Fundador / Desarrollador C#"
   avatar: victor-avatar.jpg
   bio: Emotional Developer xD , hacer lo que te hace feliz!.
   web: www.dacs.cl

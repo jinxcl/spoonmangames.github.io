@@ -52,9 +52,15 @@ Proyecto en Desarrollo.
 * Ganar y perder. <span class="badge success">terminado</span> <small>30/07/2015</small>
 * Trampas. <span class="badge success">terminado</span> <small>30/07/2015</small>
 * Sistema de level para goblins. <span class="badge success">terminado</span> <small>30/07/2015</small>
-* --- tareas pendientes ---.
+* Pantalla de creditos. <span class="badge success">terminado</span> <small>31/07/2015</small>
+* Música. <span class="badge success">terminado</span> <small>31/07/2015</small>
+* Effectos de sonido. <span class="badge success">terminado</span> <small>31/07/2015</small>
+* Creando una GUI gráfica. <span class="badge success">terminado</span> <small>31/07/2015</small>
+* Menú principal. <span class="badge success">terminado</span> <small>31/07/2015</small>
+* Slash Screens. <span class="badge success">terminado</span> <small>31/07/2015</small>
+* Tutoriales. <span class="badge success">terminado</span> <small>31/07/2015</small>
 * Subir el código fuente.
-* Crear un time-lapse del desarrollo del juego.
+* Crear un time-lapse del desarrollo del juego. <span class="badge success">terminado</span> <small>08/08/2015</small>
 * Pasar el juego de Monogame a Unity.
 
 <h2 id="sunset-roboto" class="ribbon">Sunset Roboto: The Eternal Rider</h2>
