@@ -125,6 +125,24 @@ ivania:
   googleplus:
   instagram:
   blog: ivanialobosa.blogspot.com
+nikolai:
+  name: Nikolai M. Henríquez
+  rol: "Co-Fundador / Compositor / Diseñador de Sonidos"
+  avatar: nikolai-avatar.jpg
+  bio: Hombre-cuchara inmerso de cabeza en el mundo de los sonidos Emoticón smile
+  web:
+  email: nikolai.m.henriquez@gmail.com
+  facebook: Henry.X.BanKeN
+  twitter: nikolai_mh
+  soundcloud: henbanken
+  deviantart:
+  github: 
+  linkedin: 
+  tumblr: nikolaimh
+  youtube: UCwHEItNeVK3Gl7NgkiRS3hw
+  googleplus:
+  instagram:
+  blog:
 ejemplo:
   name: # nombre o nickname
   rol: # rol dentro de Spoonman Games
@@ -140,4 +158,7 @@ ejemplo:
   linkedin: # solo el nombre después de https://cl.linkedin.com/in/, por ejemplo estebangaeteflores
   tumblr: # nombre de usuario, por ejemplo en thebyable.tumblr.com es thebyable
   youtube: # gran grupo de numeros o nombre del canal después de https://www.youtube.com/channel/, por ejemplo UC0Lo-I3ugIUuCD2Wi5AdAcg o AvispasDeMarmol
+  googleplus:
+  instagram:
+  blog:
   googleplus: # nombre de usuario espues de https://plus.google.com/u/0/, por ejemplo +EstebanGaeteFlores
