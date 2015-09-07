@@ -27,6 +27,11 @@ layout: default
 	{% endif %}
 		<div class="archive-wrap">
 			<div class="page-content">
+				{% if page.tag == "Sunset Roboto" %}
+				{% elsif page.tag == "King K" %}
+					{% include download-king-k.html %}
+				{% endif %}
+				<br>
 				{{ content }}
 			</div><!-- /.page-content -->
 		</div class="archive-wrap"><!-- /.archive-wrap -->
