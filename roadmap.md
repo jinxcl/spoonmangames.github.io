@@ -61,7 +61,6 @@ Proyecto en Desarrollo.
 * Tutoriales. <span class="badge success">terminado</span> <small>31/07/2015</small>
 * Subir el código fuente.
 * Crear un time-lapse del desarrollo del juego. <span class="badge success">terminado</span> <small>08/08/2015</small>
-* Pasar el juego de Monogame a Unity.
 
 <h2 id="sunset-roboto" class="ribbon">Sunset Roboto: The Eternal Rider</h2>
 
