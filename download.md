@@ -17,12 +17,17 @@ de **Spoonman Games**.
 
 <nav class="toc">
     <ul id="markdown-toc">
+      <li><a href="#DIH">Descend Into Heaven</a></li>
       <li><a href="#KK">King K. A Goblin Defense Game</a></li>
       <li><a href="#screenmanager">ScreenManager para Monogame</a></li>
       <li><a href="#b-chan">Bomber-Chan! Beta</a></li>
       <li><a href="#z-remade">The Legend of Zelda: Remade</a></li>
     </ul>
 </nav>
+
+<h2 id="DIH" class="ribbon">Descend Into Heaven</h2>
+
+{% include download-dih.html %}
 
 <h2 id="KK" class="ribbon">King K. A Goblin Defense Game</h2>
 

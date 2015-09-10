@@ -20,3 +20,5 @@ página dónde podrás ver todas las publicaciones bajo la misma etiqueta.</p>
 [![Sunset Roboto]({{ site.url }}/images/sr-title.jpg)]({{ site.url }}/tags/Sunset Roboto/){: .link-image}
 
 [![King K]({{ site.url }}/images/kk-title.png)]({{ site.url }}/tags/King K/){: .link-image}
+
+[![Descend Into Heaven]({{ site.url }}/images/dih-title.png)]({{ site.url }}/tags/DIH/){: .link-image}

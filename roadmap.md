@@ -19,6 +19,7 @@ Símbolos usados:
 
 <nav class="toc">
     <ul id="markdown-toc">
+      <li><a href="#DIH">Descend Into Heaven</a></li>
       <li><a href="#KK">King K. A Goblin Defense Game</a></li>
       <li><a href="#sunset-roboto">Sunset Roboto: The Eternal Rider</a></li>
       <li><a href="#LOAI">LOAI: Lines of Artificial Inteligence</a></li>
@@ -28,9 +29,52 @@ Símbolos usados:
     </ul>
 </nav>
 
+<h2 id="DIH" class="ribbon">Descend Into Heaven</h2>
+
+¡Proyecto siendo mejorado!. Para enterarte de todo el metarial correspondiente a Descend Into Heaven entra [aquí](/tags/DIH).
+
+* Crear sprite del protagonista. <span class="badge success">terminado</span> <small>13/08/2015</small>
+* Crear efecto visual tipo GameBoy. <span class="badge success">terminado</span> <small>13/08/2015</small>
+* Movimientos basicos del personaje. <span class="badge success">terminado</span> <small>13/08/2015</small>
+* Crear sprite del boss. <span class="badge success">terminado</span> <small>13/08/2015</small>
+* Crear pelea con el boss. <span class="badge success">terminado</span> <small>13/08/2015</small>
+* Crear sprite del enemigo principal (a.k.a. BadGuy). <span class="badge success">terminado</span> <small>14/08/2015</small>
+* Crear Menú del juego. <span class="badge success">terminado</span> <small>17/08/2015</small>
+* Crear música. <span class="badge success">terminado</span> <small>18/08/2015</small>
+* Crear efectos sonoros. <span class="badge success">terminado</span> <small>18/08/2015</small>
+* Crear escenario previa a la pelea del boss (a.k.a. scene1). <span class="badge success">terminado</span> <small>14/08/2015</small>
+* Crear sistema de camara. <span class="badge success">terminado</span> <small>15/08/2015</small>
+* Crear sistema de bloqueo de cuadrantes. <span class="badge success">terminado</span> <small>15/08/2015</small>
+* Crear escenario previo al scene3 (a.k.a. scene2). <span class="badge success">terminado</span> <small>15/08/2015</small>
+* Crear pinchos que caen y te persiguen. <span class="badge success">terminado</span> <small>15/08/2015</small>
+* Implementar shader tipo GameBoy. <span class="badge success">terminado</span> <small>16/08/2015</small>
+* Mecanicas de reinicio de partida y vuelta al menú. <span class="badge success">terminado</span> <small>16/08/2015</small>
+* Mapear controles a los usados por defecto en Unity. <span class="badge success">terminado</span> <small>18/08/2015</small>
+* Hacer que la camara pueda seguir al jugador en secciones especificas. <span class="badge success">terminado</span> <small>18/08/2015</small>
+* Hacer que BadGuy te persiga una vez que te detecta. <span class="badge success">terminado</span> <small>18/08/2015</small>
+* Generalizar Behaviours en la maquina de estado. <span class="badge success">terminado</span> <small>22/08/2015</small>
+* Mejorar la animación al saltar y estar en el aire. <span class="badge success">terminado</span> <small>24/08/2015</small>
+* Mejorar la detección de los pinchos. <span class="badge success">terminado</span> <small>24/08/2015</small>
+* Revisar colisiones del BadGuy. <span class="badge success">terminado</span> <small>25/08/2015</small>
+* Cambiar colisiones en el personaje. <span class="badge success">terminado</span> <small>25/08/2015</small>
+* Re-diseñar scene1 y 2 para una mejor curva de dificultad. <span class="badge success">terminado</span> <small>28/08/2015</small>
+* Crear un escenario previo al scene2 (a.k.a. scene3). <span class="badge success">terminado</span> <small>29/08/2015</small>
+* Mejorar la entrada a un escenario. <span class="badge success">terminado</span> <small>02/09/2015</small>
+* Crear checkpoints.
+* Crear borde a la pantalla para mejorar la relación de aspecto.
+* Agregar contador de muertes y tiempo total.
+* Agregar Paralax a la pelea del Boss.
+* Cambiar fase 2 y 3 del boss.
+* Agregar un item coleccionable.
+* Agregar un Menú Pause.
+* Mejorar los fondos (backgrounds).
+* Contextualizar el juego.
+* Arreglar problemas de contrastes entre algunos objetos.
+* Subirlo a Steam.
+
 <h2 id="KK" class="ribbon">King K. A Goblin Defense Game</h2>
 
-Proyecto en Desarrollo.
+¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a King K. A Goblin Defense Game entra [aquí](/tags/King K).
 
 * Creando la historia. <span class="badge success">terminado</span> <small>10/07/2015</small>
 * Diseño de la arquitectura. <span class="badge success">terminado</span> <small>11/07/2015</small>
@@ -59,8 +103,8 @@ Proyecto en Desarrollo.
 * Menú principal. <span class="badge success">terminado</span> <small>31/07/2015</small>
 * Slash Screens. <span class="badge success">terminado</span> <small>31/07/2015</small>
 * Tutoriales. <span class="badge success">terminado</span> <small>31/07/2015</small>
-* Subir el código fuente.
 * Crear un time-lapse del desarrollo del juego. <span class="badge success">terminado</span> <small>08/08/2015</small>
+* Subir el código fuente. <span class="badge success">terminado</span> <small>10/09/2015</small>
 
 <h2 id="sunset-roboto" class="ribbon">Sunset Roboto: The Eternal Rider</h2>
 
@@ -105,7 +149,7 @@ Este proyecto aún no comienza.
 
 <h2 id="screenmanager" class="ribbon">ScreenManager para Monogame</h2>
 
-Proyecto en Desarrollo.
+¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a esta herramienta entra [aquí](http://www.spoonmangames.cl/download/#screenmanager).
 
 * Crear proyecto y repositorio exclusivo para ScreenManager. <span class="badge success">terminado</span> <small>28/06/2015</small>
 * Refactor de Namespaces. <span class="badge success">terminado</span> <small>28/06/2015</small>
@@ -116,13 +160,9 @@ Proyecto en Desarrollo.
 * Hacer tutorial de implementación. <span class="badge success">terminado</span> <small>5/07/2015</small>
 * Hacer tutoriales de usos básicos. <span class="badge success">terminado</span> <small>22/07/2015</small>
 * Crear proyectos de prueba con ejemplos. <span class="badge success">terminado</span> <small>22/07/2015</small>
-* Agregar cambios y mejoras hechas a partir del "DebugManger"
-* Agregar cambios y mejoras hechas a partir del "proyecto LOAI".
-* Agregar soporte con mouse.
-* Agregar versión antigua de XNA 4.0.
-* Agregar código base para usar en todo tipo de proyectos.
-* Implementar en conjunto con "Monogame Helpers".
-* Implementar en conjunto con "DebugManager".
+* Agregar soporte con mouse. <span class="badge warning">terminado</span> <small>10/09/2015</small>
+* Agregar versión antigua de XNA 4.0. <span class="badge warning">terminado</span> <small>10/09/2015</small>
+* Agregar código base para usar en todo tipo de proyectos. <span class="badge warning">terminado</span> <small>10/09/2015</small>
 
 <h2 id="b-chan" class="ribbon">Bomber-Chan! Beta</h2>
 
@@ -130,6 +170,8 @@ Este juego no está en desarrollo, la versión actual es la última y no se
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 
 proyecto abandonado que sirvió de experimentación en los primeros días de 
 Spoonman Games.
+
+¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a Bomber-Chan! Beta entra [aquí](http://www.spoonmangames.cl/download/#b-chan).
 
 * Publicar Beta Demo v0.4. <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Publicar código fuente v0.4.8. <span class="badge success">terminado</span> <small>14/06/2015</small>
@@ -140,6 +182,8 @@ Este juego no está en desarrollo, la versión actual es la última y no se
 planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un 
 proyecto abandonado que sirvió de experimentación en los primeros días de 
 Spoonman Games.
+
+¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a The Legend of Zelda: Remade entra [aquí](http://www.spoonmangames.cl/download/#z-remade).
 
 * Publicar Demo Test v0.0.26. <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Publicar código fuente v0.0.19. <span class="badge success">terminado</span> <small>14/06/2015</small>
