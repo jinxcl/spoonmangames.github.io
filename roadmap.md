@@ -31,7 +31,7 @@ Símbolos usados:
 
 <h2 id="DIH" class="ribbon">Descend Into Heaven</h2>
 
-¡Proyecto siendo mejorado!. Para enterarte de todo el metarial correspondiente a Descend Into Heaven entra [aquí](/tags/DIH).
+¡Proyecto siendo mejorado!. Para enterarte de todo el metarial correspondiente a Descend Into Heaven entra **[aquí](/tags/DIH)**.
 
 * Crear sprite del protagonista. <span class="badge success">terminado</span> <small>13/08/2015</small>
 * Crear efecto visual tipo GameBoy. <span class="badge success">terminado</span> <small>13/08/2015</small>
@@ -160,9 +160,9 @@ Este proyecto aún no comienza.
 * Hacer tutorial de implementación. <span class="badge success">terminado</span> <small>5/07/2015</small>
 * Hacer tutoriales de usos básicos. <span class="badge success">terminado</span> <small>22/07/2015</small>
 * Crear proyectos de prueba con ejemplos. <span class="badge success">terminado</span> <small>22/07/2015</small>
-* Agregar soporte con mouse. <span class="badge warning">terminado</span> <small>10/09/2015</small>
-* Agregar versión antigua de XNA 4.0. <span class="badge warning">terminado</span> <small>10/09/2015</small>
-* Agregar código base para usar en todo tipo de proyectos. <span class="badge warning">terminado</span> <small>10/09/2015</small>
+* Agregar soporte con mouse. <span class="badge warning">desechada</span> <small>10/09/2015</small>
+* Agregar versión antigua de XNA 4.0. <span class="badge warning">desechada</span> <small>10/09/2015</small>
+* Agregar código base para usar en todo tipo de proyectos. <span class="badge warning">desechada</span> <small>10/09/2015</small>
 
 <h2 id="b-chan" class="ribbon">Bomber-Chan! Beta</h2>
 
