@@ -17,6 +17,8 @@ layout: default
 				<p><img src="{{ site.url }}/images/sr-title-lowsize.png" alt="Sunset Roboto" /></p>
 			{% elsif page.tag == "King K" %}
 				<p><img src="{{ site.url }}/images/kk-title-large.png" alt="Sunset Roboto" /></p>
+			{% elsif page.tag == "DIH" %}
+				<p><img src="{{ site.url }}/images/dih-title.png" alt="DIH" /></p>
 			{% else %}
 				<h1>{{ page.title }}</h1>
 			{% endif %}
@@ -31,9 +33,12 @@ layout: default
 				{% elsif page.tag == "King K" %}
 					{% include download-king-k.html %}
 					<h1>Blogs</h1>
-					<br>
+					<br><br>
+				{% elsif page.tag == "DIH" %}
+					{% include download-dih.html %}
+					<h1>Blogs</h1>
+					<br><br>
 				{% endif %}
-				<br>
 				{{ content }}
 			</div><!-- /.page-content -->
 		</div class="archive-wrap"><!-- /.archive-wrap -->
