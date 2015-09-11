@@ -74,7 +74,7 @@ Símbolos usados:
 
 <h2 id="KK" class="ribbon">King K. A Goblin Defense Game</h2>
 
-¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a King K. A Goblin Defense Game entra [aquí](/tags/King K).
+¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a King K. A Goblin Defense Game entra **[aquí](/tags/King K)**.
 
 * Creando la historia. <span class="badge success">terminado</span> <small>10/07/2015</small>
 * Diseño de la arquitectura. <span class="badge success">terminado</span> <small>11/07/2015</small>
@@ -149,7 +149,7 @@ Este proyecto aún no comienza.
 
 <h2 id="screenmanager" class="ribbon">ScreenManager para Monogame</h2>
 
-¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a esta herramienta entra [aquí](http://www.spoonmangames.cl/download/#screenmanager).
+¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a esta herramienta entra **[aquí](http://www.spoonmangames.cl/download/#screenmanager)**.
 
 * Crear proyecto y repositorio exclusivo para ScreenManager. <span class="badge success">terminado</span> <small>28/06/2015</small>
 * Refactor de Namespaces. <span class="badge success">terminado</span> <small>28/06/2015</small>
@@ -171,7 +171,7 @@ planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un
 proyecto abandonado que sirvió de experimentación en los primeros días de 
 Spoonman Games.
 
-¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a Bomber-Chan! Beta entra [aquí](http://www.spoonmangames.cl/download/#b-chan).
+¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a Bomber-Chan! Beta entra **[aquí](http://www.spoonmangames.cl/download/#b-chan)**.
 
 * Publicar Beta Demo v0.4. <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Publicar código fuente v0.4.8. <span class="badge success">terminado</span> <small>14/06/2015</small>
@@ -183,7 +183,7 @@ planea continuar, ni arreglar bugs ni mejorar ningún aspecto del mismo. Es un
 proyecto abandonado que sirvió de experimentación en los primeros días de 
 Spoonman Games.
 
-¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a The Legend of Zelda: Remade entra [aquí](http://www.spoonmangames.cl/download/#z-remade).
+¡Proyecto terminado! Para enterarte de todo el metarial correspondiente a The Legend of Zelda: Remade entra **[aquí](http://www.spoonmangames.cl/download/#z-remade)**.
 
 * Publicar Demo Test v0.0.26. <span class="badge success">terminado</span> <small>14/06/2015</small>
 * Publicar código fuente v0.0.19. <span class="badge success">terminado</span> <small>14/06/2015</small>
