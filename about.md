@@ -9,6 +9,7 @@ members:
 - victor_gaete
 - nikolai
 - rojo
+- ignacio
 ---
 
 Bienvenidos a este rincón de desarrollo de vídeo juegos en el que encontrarás
