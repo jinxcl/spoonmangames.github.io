@@ -192,7 +192,7 @@ actuales de este pequeño y modesto grupo de desarrolladores.
                             <a href="https://twitter.com/{{ author.twitter }}" class="badge info"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         {% endif %}
                         {% if author.deviantart %}
-                            <a href="https://www.{{ author.deviantart }}.deviantart.com/" class="badge success"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
+                            <a href="http://www.{{ author.deviantart }}.deviantart.com/" class="badge success"><i class="fa fa-deviantart" aria-hidden="true"></i></a>
                         {% endif %}
                         {% if author.soundcloud %}
                             <a href="https://www.soundcloud.com/{{ author.soundcloud }}" class="badge danger"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
