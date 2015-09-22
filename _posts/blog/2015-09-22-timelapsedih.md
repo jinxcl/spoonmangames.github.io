@@ -11,6 +11,7 @@ tags:
 - TimeLapse
 - PostMortem
 image:
+	feature: featured/dih-featured.png
     teaser: teaser/dih-teaser.png
 summary: Post-mortem de nuestro primero juego en Unity.
 ---
@@ -60,7 +61,7 @@ A continuación vino el scripting, C# no es un desafió para nosotros ya que lle
 Con esto ya era posible empezar el diseño de la pelea del boss, primero hice varios bocetos de las fases en un cuaderno, para luego ver cuales valdría la pena implementar o no:
 
 <p align="center"><img src="http://www.spoonmangames.cl/images/timelapses/DIH/bossfight1.png"></p>
-<br>
+<br></br>
 <p align="center"><img src="http://www.spoonmangames.cl/images/timelapses/DIH/Boss4.JPG"></p>
 
 Una vez decidido que fases hacer se creó un escenario de prueba para implementar las funcionalidades básicas del personaje principal, una vez terminado eso se armó el escenario real donde se pelearía con el boss. En este proceso aprendimos mucho sobre máquinas de estados, layers, eventos y cómo manejar el estado del juego desde script generales. Fue la parte más fuerte en programación que tuvimos y la verdad es que fue una buena decisión hacerlo al principio sin la presión del tiempo.
