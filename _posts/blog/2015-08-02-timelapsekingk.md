@@ -7,6 +7,7 @@ categories:
 - blog
 tags:
 - King K
+- TimeLapse
 image:
     teaser: teaser/tlkk-teaser.png
 summary: Resumen del Devlog Improvisado

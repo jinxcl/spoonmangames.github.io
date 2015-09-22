@@ -8,6 +8,7 @@ categories:
 tags:
 - King K
 - GameJam
+- PostMortem
 image:
     feature: featured/kk-featured.png
     teaser: teaser/kk-teaser.png
