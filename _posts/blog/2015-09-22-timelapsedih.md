@@ -30,7 +30,8 @@ En los siguientes links puedes jugar nuestro juego mientras realizas esta lectur
 
 O si prefieres ver un vídeo tipo Time-Lapse puedes disfrutarlo haciendo click acá abajo!
 
-[VIDEO]
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=lbodT_K15TU" frameborder="0" allowfullscreen></iframe>
+<br>
 
 ## Origen del Concepto
 
