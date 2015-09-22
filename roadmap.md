@@ -70,7 +70,6 @@ Símbolos usados:
 * Mejorar los fondos (backgrounds).
 * Contextualizar el juego.
 * Arreglar problemas de contrastes entre algunos objetos.
-* Subirlo a Steam.
 
 <h2 id="KK" class="ribbon">King K. A Goblin Defense Game</h2>
 

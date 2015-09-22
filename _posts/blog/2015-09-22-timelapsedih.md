@@ -8,8 +8,8 @@ categories:
 tags:
 - DIH
 - GameJam
-- TimeLapse
-- PostMortem
+- Time-Lapse
+- Post-Mortem
 image:
     feature: featured/dih-featured.png
     teaser: teaser/dih-teaser.png
