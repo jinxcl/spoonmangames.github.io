@@ -11,7 +11,7 @@ tags:
 - TimeLapse
 - PostMortem
 image:
-	feature: featured/dih-featured.png
+    feature: featured/dih-featured.png
     teaser: teaser/dih-teaser.png
 summary: Post-mortem de nuestro primero juego en Unity.
 ---
