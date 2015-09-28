@@ -5,6 +5,8 @@ comments: true
 author: esteban_gaete
 categories:
 - blog
+tags:
+- Blog
 summary: Estamos felices de anunciar que finalmente el blog ya está totalmente en pie, armado y con todas las bases para funcionar correctamente!
 ---
 
