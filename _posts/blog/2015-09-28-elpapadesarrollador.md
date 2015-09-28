@@ -12,6 +12,8 @@ image:
 summary: En la vida cotidiana y la del mundo corporativo quizás es común y de repente nadie se haría estas preguntas.
 ---
 
+<p align="center"><img src="http://www.spoonmangames.cl/images/blog/familia.png"></p>
+
 Los videojuegos siempre estuvieron cerca mío desde pequeño cuando me regalaron el Atari 65xl, aún recuerdo la emoción que me produjo tenerlo. Fueron muchas las horas que jugué y jugué y espere otro tanto con las caseteras jaja. Pero supongo que aquí es donde parte la emoción y la pasión por los videojuegos, me siento un poco responsable también como hermano mayor el haber influenciado a mi hermano en esto, supongo que era inevitable, él era quien me miraba todo el día cuando jugaba , era lógico esperar que le gustaran también. Resumiendo muchos años de vida, termine estudiando Ingeniería Informática y mi hermano Ingeniería Civil Informática.
 
 Y como se esperaba terminamos juntando nuestras fuerzas en el proyecto Spoonman Games, con la diferencia que ya habían pasado muchos años y yo era padre de dos pequeños y esposo. Uf, solo escribirlo me pesa jeje.
@@ -29,9 +31,8 @@ Luego de pensarlo bien y de hacerle caso a mi yo interior decidí  lanzarme a pe
 <p align="center"><img src="http://www.spoonmangames.cl/images/blog/eloisa.png"></p>
 
 Finalmente puedo decirles que esta experiencia se está convirtiendo en algo más que una simple aventura, es un desafío tremendo y las responsabilidades parecieran pesar el doble cuando miro a estos dos pequeños. Lo bueno de todo es que la familia Spoonman Games es grande ahora y está compuesta de muchas personas con los mismos sueños que yo, espero que todos estemos a la altura de esta cruzada y conquistemos nuestros metas y sueños. 
- 
-<p align="center"><img src="http://www.spoonmangames.cl/images/blog/familia.png"></p>
 
-Nos vemos en el siguiente blog
+Nos vemos en el siguiente blog.
+
 See you Cowboys.
 
