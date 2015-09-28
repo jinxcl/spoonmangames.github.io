@@ -17,7 +17,7 @@ página dónde podrás ver todas las publicaciones bajo la misma etiqueta.</p>
 
 <h2 class="ribbon">Lista de juegos</h2>
 
-[![Sunset Roboto]({{ site.url }}/images/sr-title.jpg)]({{ site.url }}/tags/Sunset Roboto/){: .link-image}
+[![Sunset Roboto]({{ site.url }}/images/featured/sr2-featured.png)]({{ site.url }}/tags/Sunset Roboto/){: .link-image}
 
 [![King K]({{ site.url }}/images/kk-title.png)]({{ site.url }}/tags/King K/){: .link-image}
 
