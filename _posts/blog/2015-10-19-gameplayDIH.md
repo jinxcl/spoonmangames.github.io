@@ -21,7 +21,7 @@ Varios de nosotros jugamos mientras comentábamos varios aspectos técnicos, mus
 
 Durante el vídeo notarán un par de bugs, pero créame que ya está todo solucionado! :D 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CfhHTOR_7Dk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CfhHTOR_7Dk" frameborder="0" allowfullscreen></iframe>
 <br>
 No olviden que pueden revisar el Time-Lapse/Post-Mortem aquí: [Time Lapse del Desarrollo de Descend Into Heaven](http://www.spoonmangames.cl/blog/timelapsedih/) y pueden descargar el juego en nuestra sección de [Descargas](http://www.spoonmangames.cl/download/#DIH).
 
