@@ -19,7 +19,7 @@ Este fin de semana estuvimos ajustando varios de los detalles finales de Descend
 
 Varios de nosotros jugamos mientras comentábamos varios aspectos técnicos, musicales y artísticos del juego. Éste vídeo es muy honesto e improvisado, quisimos mostrarle el juego tal cuál es y por ello mismo nuestro miembro menos experimentado estuvo al control.
 
-Durante el vídeo notarán un par de bugs, pero créame que ya está todo solucionado! :D
+Durante el vídeo notarán un par de bugs, pero créame que ya está todo solucionado! :D 
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=CfhHTOR_7Dk" frameborder="0" allowfullscreen></iframe>
 <br>
