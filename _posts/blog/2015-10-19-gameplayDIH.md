@@ -29,6 +29,6 @@ También pueden entrar directamente a la página del juego en [Spoonman Games en
 
 El juego está muy cerca de estar terminado completamente así que agradecemos todo tipo de feedback del vídeo y el demo que subiremos muy pronto !
 
-Saludos desde la gran cuchara ~
+Saludos desde la gran cuchara ~ 
 
 
