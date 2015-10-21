@@ -25,7 +25,7 @@ Durante el vídeo notarán un par de bugs, pero créame que ya está todo soluci
 <br>
 No olviden que pueden revisar el Time-Lapse/Post-Mortem aquí: [Time Lapse del Desarrollo de Descend Into Heaven](http://www.spoonmangames.cl/blog/timelapsedih/) y pueden descargar el juego en nuestra sección de [Descargas](http://www.spoonmangames.cl/download/#DIH).
 
-También pueden entrar directamente a la página del juego en [Spoonman Games en Itch](htpp://spoonmangames.itch.io)
+También pueden entrar directamente a la página del juego en [Spoonman Games en Itch](http://spoonmangames.itch.io/)
 
 El juego está muy cerca de estar terminado completamente así que agradecemos todo tipo de feedback del vídeo y el demo que subiremos muy pronto !
 
