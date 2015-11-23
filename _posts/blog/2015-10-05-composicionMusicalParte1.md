@@ -9,7 +9,7 @@ tags:
 - Blog
 image:
     teaser: teaser/composicionMusicalP1-teaser.png
-summary: En la vida cotidiana y la del mundo corporativo quizás es común y de repente nadie se haría estas preguntas.
+summary: Cómo partir en la composición musical de videojuegos.
 ---
 
 ¡Hola a todos los lectores del blog de **Spoonman Games**!
