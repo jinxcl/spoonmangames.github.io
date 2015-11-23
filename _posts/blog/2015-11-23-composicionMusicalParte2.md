@@ -42,13 +42,13 @@ Entonces tenemos, en principio, dos tipos de acorde: los **mayores** y los **men
 Por ejemplo, desde la nota DO (fundamental), contamos dos tonos y la siguiente nota sería un MI. Desde la misma fundamental contamos tres tonos y medio, y la última nota sería SOL. Ahí lo tenemos: las notas DO-MI-SOL sonando simultáneamente generan un acorde de **DO MAYOR**!
 
 <p align="center"><img src="http://4.bp.blogspot.com/_Sm4glWLRYPg/Slyc59a2-KI/AAAAAAAAAUI/8b6_0Xk2hJs/s400/acorde-do-mayor-piano.png"></p>
-<p align="center"><i>Cómo tocar un acorde de DO MAYOR en el piano (Fuente imagen: <a href="http://musica-bella.blogspot.cl/2009/07/acordes-para-piano-de-do-mayor-fa-mayor.html">http://musica-bella.blogspot.cl/2009/07/acordes-para-piano-de-do-mayor-fa-mayor.html</a></i></p>
+<p align="center"><i>Cómo tocar un acorde de DO MAYOR en el piano (Fuente imagen: <a href="http://musica-bella.blogspot.cl/2009/07/acordes-para-piano-de-do-mayor-fa-mayor.html">http://musica-bella.blogspot.cl/2009/07/acordes-para-piano-de-do-mayor-fa-mayor.html</a>)</i></p>
 
 Con los **acordes menores**, es un poco distinto: tomamos nuestra fundamental, y ponemos la siguiente nota a UN TONO Y MEDIO de distancia. Luego, la siguiente nota, a TRES TONOS Y MEDIO de la fundamental (igual que en el acorde mayor).
 Desde el DO, la siguiente nota sería un MI BEMOL, y la última sería un SOL. Tocamos simultáneamente, DO- MI BEMOL- SOL, y ya tenemos sonando nuestro acorde menor!
 
 <p align="center"><img src="https://k11.kn3.net/3A739092C.jpg"></p>
-<p align="center"><i>Cómo tocar un DO MENOR en el piano (Fuente imagen: <a href="http://www.taringa.net/posts/arte/12372138/Para-musicos-sin-maestro-y-guitarristas.html">http://www.taringa.net/posts/arte/12372138/Para-musicos-sin-maestro-y-guitarristas.html</a></i></p>
+<p align="center"><i>Cómo tocar un DO MENOR en el piano (Fuente imagen: <a href="http://www.taringa.net/posts/arte/12372138/Para-musicos-sin-maestro-y-guitarristas.html">http://www.taringa.net/posts/arte/12372138/Para-musicos-sin-maestro-y-guitarristas.html</a>)</i></p>
 
 ## Mayores... Menores... ¿Y de qué me sirve eso en un videojuego?
 
