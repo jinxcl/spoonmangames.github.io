@@ -8,7 +8,7 @@ categories:
 tags:
 - Blog
 image:
-    teaser: teaser/composicionMusicalP2-teaser.png
+    teaser: teaser/composicionMusicalP2-teaser.jpg
 summary: Elementos esenciales en la composición musical de videojuegos.
 ---
 
