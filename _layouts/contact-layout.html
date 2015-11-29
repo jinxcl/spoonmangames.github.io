@@ -1,0 +1,78 @@
+---
+layout: default
+googlemaps: true
+---
+
+{% if page.english %}
+{% assign contactData = site.data.contact-en %}
+{% else %}
+{% assign contactData = site.data.contact-esp %}
+{% endif %}
+
+<section class="section no-padding no-margin">
+    <div id="map" class="height-460"></div>
+</section>
+
+<section class="bg-primary padding-40">
+    <div class="container text-center">
+        <h2 class="font-size-26 font-open-sans color-white font-weight-300">{{ contactData["banner"].title }}</h2>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="title text-left">
+                    <h4><i class="fa fa-envelope"></i>{{ contactData["contact"].title }}</h4>
+                </div>
+            
+                <p>{{ contactData["contact"].content }} </p>
+            
+                <form autocomplete="off" method="POST" class="margin-top-40">
+                    <div class="col-lg-12 col-xs-12 no-padding">
+                        <div class="row">
+                        <div class="control-group col-lg-12 no-padding-xs">
+                            <div class="controls">
+                                <input type="text" class="form-control input-lg" id="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="control-group col-lg-12 no-padding margin-top-15">
+                            <div class="controls">
+                                <input type="text" class="form-control input-lg" id="website" placeholder="Subject" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-group col-lg-12 no-padding col-xs-12 margin-top-15">
+                        <div class="controls">
+                            <textarea class="form-control input-lg" rows="6" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-lg btn-primary btn-shadow btn-rounded margin-top-30">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="col-lg-4 border-left-1 border-grey-200">
+                <div class="page-header"><h4>Address</h4></div>
+                <address>
+                    <strong>Twitter, Inc.</strong><br>
+                    795 Folsom Ave, Suite 600<br>
+                    San Francisco, CA 94107<br>
+                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                </address>
+                <address>
+                    <strong>Full Name</strong><br>
+                    <a href="mailto:#">first.last@example.com</a>
+                </address>
+                
+                
+                <div class="page-header margin-top-60"><h4>Follow us on Facebook</h4></div>
+                <div id="fb-root"></div>
+                    <script>(function(d, s, id) {   var js, fjs = d.getElementsByTagName(s)[0];   if (d.getElementById(id)) return;   js = d.createElement(s); js.id = id;   js.src = "//connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v2.5";   fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-page" data-href="https://www.facebook.com/yakuzi.eu" data-width="364" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/yakuzi.eu"><a href="https://www.facebook.com/yakuzi.eu">yakuzi.eu</a></blockquote></div></div>
+                
+            </div>
+        </div>
+    </div>
+</section>

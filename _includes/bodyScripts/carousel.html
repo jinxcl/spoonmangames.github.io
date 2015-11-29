@@ -1,0 +1,74 @@
+{% if page.carousel %}
+<!-- Carousel -->
+<script src="{{ site.url }}/plugins/owl-carousel/owl.carousel.min.js"></script>
+{% if page.portada %}
+<script>
+(function($) {
+"use strict";
+    var owl = $(".owl-carousel");
+         
+    owl.owlCarousel({
+        items : 4, //4 items above 1000px browser width
+        itemsDesktop : [1000,3], //3 items between 1000px and 0
+        itemsTablet: [600,1], //1 items between 600 and 0
+        itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+    });
+         
+    $(".next").click(function(){
+        owl.trigger('owl.next');
+        return false;
+    })
+    $(".prev").click(function(){
+        owl.trigger('owl.prev');
+        return false;
+    })
+})(jQuery);
+</script>
+{% endif %}
+{% if page.acercade %}
+<script>
+    (function($) {
+    "use strict";
+        var owl = $(".owl-carousel");
+             
+        owl.owlCarousel({
+            autoPlay: 3000,
+            items : 1, //1 items above 1000px browser width
+            itemsDesktop : [1000,3], //3 items between 1000px and 0
+            itemsTablet: [600,1], //1 items between 600 and 0
+            itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+        });
+        
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) { 
+            event.preventDefault(); 
+            $(this).ekkoLightbox();
+        }); 
+        
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 350) {
+                $('body').addClass('fixed-tab');
+            } else {
+                $('body').removeClass('fixed-tab');
+            }
+        });
+        
+        setTimeout(function(){
+            $('.progress-animation .progress-bar').each(function() {
+                var me = $(this);
+                var perc = me.attr("aria-valuenow");
+                var current_perc = 0;
+                var progress = setInterval(function() {
+                    if (current_perc>=perc) {
+                        clearInterval(progress);
+                    } else {
+                        current_perc +=1;
+                        me.css('width', (current_perc)+'%');
+                    }
+                }, 0);
+            });
+        },0);
+    })(jQuery);
+</script>
+{% endif %}
+<!-- End Carousel -->
+{% endif %}

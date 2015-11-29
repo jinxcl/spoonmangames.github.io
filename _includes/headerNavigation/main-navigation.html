@@ -1,0 +1,102 @@
+{% if page.english %}
+{% assign navigationData = site.data.navigation-en %}
+{% else %}
+{% assign navigationData = site.data.navigation-esp %}
+{% endif %}
+
+<div class="nav-control">
+    <ul>
+        <li><a href="{{ navigationData["home"].url }}">{{ navigationData["home"].title }} </a></li>
+        <li><a href="{{ navigationData["blog"].url }}" >{{ navigationData["blog"].title }} </a></li>
+        <li class="dropdown mega-dropdown">
+            <a href="{{ navigationData["games"].url }}">{{ navigationData["games"].title }} <i class="fa fa-angle-down"></i></a>
+            <ul class="dropdown-menu mega-dropdown-menu category row">
+                <li class="col-lg-2 col-md-2 col-sm-3">
+                    <ul>
+                        <li class="dropdown-header">Platforms</li>
+                        <li class="active"><a href="#"><i class="fa fa-desktop"></i> All Platform</a></li>
+                        <li><a href="#"><i class="ion-playstation font-size-14"></i> Playstation 4</a></li>
+                        <li><a href="#"><i class="ion-playstation font-size-14"></i> Playstation 3</a></li>
+                        <li><a href="#"><i class="ion-xbox font-size-14"></i> Xbox One</a></li>
+                        <li><a href="#"><i class="ion-xbox font-size-14"></i> Xbox 360</a></li>
+                        <li><a href="#"><i class="ion-steam font-size-14"></i> Steam</a></li>
+                        <li><a href="#"><i class="ion-mouse font-size-14"></i> Computer</a></li>
+                    </ul>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="#">
+                        <img src="holder.js/350x230" alt="" />
+                        <div class="caption">
+                            <span class="label label-warning">PC</span>
+                            <h3>Witcher 3 Limited Version</h3>
+                            <p>Nam id velit vitae nisi tempus blandit nec commodo est. Vivamus justo nunc, malesuada eu tellus vel, sollicitudin...</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="col-lg-4 col-md-3">
+                    <a href="#">
+                        <img src="holder.js/350x230" alt="" />
+                        <div class="caption">
+                            <span class="label label-primary">PS4</span>
+                            <h3>Last of Us Remastered</h3>
+                            <p>Ullam feugiat, libero pharetra tempor pulvinar, eros purus faucibus augue, vel laoreet lorem elit fermentum...</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="col-lg-2 col-md-3">
+                    <ul>
+                        <li class="dropdown-header">Genres</li>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">FPS</a></li>
+                        <li><a href="#">Indie</a></li>
+                        <li><a href="#">Strategy</a></li>
+                        <li><a href="#">RPG</a></li>
+                        <li><a href="#">Simulation</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="{{ navigationData["events"].url }}" class="dropdown-toggle">{{ navigationData["events"].title }} <i class="fa fa-angle-down"></i></a>
+            <ul class="dropdown-menu default">
+                <li class="dropdown-submenu">
+                    <a href="blog-large.html"><i class="fa fa-align-justify"></i> Blog Large</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blog-large.html">Archive</a></li>
+                        <li><a href="blog-large-sidebar.html">Sidebar</a></li>
+                        <li><a href="blog-large-post.html">Single Post</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="blog-medium.html"><i class="fa fa-list-ul"></i> Blog Medium</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blog-medium.html">Archive</a></li>
+                        <li><a href="blog-medium-sidebar.html">Sidebar</a></li>
+                        <li><a href="blog-medium-post.html">Single Post</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="blog-post.html"><i class="fa fa-file-o"></i> Single Post</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blog-post.html">Blog Image Post</a></li>
+                        <li><a href="blog-post-slideshow.html">Blog Slideshow Post</a></li>
+                        <li><a href="blog-post-video.html">Blog Video Post</a></li>
+                        <li><a href="blog-post-music.html">Blog Music Post</a></li>
+                    </ul>
+                </li>
+                <li class="divider"></li>
+                <li><a href="blog-masonry.html"><i class="fa fa-th-large"></i> Masonry Blog</a></li>
+                <li><a href="blog-thumbnail.html"><i class="fa fa-image"></i> Thumbnail Blog</a></li>
+            </ul>
+        </li>
+        <li><a href="{{ navigationData["press"].url }}">{{ navigationData["press"].title }}</a></li>
+        <li><a href="{{ navigationData["about"].url }}">{{ navigationData["about"].title }}</a></li>
+        <li><a href="{{ navigationData["contact"].url }}">{{ navigationData["contact"].title }}</a></li>
+        {% if page.english %}
+        {% if page.pageMirror %}<li><a href="{{ site.url }}{{ page.pageMirror }}">En Español</a></li>{% endif %}
+        {% else %}
+        {% if page.pageMirror %}<li><a href="{{ site.url }}{{ page.pageMirror }}">In English</a></li>{% endif %}
+        {% endif %}
+    </ul>
+</div>

@@ -1,0 +1,35 @@
+<div class="widget row">
+    <div class="col-lg-5 col-xs-12">
+        <h4 class="title">{{ footerData["about"].title }}</h4>
+        <p>{{ footerData["about"].content }}</p>
+    </div>
+        
+    <div class="col-lg-3 col-xs-12">
+        <h4 class="title">{{ footerData["categories"].title }}</h4>
+        <div class="row">
+        <div class="col-lg-6 no-padding-xs no-padding-sm no-padding-md">    
+        <ul class="nav">
+            <li><a href="{{ navigationData["blog"].url }}">{{ navigationData["blog"].title }}</a></li>
+            <li><a href="{{ navigationData["games"].url }}">{{ navigationData["games"].title }}</a></li>
+            <li><a href="{{ navigationData["events"].url }}">{{ navigationData["events"].title }}</a></li>
+        </ul>
+        </div>
+        <div class="col-lg-6 no-padding-xs no-padding-sm no-padding-md">
+        <ul class="nav">
+            <li><a href="{{ navigationData["press"].url }}">{{ navigationData["press"].title }}</a></li>
+            <li><a href="{{ navigationData["about"].url }}">{{ navigationData["about"].title }}</a></li>
+            <li><a href="{{ navigationData["contact"].url }}">{{ navigationData["contact"].title }}</a></li>
+        </ul>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-xs-12">
+        <h4 class="title">{{ footerData["newsletter"].title }}</h4>
+        <p>{{ footerData["newsletter"].content }}</p>
+        <form method="post" class="margin-top-25 btn-inline">
+            <input type="text" class="form-control form-inverse input-lg no-border no-shadow padding-right-40" placeholder="Email..." />
+            <button type="submit" class="btn btn-link color-white margin-top-5"><i class="fa fa-envelope color-white"></i></button>
+        </form>
+    </div>
+</div>

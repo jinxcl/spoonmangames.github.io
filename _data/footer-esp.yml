@@ -1,0 +1,21 @@
+# Site footer data - Español
+
+about:
+    title: Sobre Spoonman Games
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra mattis arcu, a congue leo malesuada eu. Nam nec mauris ut odio tristique varius et eu metus. Quisque massa purus, aliquet quis blandit et, <br /> <br />mollis sed lorem. Sed vel tincidunt elit. Phasellus at varius odio, sit amet fermentum mauris.
+categories:
+    title: Páginas
+newsletter:
+    title: Boletín informativo
+    content: Suscribete a nuestro boletín informativo y recibe notificaciones cada vez que haya nueva información en la página.
+social:
+    twitter: Siguenos en Twitter
+    twitter-url: http://twitter.com/spoonmangames
+    facebook: Siguenos en Facebook
+    facebook-url: https://twitter.com/spoonmangames
+    google: Siguenos en Google+
+    google-url: https://plus.google.com/+SpoonmanGames
+    youtube: Suscribete a nuestro canal de Youtube
+    youtube-url: https://www.youtube.com/c/SpoonmanGames
+copyright:
+    title: potenciado por

@@ -1,0 +1,22 @@
+{% if page.english %}
+{% assign footerData = site.data.footer-en %}
+{% else %}
+{% assign footerData = site.data.footer-esp %}
+{% endif %}
+
+{% if page.english %}
+{% assign navigationData = site.data.navigation-en %}
+{% else %}
+{% assign navigationData = site.data.navigation-esp %}
+{% endif %}
+
+<footer>
+    <div class="container">
+        {% include footerNavigation/footer-container.html %}
+    </div>
+    
+    <div class="footer-bottom">
+        {% include footerNavigation/footer-bottom.html %}
+    </div>
+</footer>   
+<!-- /.footer -->

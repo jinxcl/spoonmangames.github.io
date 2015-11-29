@@ -1,0 +1,21 @@
+# Site footer data - English
+
+about:
+    title: About GameForest
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra mattis arcu, a congue leo malesuada eu. Nam nec mauris ut odio tristique varius et eu metus. Quisque massa purus, aliquet quis blandit et, <br /> <br />mollis sed lorem. Sed vel tincidunt elit. Phasellus at varius odio, sit amet fermentum mauris.
+categories:
+    title: Categories
+newsletter:
+    title: Email Newsletters
+    content: Subscribe to our newsletter and get notification when new games are available.
+social:
+    twitter: Follow us on Twitter
+    twitter-url: http://twitter.com/spoonmangames
+    facebook: Follow us on Facebook
+    facebook-url: https://twitter.com/spoonmangames
+    google: Follow us on Google+
+    google-url: https://plus.google.com/+SpoonmanGames
+    youtube: Subscribe to our Youtube Channel
+    youtube-url: https://www.youtube.com/c/SpoonmanGames
+copyright:
+    title: powered by

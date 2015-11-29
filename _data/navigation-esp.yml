@@ -1,0 +1,23 @@
+# Site head navigation data - Español
+
+home:
+  title: Inicio
+  url: /
+blog:
+  title: Blog
+  url: /blog/
+games:
+  title: Juegos
+  url: /juegos/
+events:
+  title: Eventos
+  url: /eventos/
+press:
+  title: Prensa
+  url: /prensa/
+about:
+  title: Acerca De
+  url: /acercade/
+contact:
+  title: Contacto
+  url: /contacto/
