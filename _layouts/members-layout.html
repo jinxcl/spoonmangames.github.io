@@ -1,0 +1,124 @@
+---
+layout: default
+background: bg-grey-100
+members:
+- esteban_gaete
+- victor_gaete
+- nikolai
+- rojo
+- ignacio
+---
+
+{% if page.english %}
+{% assign aboutData = site.data.about-en %}
+{% else %}
+{% assign aboutData = site.data.about-esp %}
+{% endif %}
+
+<section class="hero height-240" style="background-image: url({{ site.url }}{{ aboutData["members"].image-url }});">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="page-header">
+            <div class="page-title">{{ aboutData["members"].titleimage-text }}</div>
+            <ol class="breadcrumb">
+                <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].home-url }}" class="no-padding-left">{{ aboutData["breadcrumb"].home }}</a></li>
+                <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].acercade-url }}">{{ aboutData["breadcrumb"].acercade }}</a></li>
+                <li class="active">{{ aboutData["breadcrumb"].members }}</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white tab-select no-padding hidden-xs border-bottom-1 border-grey-300">
+    <div class="container">
+        <ul class="nav nav-tabs no-border inline" role="tablist">
+            <li class="active"><a href="#">{{ aboutData["titleimage"].title }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].history-url }}"><i class="fa fa-book margin-right-10"></i> {{ aboutData["breadcrumb"].history }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].members-url }}"><i class="fa fa-users margin-right-10"></i> {{ aboutData["breadcrumb"].members }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].timeline-url }}"><i class="fa fa-clock-o margin-right-10"></i> {{ aboutData["breadcrumb"].timeline }}</a></li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <div class="container padding-sm-15">
+        {% for member in page.members %}
+            {% if page.english %}
+            {% assign person = site.data.authors-en[member] %}
+            {% else %}
+            {% assign person = site.data.authors-esp[member] %}
+            {% endif %}
+            <div class="post">
+                <div class="box box-white no-radius padding-20">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 no-padding-sm">
+                            <img src="{{ site.url }}/img/about/{{ person.avatar }}" class="img-responsive full-width" alt="" />
+                        </div>
+                            
+                        <div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 no-padding-sm">
+                            <div class="post-header no-margin-top margin-top-sm-15">
+                                <div class="post-title">
+                                    <h3>
+                                        {% if person.web %}
+                                            <a href="{{ person.web }}">{{ person.name }}</a>
+                                        {% else %}
+                                            {{ person.name }}
+                                        {% endif %}
+                                    </h3>
+                                    <small>{{ person.rol }}</small>
+                                </div>
+                            </div>
+                            
+                            <p>{{ person.bio }}</p>
+                            <br>
+                            <p>
+                                {% if person.web %}
+                                    <a href="http://{{ person.web }}" class="btn btn-social-icon btn-vk" target="_blank"><i class="fa fa-home"></i></a>
+                                {% endif %}
+                                {% if person.email %}
+                                    <a href="mailto:{{ person.email }}" class="btn btn-social-icon btn-flickr" target="_blank"><i class="fa fa-envelope"></i></a>
+                                {% endif %}
+                                {% if person.facebook %}
+                                    <a href="https://www.facebook.com/{{ person.facebook }}" class="btn btn-social-icon btn-facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                {% endif %}
+                                {% if person.github %}
+                                    <a href="https://github.com/{{ person.github }}" class="btn btn-social-icon btn-github" target="_blank"><i class="fa fa-git"></i></a>
+                                {% endif %}
+                                {% if person.bitbucket %}
+                                    <a href="https://bitbucket.com/{{ person.bitbucket }}" class="btn btn-social-icon btn-bitbucket" target="_blank"><i class="fa fa-bitbucket"></i></a>
+                                {% endif %}
+                                {% if person.youtube %}
+                                    <a href="https://www.youtube.com/channel/{{ person.youtube }}" class="btn btn-social-icon btn-pinterest" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                                {% endif %}
+                                {% if person.twitter %}
+                                    <a href="https://twitter.com/{{ person.twitter }}" class="btn btn-social-icon btn-twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                                {% endif %}
+                                {% if person.deviantart %}
+                                    <a href="http://www.{{ person.deviantart }}.deviantart.com/" class="btn btn-social-icon btn-tumblr" target="_blank"><i class="fa fa-deviantart"></i></a>
+                                {% endif %}
+                                {% if person.soundcloud %}
+                                    <a href="https://www.soundcloud.com/{{ person.soundcloud }}" class="btn btn-social-icon btn-google-plus" target="_blank"><i class="fa fa-soundcloud"></i></a>
+                                {% endif %}
+                                {% if person.linkedin %}
+                                    <a href="https://cl.linkedin.com/{{ person.linkedin }}" class="btn btn-social-icon btn-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                {% endif %}
+                                {% if person.googleplus %}
+                                    <a href="https://plus.google.com/u/0/{{ person.googleplus }}" class="btn btn-social-icon btn-google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
+                                {% endif %}
+                                {% if person.tumblr %}
+                                    <a href="https://{{ person.tumblr }}.tumblr.com" class="btn btn-social-icon btn-tumblr" target="_blank"><i class="fa fa-tumblr"></i></a>
+                                {% endif %}
+                                {% if person.instagram %}
+                                    <a href="https://instagram.com/{{ person.instagram }}" class="btn btn-social-icon btn-instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                                {% endif %}
+                                {% if person.blog %}
+                                    <a href="https://{{ person.blog }}" class="btn btn-social-icon btn-facebook" target="_blank"><i class="fa fa-rss"></i></a>
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

@@ -94,9 +94,9 @@
         <li><a href="{{ navigationData["about"].url }}">{{ navigationData["about"].title }}</a></li>
         <li><a href="{{ navigationData["contact"].url }}">{{ navigationData["contact"].title }}</a></li>
         {% if page.english %}
-        {% if page.pageMirror %}<li><a href="{{ site.url }}{{ page.pageMirror }}">En Español</a></li>{% endif %}
+            {% if page.pageMirror %}<li><a href="{{ site.url }}{{ page.pageMirror }}">En Español</a></li>{% endif %}
         {% else %}
-        {% if page.pageMirror %}<li><a href="{{ site.url }}{{ page.pageMirror }}">In English</a></li>{% endif %}
+            {% if page.pageMirror %}<li><a href="{{ site.url }}{{ page.pageMirror }}">In English</a></li>{% endif %}
         {% endif %}
     </ul>
 </div>

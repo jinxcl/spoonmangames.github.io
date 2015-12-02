@@ -1,0 +1,25 @@
+titleimage:
+    title: Spoonman Games
+    image-url: /img/about/SpoonmanGamesBanner.png
+breadcrumb:
+    home: Home
+    home-url: /
+    acercade: About
+    acercade-url: /acercade/
+    history: History
+    history-url: /acercade/
+    members: Members
+    members-url: /
+    timeline: Timeline
+    timeline-url:
+youtube:
+    link: http://www.youtube.com/watch?v=Ow2cL-pp6p8
+    text: Watch Game Trailer
+history:
+    title: Spoonman Games History
+members:
+    title: Members
+timeline:
+    title: Timeline
+    title2: All important milestones
+    image-url: http://i1.ytimg.com/vi/c0i88t0Kacs/mqdefault.jpg
