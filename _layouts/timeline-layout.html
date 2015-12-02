@@ -11,14 +11,13 @@ layout: default
 <section class="hero height-240" style="background-image: url({{ site.url }}{{ aboutData["timeline"].image-url }});">
     <div class="hero-bg"></div>
     <div class="container">
-        <div class="page-header game">
+        <div class="page-header">
             <div class="page-title">{{ aboutData["timeline"].titleimage-text }}</div>
             <ol class="breadcrumb">
                 <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].home-url }}" class="no-padding-left">{{ aboutData["breadcrumb"].home }}</a></li>
                 <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].acercade-url }}">{{ aboutData["breadcrumb"].acercade }}</a></li>
                 <li class="active">{{ aboutData["breadcrumb"].timeline }}</li>
-            </ol>   
-            <a href="{{ aboutData["youtube"].link }}" class="btn btn-lg btn-success margin-top-30 text-initial" data-toggle="lightbox" data-width="1280">{{ aboutData["youtube"].text }}</a>
+            </ol>
         </div>
     </div>
 </section>

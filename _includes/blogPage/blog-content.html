@@ -1,0 +1,22 @@
+<div class="post post-single">
+    <div class="post-header border-bottom-1 border-grey-200 padding-bottom-15 margin-bottom-30 no-margin-top">
+        <div class="post-title">
+            <h2><span class="fa fa-bookmark"></span> {{ page.title }}</h2>
+            {% include blogPage/blog-page-meta.html %}    
+        </div>
+    </div>
+
+    {% include generalWidgets/page-feature.html %}
+    
+    {{ content }}
+    
+    <div class="row margin-top-40">
+        <div class="col-lg-12 text-right hidden-xs hidden-sm">
+            {% include social/share-this.html %} 
+        </div>
+    </div>  
+</div>
+
+{% include blogPage/blog-author.html %}
+{% include blogPage/related-blogs.html %}
+{% include blogPage/blog-comments.html %}

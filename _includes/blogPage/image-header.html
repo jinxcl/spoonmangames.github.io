@@ -1,0 +1,18 @@
+{% if page.image.teaser %}
+<section class="hero height-240" style="background-image: url({{ site.url }}/img/{{ page.image.teaser }});">
+{% else %}
+<section class="hero height-240" style="background-image: url({{ site.url }}/img/{{ site.teaser }});">
+{% endif %}
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="page-header">
+            <div class="page-title">{{ page.title }}</div>
+            <ol class="breadcrumb">
+                <li><a href="{{ site.url }}{{ blogData["breadcrumb"].home-url }}" class="no-padding-left">{{ blogData["breadcrumb"].home }}</a></li>
+                <li><a href="{{ site.url }}{{ blogData["breadcrumb"].blog-url }}">{{ blogData["breadcrumb"].blog }}</a></li>
+                <li><a href="{{ site.url }}{{ blogData["breadcrumb"].postlist-url }}">{{ blogData["breadcrumb"].postlist }}</a></li>
+                <li class="active">{{ blogData["breadcrumb"].actualpost }}</li>
+            </ol> 
+        </div>
+    </div>
+</section>

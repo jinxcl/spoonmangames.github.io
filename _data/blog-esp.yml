@@ -1,0 +1,15 @@
+blog:
+    titleimage-text: Spoonman Games blog
+    image-url: /img/cover/cover.jpg
+    members-link: /acercade/miembros/
+    tag-link: /blog/tags/
+    notag-text: Sin tags
+    updatingdisqus-text: Actualizando Disqus
+breadcrumb:
+    home: Inicio
+    home-url: /
+    blog: Blog
+    blog-url: /blog/
+    postlist: Lista de Blogs
+    postlist-url: /blog/
+    actualpost: Blog actual

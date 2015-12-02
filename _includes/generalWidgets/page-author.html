@@ -1,0 +1,6 @@
+{% if page.english %}
+    {% assign person = site.data.authors-en[page.author] %}
+{% else %}
+    {% assign person = site.data.authors-esp[page.author] %}
+{% endif %}
+{% include generalWidgets/author.html %}

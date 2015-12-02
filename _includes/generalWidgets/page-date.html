@@ -1,0 +1,10 @@
+<i class="fa fa-calendar margin-right-5"></i>
+{% if page.modified %}
+    <time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
+        {% include generalWidgets/page-metadata-date.html %}
+    </time>
+{% else %}
+    <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
+        {% include generalWidgets/page-metadata-date.html %}
+    </time>
+{% endif %}

@@ -2,7 +2,11 @@
 <script src="{{ site.url }}/plugins/jquery/jquery-1.11.1.min.js"></script>
 <script src="{{ site.url }}/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="{{ site.url }}/plugins/core.js"></script>
+
 {% if page.ekko-lightbox %}<script src="{{ site.url }}/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>{% endif %}
 {% if page.easypiechart %}<script src="{{ site.url }}/plugins/easypiechart/jquery.easypiechart.min.js"></script>{% endif %}
+{% if page.imagesloaded %}<script src="{{ site.url }}/plugins/masonry/imagesloaded.pkgd.min.js"></script>{% endif %}
+
 {% include bodyScripts/carousel.html %}
 {% include bodyScripts/googleMaps.html %}
+{% include bodyScripts/masonry.html %}

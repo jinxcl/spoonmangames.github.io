@@ -1,0 +1,19 @@
+{% if page.english %}
+    {% assign blogData = site.data.blog-en %}
+
+    {% if page.author %}
+        {% assign author = site.data.authors-en[page.author] %}
+    {% else %}
+        {% assign author = site.owner %}
+    {% endif %}
+
+{% else %}
+    {% assign blogData = site.data.blog-esp %}
+
+    {% if page.author %}
+        {% assign author = site.data.authors-esp[page.author] %}
+    {% else %}
+        {% assign author = site.owner %}
+    {% endif %}
+
+{% endif %}

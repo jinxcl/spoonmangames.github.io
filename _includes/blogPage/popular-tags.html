@@ -1,0 +1,19 @@
+<div class="title">
+    <i class="fa fa-tags margin-right-10"></i> 
+    {% if page.english %}
+        Popular Tags
+    {% else %}
+        Etiquetas Populares
+    {% endif %}
+</div>
+<div class="widget-list">
+    <ul>
+        <li>
+            {% for tag in site.tags | sort %}
+                <button type="button" href="{{ site.url }}{{ blogData["blog"].tag-link }}{{ tag[0] }}" class="btn btn-xs btn-warning">
+                    <i class="fa fa-tag"></i> {{ tag[0] }}
+                </button>
+            {% endfor %}
+        </li>
+    </ul>
+</div>

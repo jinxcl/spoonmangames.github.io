@@ -1,17 +1,24 @@
-<h3><kbd>Twitter</kbd></h3>
-{% if page.english %}
-<a class="twitter-timeline"
-   lang="es"
-   href="https://twitter.com/SpoonmanGames"
-   data-widget-id="612078941751410688"
-   data-aria-polite="assertive"
-   data-chrome="noscrollbar">Tweets by @SpoonmanGames</a>
-{% else %}
-<a class="twitter-timeline"
-   lang="es"
-   href="https://twitter.com/SpoonmanGames"
-   data-widget-id="612078941751410688"
-   data-aria-polite="assertive"
-   data-chrome="noscrollbar">Tweets por @SpoonmanGames</a>
-{% endif %}
-<br>
+<div class="title">
+    <i class="fa fa-twitter margin-right-10"></i> Twitter
+</div>
+<div class="widget-list">
+    <ul>
+      <li>
+         {% if page.english %}
+         <a class="twitter-timeline"
+            lang="en"
+            href="https://twitter.com/SpoonmanGames"
+            data-widget-id="612078941751410688"
+            data-aria-polite="assertive"
+            data-chrome="noscrollbar">Tweets by @SpoonmanGames</a>
+         {% else %}
+         <a class="twitter-timeline"
+            lang="es"
+            href="https://twitter.com/SpoonmanGames"
+            data-widget-id="612078941751410688"
+            data-aria-polite="assertive"
+            data-chrome="noscrollbar">Tweets por @SpoonmanGames</a>
+         {% endif %}
+      </li>
+   </ul>
+</div>

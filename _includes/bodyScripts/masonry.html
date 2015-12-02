@@ -1,0 +1,13 @@
+{% if page.masonry %}
+<script src="{{ site.url }}/plugins/masonry/masonry.pkgd.min.js"></script>
+<script>
+    (function($) {
+    "use strict";
+        /*  Masonry
+        /*----------------------------------------------------*/
+        $('.masonry').imagesLoaded( function(){
+            $('.masonry').masonry({itemSelector: '.post', gutter: 27 });
+        });
+    })(jQuery);
+</script>
+{% endif %}

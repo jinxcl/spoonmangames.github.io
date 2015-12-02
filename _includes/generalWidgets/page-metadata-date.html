@@ -1,0 +1,10 @@
+{% if page.modified %}
+  {% assign a_date = page.modified %}
+{% else %}
+  {% assign a_date = page.date %}
+{% endif %}
+
+{% assign m = a_date | date: "%-m" %}
+{{ a_date | date: "%-d" }}
+{% include generalWidgets/date.html %}
+{{ a_date | date: "%Y" }}
