@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: ¡Gracias por comunicarte con nosotros!
 permalink: /thanks.html
 ---

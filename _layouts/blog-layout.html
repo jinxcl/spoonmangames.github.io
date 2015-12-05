@@ -10,7 +10,7 @@ masonry: true
 {% assign blogData = site.data.blog-esp %}
 {% endif %}
 
-<section class="hero height-240" style="background-image: url({{ site.url }}{{ blogData["blog"].image-url }});">
+<section class="hero height-300" style="background-image: url({{ site.url }}{{ blogData["blog"].image-url }});">
     <div class="hero-bg"></div>
     <div class="container">
         <div class="page-header">
@@ -26,69 +26,34 @@ masonry: true
 <section class="bg-grey-100">
     <div class="container masonry padding-sm-15">
         {% for post in site.posts %}
-        {% if post.author %}
-            {% assign postAuthor = site.data.authors-esp[post.author] %}
-        {% else %}
-            {% assign postAuthor = site.owner %}
-        {% endif %}
-        <div class="post">
-            <div class="box no-radius">
-                <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-                    {% if post.image.teaser %}
-                        <img src="{{ site.url }}/img/{{ post.image.teaser }}" class="img-responsive full-width" alt="{{ post.title }}" />
-                    {% else %}
-                        <img src="{{ site.url }}/img/{{ site.teaser }}" class="img-responsive full-width" alt="{{ site.teaser-alt }}" />
-                    {% endif %}
-                </a>
-                        
-                <div class="padding-20">
-                    <div class="post-header margin-top-5">
-                        <div class="post-title">
-                            <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-                        </div>
-                    </div>
+            {% if post.author %}
+                {% assign postAuthor = site.data.authors-esp[post.author] %}
+            {% else %}
+                {% assign postAuthor = site.owner %}
+            {% endif %}
+            <div class="post">
+                <div class="box no-radius">
+                    {% include blogPage/blog-post-teaser.html %}
                             
-                    <p>
-                        {% if post.summary %}
-                          {{ post.summary | strip_html}}
-                        {% else %}
-                          {{ post.excerpt | strip_html | truncate: 160 }}
-                        {% endif %}  
-                    </p>
-                    
-                    <ul class="post-meta">
-                        <li><i class="fa fa-user margin-right-5"></i> <a href="{{ site.url }}{{ blogData["blog"].members-link }}">{{ postAuthor.name }}</a></li>                     
-                    </ul>
-                    <ul class="post-meta">
-                        <li>
-                            <i class="fa fa-calendar margin-right-5"></i> 
-                            {% if post.date %}
-                                {% include generalWidgets/post-date.html %}
-                            {% endif %}
-                        </li>   
-                    </ul>
-                    <ul class="post-meta">
-                        <li>
-                            {% if post.tags.size > 0 %}
-                              {% for tag in post.tags %}
-                                <a href="{{ site.url }}{{ blogData["blog"].tag-link }}{{ tag }}" class="btn btn-xs btn-warning"><i class="fa fa-tag"></i>  {{ tag }}</a> 
-                              {% endfor %}
+                    <div class="padding-20">
+                        <div class="post-header margin-top-5">
+                            <div class="post-title">
+                                <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                            </div>
+                        </div>
+                                
+                        <p>
+                            {% if post.summary %}
+                              {{ post.summary | strip_html}}
                             {% else %}
-                               <a href="#" class="btn btn-xs btn-default">{{ blogData["blog"].notag-text }}</a> 
-                            {% endif %}
-                        </li>
-                    </ul>
-                    <ul class="post-meta">
-                        <li>
-                            <i class="fa fa-comments margin-right-5"></i> 
-                            {% if site.owner.disqus-shortname %}
-                               |  <a href="{{ post.url }}#disqus_thread"><i class="fa fa-cog fa-spin"></i> {{ blogData["blog"].updatingdisqus-text }}</a>
-                            {% endif %}
-                        </li>
-                    </ul>
+                              {{ post.excerpt | strip_html | truncate: 160 }}
+                            {% endif %}  
+                        </p>
+                        
+                        {% include blogPage/blog-post-meta.html %}
+                    </div>
                 </div>
             </div>
-        </div>
         {% endfor %}
     </div>
 </section>

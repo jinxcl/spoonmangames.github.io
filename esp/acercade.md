@@ -2,7 +2,6 @@
 layout: about-layout
 permalink: /acercade/
 english: false
-pageMirror: /en/about/
 ---
 
 **Spoonman Games** es un grupo independiente de desarrollo de vídeo juegos que 

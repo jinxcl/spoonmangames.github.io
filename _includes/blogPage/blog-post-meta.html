@@ -1,0 +1,25 @@
+<ul class="post-meta">
+    <li>
+        <i class="fa fa-user margin-right-5"></i> <a href="{{ site.url }}{{ blogData["blog"].members-link }}">{{ postAuthor.name }}</a>
+    </li>                     
+</ul>
+
+<ul class="post-meta">
+    <li>
+        {% if post.date %}
+            {% include generalWidgets/post-date.html %}
+        {% endif %}
+    </li>   
+</ul>
+
+<ul class="post-meta">
+    <li>
+        {% include blogPage/blog-post-tags.html %}
+    </li>
+</ul>
+
+<ul class="post-meta">
+    <li>
+        {% include social/disqus/post-comment-counter.html %}
+    </li>
+</ul>
