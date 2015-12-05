@@ -1,7 +1,7 @@
 {% if page.tags.size > 0 %}
   {% for tag in page.tags %}
-    <button type="button" href="{{ site.url }}{{ blogData["blog"].tag-link }}{{ tag }}" class="btn btn-xs btn-warning"><i class="fa fa-tag"></i>  {{ tag }}</button> 
+    <a href="{{ site.url }}{{ blogData["blog"].tag-link }}{{ tag }}" class="btn btn-xs btn-warning"><i class="fa fa-tag"></i>  {{ tag }}</a> 
   {% endfor %}
 {% else %}
-   <button type="button" href="#" class="btn btn-xs btn-default">{{ blogData["blog"].notag-text }}</button> 
+   <a href="#" class="btn btn-xs btn-default">{{ blogData["blog"].notag-text }}</a> 
 {% endif %}

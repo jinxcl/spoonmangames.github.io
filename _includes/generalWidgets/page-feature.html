@@ -1,5 +1,15 @@
-{% if page.image.feature %}
-    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+{% if page.image.featured %}
+    <p class="margin-top-30">
+        <p align="center">
+            <img src="{{ site.url }}/img/{{ page.image.featured }}" alt="{{ page.title }}">
+        </p>
+        {% if page.image.featured-text %}
+            <p align="center">“{{ page.image.featured-text }}”</p>
+        {% endif %}
+        {% if page.image.featured-credit %}
+            <p align="center"><i>{{ page.image.featured-credit }}</i></p>
+        {% endif %}
+    </p>
 {% endif %}
 
 <!-- 
@@ -18,12 +28,18 @@
     </div>
 </div>
 -->
-{% if page.video.feature %}
-<div class="embed-video-container embed-responsive embed-responsive-16by9">
-    <iframe src="{{ page.video.feature }}" class="embed-responsive-item"></iframe>
-</div>  
+{% if page.video.featured %}
+    <p align="center">
+        <div class="embed-video-container embed-responsive embed-responsive-16by9 margin-top-30">
+            <iframe src="{{ page.video.featured }}" class="embed-responsive-item"></iframe>
+        </div>
+    </p>  
 {% endif %}
 
-{% if page.music.feature %}
-<iframe src="{{ page.music.feature }}"></iframe>
+{% if page.music.featured %}
+    <p class="margin-top-30">
+        <p align="center">
+            <iframe src="{{ page.music.featured }}"></iframe>
+        </p>
+    </p>
 {% endif %}

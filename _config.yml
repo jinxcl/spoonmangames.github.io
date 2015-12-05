@@ -3,8 +3,10 @@
 title: Spoonman Games
 description: ¡Vídeo Juegos con cariño y locura!
 logo: sp-twitter-logo.png # 120x120 px default image used for Twitter summary card
-teaser: blog/teaser/sp-teaser.png # 400x250 px default teaser image used in image archive grid
+teaser: blog/teaser/sp-teaser.png # default image for teasers on blog posts
 teaser-alt: Spoonman Games! # alt showed in images of site.teaser
+cover: blog/cover/sp-cover.png # default image for cover on blog posts, recommended size 1920x300p
+cover-alt: Spoonman Games! # alt showed in images of site.cover
 locale: es_LA
 url: #http://www.spoonmangames.cl
 

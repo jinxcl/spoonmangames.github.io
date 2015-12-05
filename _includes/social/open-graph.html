@@ -9,12 +9,9 @@
 	{% if headAuthor.twitter %}
 		<meta name="twitter:creator" content="@{{ headAuthor.twitter }}">
 	{% endif %}
-	{% if page.image.feature %}
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
-	{% else %}
+	{% if page.image.teaser %}
 		<meta name="twitter:card" content="summary">
-		<meta name="twitter:image" content="{% if page.image.teaser %}{{ site.url }}/images/{{ page.image.teaser }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
+		<meta name="twitter:image" content="{% if page.image.teaser %}{{ site.url }}/img/{{ page.image.teaser }}{% else %}{{ site.url }}/img/{{ site.logo }}{% endif %}">
 	{% endif %}
 	<!-- Facebook META -->
 	<meta property="fb:app_id" content="{{ site.owner.facebook-sdk.appId }}">
@@ -32,9 +29,7 @@
 	{% else %}
 	<meta property="og:locale" content="{{ site.locale }}">
 	{% endif %}
-	{% if page.image.feature %}
-		<meta property="og:image" content="{{ site.url }}/images/{{ page.image.feature }}">
-	{% else %}
-		<meta property="og:image" content="{% if page.image.teaser %}{{ site.url }}/images/{{ page.image.teaser }}{% else %}{{ site.url }}/images/{{ site.teaser }}{% endif %}">
+	{% if page.image.teaser %}
+		<meta property="og:image" content="{% if page.image.teaser %}{{ site.url }}/img/{{ page.image.teaser }}{% else %}{{ site.url }}/img/{{ site.teaser }}{% endif %}">
 	{% endif %}
 		
