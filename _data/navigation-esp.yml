@@ -8,13 +8,15 @@ blog:
   url: /blog/
 games:
   title: Juegos
-  url: /juegos/
+  url: /proximamente/ #/juegos/
+  #menu-url:
 events:
   title: Eventos
-  url: /eventos/
+  url: /proximamente/ #/eventos/
+  #menu-url:
 press:
   title: Prensa
-  url: /prensa/
+  url: /proximamente/ #/prensa/
 about:
   title: Acerca De
   url: /acercade/

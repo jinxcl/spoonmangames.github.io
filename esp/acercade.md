@@ -32,6 +32,6 @@ periodo de tiempo, por lo que el proyecto fue desechado...
 <br><br>
 Y así pasó el tiempo, la cuchara *Esteban Gaete* siguió mejorando sus 
 habilidades de programación y de ingeniería en sus estudios hasta que llegó
-la gran fecha [**¡15 Mayo del 2015!**]({{ site.url }}/blog/win10gamejam).
+la gran fecha [**¡15 Mayo del 2015!**]({{ site.url }}/blog/win10gamejam). Los hermanos *Victor Gaete Flores* y *Esteban Gaete Flores* se reunieron en un especial evento!
 <br><br>
 **Una nueva era ha comenzado...**

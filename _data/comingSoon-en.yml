@@ -1,14 +1,14 @@
 title:
-    text: Comming Soon
+    text: Coming Soon
 breadcrumb:
     home: Home
     home-url: /en/
-    commingSoon: Comming Soon
-    commingSoon-url: /en/comming-soon/
+    comingSoon: Coming Soon
+    comingSoon-url: /en/coming-soon/
 quotes:
     - text: "We are working to implement this option on the web page :D be patient!"
       author: Esteban Gaete Flores
-    - text: "Feel the rhythm with your hands. Comming soon."
+    - text: "Feel the rhythm with your hands. Coming soon."
       author: Victor Gaete Flores
-    - text: " Aenean massa turpis, volutpat eu fermentum vel, dignissim at dolor."
+    - text: "This option is still not ready, stay tuned! :)"
       author: Nikolai M. Henriquez

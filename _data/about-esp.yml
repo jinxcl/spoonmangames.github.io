@@ -32,9 +32,9 @@ breadcrumb:
     members: Miembros
     members-url: /acercade/miembros/
     timeline: Timeline
-    timeline-url: /acercade/timeline/
+    timeline-url: /proximamente/ #/acercade/timeline/
 youtube:
-    link: https://www.youtube.com/watch?v=lbodT_K15TU
+    link: https://www.youtube.com/watch?v=wMSbj_iL4mE
     text: Vídeo de presentación
 history:
     title: Historia de Spoonman Games

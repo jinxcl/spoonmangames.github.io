@@ -8,13 +8,15 @@ blog:
   url: /en/blog/
 games:
   title: Games
-  url: /en/games/
+  url: /coming-soon/ #/en/games/
+  #menu-url:
 events:
   title: Events
-  url: /en/events/
+  url: /coming-soon/ #/en/events/
+  #menu-url:
 press:
   title: Press
-  url: /en/press/
+  url: /coming-soon/ #/en/press/
 about:
   title: About
   url: /en/about/

@@ -3,19 +3,19 @@ layout: default
 ---
 
 {% if page.english %}
-{% assign commingSoonData = site.data.commingSoon-en %}
+{% assign comingSoonData = site.data.comingSoon-en %}
 {% else %}
-{% assign commingSoonData = site.data.commingSoon-esp %}
+{% assign comingSoonData = site.data.comingSoon-esp %}
 {% endif %}
 
 <section class="hero height-300" style="background-image: url({{ site.url }}/img/blog/cover/sp-cover.png);">
     <div class="hero-bg"></div>
     <div class="container">
         <div class="page-header">
-            <div class="page-title">{{ commingSoonData["title"].text }}</div>
+            <div class="page-title">{{ comingSoonData["title"].text }}</div>
             <ol class="breadcrumb">
-                <li><a href="{{ site.url }}{{ commingSoonData["breadcrumb"].home-url }}" class="no-padding-left">{{ commingSoonData["breadcrumb"].home }}</a></li>
-                <li class="active">{{ commingSoonData["breadcrumb"].commingSoon }}</li>
+                <li><a href="{{ site.url }}{{ comingSoonData["breadcrumb"].home-url }}" class="no-padding-left">{{ comingSoonData["breadcrumb"].home }}</a></li>
+                <li class="active">{{ comingSoonData["breadcrumb"].comingSoon }}</li>
             </ol>
         </div>
     </div>
@@ -25,7 +25,7 @@ layout: default
     <div class="container text-center">
         <div class="row slider">
             <div class="owl-carousel">
-                {% for quote in commingSoonData["quotes"] %}
+                {% for quote in comingSoonData["quotes"] %}
                     <blockquote class="no-border no-margin">
                         <p class="no-padding-bottom font-size-26 color-white font-weight-300"><em>{{ quote.text }}</em></p>
                         <footer class="bg-transparent color-white text-center no-margin font-size-14">{{ quote.author }}</footer>
