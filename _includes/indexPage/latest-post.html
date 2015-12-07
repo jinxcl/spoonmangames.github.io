@@ -1,0 +1,50 @@
+<section class="bg-grey-100 padding-top-60 padding-bottom-60 relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="title text-center no-padding-top">
+                    <h4><i class="fa fa-heart-o"></i> {{ indexData["index"].latest-posts.title }}</h4>
+                    <p class="text-center margin-top-30">{{ indexData["index"].latest-posts.description }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for post in site.posts limit:4 %}
+                {% if post.author %}
+                    {% assign postAuthor = site.data.authors-esp[post.author] %}
+                {% else %}
+                    {% assign postAuthor = site.owner %}
+                {% endif %}
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="entry-post">
+                        <div class="thumb">
+                            <a href="{{ site.url }}{{ post.url }}" >
+                                {% if post.image.teaser %}
+                                    <img src="{{ site.url }}/img/{{ post.image.teaser }}" alt="{{ post.title }}">
+                                {% else %}
+                                    <img src="{{ site.url }}/img/{{ site.teaser }}" alt="{{ post.title }}">
+                                {% endif %}
+                            </a>
+                        </div>
+                        <div class="caption">
+                            <h3 class="main-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                            <p class="margin-bottom-20">
+                                {% if post.summary %}
+                                  {{ post.summary | strip_html}}
+                                {% else %}
+                                  {{ post.excerpt | strip_html | truncate: 160 }}
+                                {% endif %}  
+                            </p>
+                            <div class="post">
+                            {% include blogPage/blog-post-meta.html %}
+                            </div>
+                            <a href="{{ site.url }}{{ post.url }}" class="btn btn-block btn-primary">
+                                {{ indexData["index"].latest-posts.view-game }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

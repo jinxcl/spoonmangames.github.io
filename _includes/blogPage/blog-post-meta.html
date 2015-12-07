@@ -1,6 +1,10 @@
 <ul class="post-meta">
     <li>
-        <i class="fa fa-user margin-right-5"></i> <a href="{{ site.url }}{{ blogData["blog"].members-link }}">{{ postAuthor.name }}</a>
+        {% if page.english %}
+            <i class="fa fa-user margin-right-5"></i> <a href="{{ site.url }}/en/about/members/">{{ postAuthor.name }}</a>
+        {% else %}
+            <i class="fa fa-user margin-right-5"></i> <a href="{{ site.url }}/acercade/miembros/">{{ postAuthor.name }}</a>
+        {% endif %}
     </li>                     
 </ul>
 

@@ -27,9 +27,6 @@
     <div class="col-lg-4 col-xs-12">
         <h4 class="title">{{ footerData["newsletter"].title }}</h4>
         <p>{{ footerData["newsletter"].content }}</p>
-        <form method="post" class="margin-top-25 btn-inline">
-            <input type="text" class="form-control form-inverse input-lg no-border no-shadow padding-right-40" placeholder="Email..." />
-            <button type="submit" class="btn btn-link color-white margin-top-5"><i class="fa fa-envelope color-white"></i></button>
-        </form>
+        {% include social/mailchimp/mailchimp-formNoTitle.html %}
     </div>
 </div>

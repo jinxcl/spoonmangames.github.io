@@ -1,0 +1,39 @@
+<div id="full-carousel" class="carousel slide full-carousel carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        {% for image in indexData["index"].carousel %}
+            {% if image.active %}
+                <div class="item active">
+            {% else %}
+                <div class="item">
+            {% endif %}
+                <img src="{{ site.url }}/img/{{ image.img-url }}" class="full-width" alt="{{ image.img-alt }}">
+                <div class="carousel-caption">
+                    {% if image.img-title %}
+                    <h1 data-animation="animated animate1 fadeInDown">
+                        {{ image.img-title }}
+                    </h1>
+                    {% endif %}
+                    {% if image.img-description %}
+                    <p data-animation="animated animate7 fadeIn">
+                        {{ image.img-description }}
+                    </p>
+                    {% endif %}
+                    {% if image.img-button-text %}
+                    <a href="{{ image.img-button-url }}" data-toggle="modal" class="btn btn-primary btn-lg btn-rounded text-uppercase" data-animation="animated animate10 fadeIn" target="_blank">
+                        {{ image.img-button-text }}
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+
+        <a class="left carousel-control" href="#full-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#full-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>

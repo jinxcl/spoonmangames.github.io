@@ -100,6 +100,7 @@ ejemplo:
   twitter: # solo nombre de usuario después de https://twitter.com/, por ejemplo TebiFestival
   soundcloud:
   deviantart:
+  bitbucket:
   github: # solo nombre de usuario u organización después de https://github.com/, por ejemplo SpoonmanGames
   linkedin: # solo el nombre después de https://cl.linkedin.com/in/, por ejemplo estebangaeteflores
   tumblr: # nombre de usuario, por ejemplo en thebyable.tumblr.com es thebyable

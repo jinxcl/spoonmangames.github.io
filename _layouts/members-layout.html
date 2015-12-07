@@ -48,15 +48,22 @@ members:
                     <div class="title">{{ aboutData["members"].titleimage-text }}</div>
                     <div class="bg-white padding-20 border-1 border-grey-300 border-radius-3 widget-list comment">
                         <ul>
-                            <li>
-                                <a href="#" class="thumb" data-toggle="tooltip" title="YAKUZI">
-                                    <img src="img/user/avatar.jpg" alt="">
-                                </a>
-                                <div class="widget-list-meta">
-                                    <h4 class="widget-list-title"><a href="#">CD Projekt Red Studio</a></h4>
-                                    <p><i class="fa fa-clock-o margin-right-5"></i> September 15, 2015</p>
-                                </div>
-                            </li>
+                            {% for member in page.members %}
+                                {% if page.english %}
+                                {% assign person = site.data.authors-en[member] %}
+                                {% else %}
+                                {% assign person = site.data.authors-esp[member] %}
+                                {% endif %}
+                                <li>
+                                    <a href="#{{ person.name }}" class="thumb" data-toggle="tooltip" title="YAKUZI">
+                                        <img src="{{ site.url }}/img/about/{{ person.avatar }}" alt="">
+                                    </a>
+                                    <div class="widget-list-meta">
+                                        <h4 class="widget-list-title"><a href="#{{ person.name }}"> {{ person.name }}</a></h4>
+                                        <p> {{ person.rol }}</p>
+                                    </div>
+                                </li>
+                            {% endfor %}
                         </ul>
                     </div>
                 </div>
