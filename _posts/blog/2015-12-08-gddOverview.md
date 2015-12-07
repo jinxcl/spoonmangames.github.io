@@ -137,7 +137,7 @@ Como pueden ver el crear un GDD es como crear un coloso, sin embargo, es una imp
 </p>
 
 <p class="margin-top-30" markdown='1'>
-Espero que les allá gustado la publicación del día de hoy y que les sea de utilidad este overview del GDD. Nos gustaría entrar en más detalle sobre lo que es un GDD, como armarlo, como utilizarlo y cuando abandonarlo, sin embargo resultaría en una publicación muy larga como para hacerla un blog. Creo que es hora de aprovechar el nuevo diseño de la página de Spoonman Games y crear una sección de artículos! 
+Espero que les haya gustado la publicación del día de hoy y que les sea de utilidad este overview del GDD. Nos gustaría entrar en más detalle sobre lo que es un GDD, como armarlo, como utilizarlo y cuando abandonarlo, sin embargo resultaría en una publicación muy larga como para hacerla un blog. Creo que es hora de aprovechar el nuevo diseño de la página de Spoonman Games y crear una sección de artículos! 
 </p>
 
 <p class="margin-top-30" markdown='1'>
