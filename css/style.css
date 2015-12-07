@@ -560,7 +560,7 @@ p {
 	margin-top: 0;
 	margin-bottom: 20px;
 	padding: 8px 0 8px 20px;
-	border-left: 5px solid #2776dc;
+	border-left: 5px solid #FFEF5F;
 	border-bottom: 0;
 }
 .page-header i {
@@ -1895,7 +1895,7 @@ section .game-title .page-header {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: rgba(39, 39, 39, 0.8);
-	border-left: 5px solid #2776dc;
+	border-left: 5px solid #FFEF5F;
 }
 .widget .entry-post .caption {
 	padding: 20px 0;

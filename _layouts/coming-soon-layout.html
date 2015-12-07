@@ -21,14 +21,14 @@ layout: default
     </div>
 </section>
 
-<section class="bg-primary padding-40">
+<section class="bg-primary padding-40 bgcolor-yellow">
     <div class="container text-center">
         <div class="row slider">
             <div class="owl-carousel">
                 {% for quote in comingSoonData["quotes"] %}
                     <blockquote class="no-border no-margin">
-                        <p class="no-padding-bottom font-size-26 color-white font-weight-300"><em>{{ quote.text }}</em></p>
-                        <footer class="bg-transparent color-white text-center no-margin font-size-14">{{ quote.author }}</footer>
+                        <p class="no-padding-bottom font-size-26 color-white font-weight-300 color-black"><em>{{ quote.text }}</em></p>
+                        <footer class="bg-transparent color-white text-center no-margin font-size-14 color-black">{{ quote.author }}</footer>
                     </blockquote>
                 {% endfor %}     
             </div>
