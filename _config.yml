@@ -8,7 +8,7 @@ teaser-alt: Spoonman Games! # alt showed in images of site.teaser
 cover: blog/cover/sp-cover.png # default image for cover on blog posts, recommended size 1920x300p
 cover-alt: Spoonman Games! # alt showed in images of site.cover
 locale: es_LA
-url: #http://www.spoonmangames.cl
+url: http://www.spoonmangames.cl
 
 # Jekyll configuration
 

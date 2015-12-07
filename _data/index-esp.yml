@@ -15,12 +15,12 @@ index:
         - img-url: "index/portada1.png" #1920x630
           img-alt: "Descend Into Heaven"
           img-title: "Descend Into Heaven"
-          img-description: "Eres el único que puede poner en orden las cosas, ¡desciende hacia los cielos en busca de la verdad!"
+          img-description: "Eres el único que puede poner en orden las cosas, ¡desciende hacia los Cielos en busca de la verdad!"
           img-button-text: "¿Te atreves a tomar el desafío?"
           img-button-url: "http://spoonmangames.itch.io/descendintoheaven"
         - img-url: "index/portada3.png" #1920x630
-          img-alt: "Tower of Horizont"
-          img-title: "Tower of Horizont"
-          img-description: "Adéntrate en la mágica aventura de Joe y su búsqueda por un mágico artefacto."
+          img-alt: "Tower of Horizon"
+          img-title: "Tower of Horizon"
+          img-description: "Adéntrate en la mágica aventura de Joe y su búsqueda de un misterioso artefacto."
           img-button-text: "Siempre hay otra opción"
           img-button-url: "/proximamente/"
