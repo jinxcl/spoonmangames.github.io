@@ -13,7 +13,7 @@ image:
     cover: blog/cover/papa-cover.jpg
 ---
 
-<p class="margin-top-30" markdown='1'>
+<p class="margin-top-30">
 Los videojuegos siempre estuvieron cerca mío desde pequeño cuando me regalaron el Atari 65xl, aún recuerdo la emoción que me produjo tenerlo. Fueron muchas las horas que jugué y jugué y espere otro tanto con las caseteras jaja. Pero supongo que aquí es donde parte la emoción y la pasión por los videojuegos, me siento un poco responsable también como hermano mayor el haber influenciado a mi hermano en esto, supongo que era inevitable, él era quien me miraba todo el día cuando jugaba , era lógico esperar que le gustaran también. Resumiendo muchos años de vida, termine estudiando Ingeniería Informática y mi hermano Ingeniería Civil Informática.
 </p>
 

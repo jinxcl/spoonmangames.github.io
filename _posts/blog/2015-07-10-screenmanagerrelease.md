@@ -13,8 +13,8 @@ image:
     teaser: blog/teaser/sm-teaser.png
 ---
 
-<p class="margin-top-30" markdown='1'>
-Si nos has estado siguiendo en [Facebook](https://www.facebook.com/spoonman.games) te habrás enterado que hace algún tiempo liberamos una herramienta llamada *ScreenManager*, la cuál es compatible con versión 3.4 de *Monogame*. Esta herramienta permite crear menús interactivos y manejar diferentes escenarios o niveles de un juego de forma independiente. Para acceder a la página donde podrás descargar este proyecto y ver tutoriales introductorios tan solo has click en la imagen de abajo o en el link posterior a ella.
+<p class="margin-top-30">
+Si nos has estado siguiendo en <a href="https://www.facebook.com/spoonman.games">Facebook</a> te habrás enterado que hace algún tiempo liberamos una herramienta llamada <b>ScreenManager</b>, la cuál es compatible con versión 3.4 de <b>Monogame</b>. Esta herramienta permite crear menús interactivos y manejar diferentes escenarios o niveles de un juego de forma independiente. Para acceder a la página donde podrás descargar este proyecto y ver tutoriales introductorios tan solo has click en la imagen de abajo o en el link posterior a ella.
 </p>
 
 <p class="margin-top-30">

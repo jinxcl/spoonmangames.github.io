@@ -12,7 +12,7 @@ image:
     cover: blog/cover/iniciandosePixel-cover.png
 ---
 
-<p class="margin-top-30" markdown='1'>
+<p class="margin-top-30">
 ¡Hola a todos los lectores de los Blogs de Spoonman! Hoy les traigo una pequeña reseña sobre mis primeros pasos en el mundo del pixel art, lo cual creo que puede ayudar a más de uno a partir en este gran Mundo del diseño gráfico.
 </p>
 

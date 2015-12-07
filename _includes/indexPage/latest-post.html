@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="title text-center no-padding-top">
-                    <h4><i class="fa fa-heart-o"></i> {{ indexData["index"].latest-posts.title }}</h4>
+                    <h4><i class="fa fa-heart-o bgcolor-yellow color-black"></i> {{ indexData["index"].latest-posts.title }}</h4>
                     <p class="text-center margin-top-30">{{ indexData["index"].latest-posts.description }}</p>
                 </div>
             </div>
@@ -13,7 +13,11 @@
                 {% if post.author %}
                     {% assign postAuthor = site.data.authors-esp[post.author] %}
                 {% else %}
-                    {% assign postAuthor = site.owner %}
+                    {% if page.english %}
+                        {% assign postAuthor = site.owner-en %}
+                    {% else %}
+                        {% assign postAuthor = site.owner %}
+                    {% endif %}    
                 {% endif %}
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                     <div class="entry-post">
@@ -38,7 +42,7 @@
                             <div class="post">
                             {% include blogPage/blog-post-meta.html %}
                             </div>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn btn-block btn-primary">
+                            <a href="{{ site.url }}{{ post.url }}" class="btn btn-block btn-primary bgcolor-yellow color-black">
                                 {{ indexData["index"].latest-posts.view-game }}
                             </a>
                         </div>

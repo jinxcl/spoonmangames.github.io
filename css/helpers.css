@@ -1280,6 +1280,15 @@
 .border-black { 
 	border-color: #000000 !important; 
 }
+.bgcolor-yellow {
+	background-color: #FFEF5F !important; 	
+}
+.color-yellow {
+	color: #FFEF5F !important; 	
+}
+.bgcolor-black {
+	background-color: #000000 !important; 	
+}
 
 .opacity-1 {
 	opacity: 1 !important;

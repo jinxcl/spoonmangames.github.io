@@ -9,9 +9,8 @@ tags:
 - Blog
 ---
 
-<p class="margin-top-30" markdown='1'>
-Estamos felices de anunciar que finalmente el **blog** ya está totalmente en 
-pie, armado y con todas las bases para funcionar correctamente!
+<p class="margin-top-30">
+Estamos felices de anunciar que finalmente el <b>blog</b> ya está totalmente en pie, armado y con todas las bases para funcionar correctamente!
 </p>
 
 <p class="margin-top-30" markdown='1'>

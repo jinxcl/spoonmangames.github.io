@@ -14,10 +14,10 @@ image:
     teaser: blog/teaser/kk-teaser.png
 ---
 
-<p class="margin-top-30" markdown='1'>
-Durante todo el mes de Julio se desarrolló la [Impulsa Games Jams #IG2A43](http://jams.gamejolt.io/codenameig2a43) la cual estuvo basada en el 
+<p class="margin-top-30">
+Durante todo el mes de Julio se desarrolló la <a href="http://jams.gamejolt.io/codenameig2a43">Impulsa Games Jams #IG2A43</a> la cual estuvo basada en el 
 aniversario número 43 de Atari, por lo que se debía hacer un juego con apariencia audio/visual similar a alguna de las consolas clásicas de 
-Atari. Nosotros elegimos la **Atari 2600** ya que es la más conocida y la más clásica de todas.
+Atari. Nosotros elegimos la <b>Atari 2600</b> ya que es la más conocida y la más clásica de todas.
 </p>
 
 <p class="margin-top-30" markdown='1'>

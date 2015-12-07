@@ -12,8 +12,8 @@ image:
     cover: blog/cover/composicionMusicalP2-cover.jpg
 ---
 
-<p class="margin-top-30" markdown='1'>
-¡Hola nuevamente, lectores de **Spoonman Games**! Si entraste a leer este blog, y no leíste la [Parte I](http://www.spoonmangames.cl/blog/composicionMusicalParte1/), te invito a leerla también para que no te pierdas un solo detalle sobre lo que he querido exponer en estas entraditas. 
+<p class="margin-top-30">
+¡Hola nuevamente, lectores de <b>Spoonman Games</b>! Si entraste a leer este blog, y no leíste la <a href="http://www.spoonmangames.cl/blog/composicionMusicalParte1/">Parte I</a>, te invito a leerla también para que no te pierdas un solo detalle sobre lo que he querido exponer en estas entraditas. 
 </p>
 
 <div class="page-header margin-top-30" markdown='1'>

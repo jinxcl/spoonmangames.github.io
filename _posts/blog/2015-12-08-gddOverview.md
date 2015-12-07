@@ -8,12 +8,12 @@ categories:
 tags:
 - Blog
 image:
-    teaser: /blog/teaser/gddOverview-teaser.png
-    cover: /blog/cover/gddOverview-cover.png
+    teaser: blog/teaser/gddOverview-teaser.png
+    cover: blog/cover/gddOverview-cover.png
 ---
 
-<p class="margin-top-30" markdown='1'>
-Hola Spoonmanianos, hoy hablaremos de un tema que nos interesa mucho desarrollar en nuestros futuros proyectos y para hacer honor a nuestras filosofías *open mind* abriremos un poco las puertas de Descend Into Heaven para que conozcan un poco más como fue el proceso productivo de este juego. Espero que les guste y les sirva :)
+<p class="margin-top-30">
+Hola Spoonmanianos, hoy hablaremos de un tema que nos interesa mucho desarrollar en nuestros futuros proyectos y para hacer honor a nuestras filosofías <b>open mind</b> abriremos un poco las puertas de Descend Into Heaven para que conozcan un poco más como fue el proceso productivo de este juego. Espero que les guste y les sirva :)
 </p>
 
 <div class="page-header margin-top-30" markdown='1'>

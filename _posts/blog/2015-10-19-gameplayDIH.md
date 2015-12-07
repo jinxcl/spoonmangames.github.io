@@ -13,7 +13,7 @@ image:
     cover: blog/cover/dih-cover.png
 ---
 
-<p class="margin-top-30" markdown='1'>
+<p class="margin-top-30">
 Esta semana les tenemos una grata sorpresa, el blog será un vídeo! Este fin de semana estuvimos ajustando varios de los detalles finales de Descend Into Heaven y nos juntamos para hacer un gameplay colaborativo!
 </p>
 

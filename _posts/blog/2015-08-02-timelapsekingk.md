@@ -13,7 +13,7 @@ image:
     cover: blog/cover/kk-cover.png
 ---
 
-<p class="margin-top-30" markdown='1'>
+<p class="margin-top-30">
 Esta es una pequeña entrada para anunciar que hace un par de días ya está público el vídeo con el Time Lapse de King K. A Goblin Defence Game.
 </p>
 

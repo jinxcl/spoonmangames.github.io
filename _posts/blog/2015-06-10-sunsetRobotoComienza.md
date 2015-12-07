@@ -12,8 +12,8 @@ image:
     teaser: blog/teaser/sr-teaser.png
 ---
 
-<p class="margin-top-30" markdown='1'>
-¡¡Hoy ha comenzado oficialmente el desarrollo de **Sunset Robot: The Eternal Rider**!! Como habrán leído en la publicación anterior ([Win 10 Game Jam]({{ site.url }}/blog/win10gamejam)) **Spoonman Games** está en proceso de desarrollo de un vídeo juego creado inicialmente durante la Windows 10 Game Jam. El juego en cuestión se llama **Sunset Roboto: The Eternal Rider** el cuál planea ser un endless runner en un mundo post-apocalíptico.
+<p class="margin-top-30">
+¡¡Hoy ha comenzado oficialmente el desarrollo de <b>Sunset Robot: The Eternal Rider</b>!! Como habrán leído en la publicación anterior <a href="{{ site.url }}/blog/win10gamejam">Win 10 Game Jam</a> <b>Spoonman Games</b> está en proceso de desarrollo de un vídeo juego creado inicialmente durante la Windows 10 Game Jam. El juego en cuestión se llama <b>Sunset Roboto: The Eternal Rider</b> el cuál planea ser un endless runner en un mundo post-apocalíptico.
 </p>
 
 <p class="notice-success margin-top-30" align="justify">"Roboto era un temible robot de guerra, en un mundo post-apocalíptico, una tarde de verano Roboto miró al sol y como si fuera por arte de magia sus circuitos se fundieron con su mecánico y aceitoso corazón, lo que lo hizo dejar la guerra y perseguir ese hermoso resplandor que había alimentado a su perdido y frío ser. <strong>¡Corre Roboto!"</strong></p>

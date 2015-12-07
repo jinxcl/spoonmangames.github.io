@@ -19,3 +19,7 @@ address:
     phone-abbr: "P:"
     phone-number: "+56 9 8305 4041"
     email-title: "Email"
+thanks:
+    titleimage-text1: "¡Gracias!"
+    titleimage-text2: "Nos tomamos muy enserio todos los mensajes de nuestros fans, haremos sonar las cucharas para que tu mail sea respondido lo más pronto posible ~"
+    image-url: "/img/blog/cover/sp-cover.png"

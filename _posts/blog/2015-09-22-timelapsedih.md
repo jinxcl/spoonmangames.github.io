@@ -15,8 +15,8 @@ image:
     teaser: blog/teaser/dih-teaser.png
 ---
 
-<p class="margin-top-30" markdown='1'>
-¡Hola!, bienvenido a este Post-Mortem (con Time-Lapse incluido) de **Descend Into Heaven**, nuestro primer juego utilizando el famoso game engine llamado Unity3D. Este juego nació por dos motivos principalmente: 
+<p class="margin-top-30">
+¡Hola!, bienvenido a este Post-Mortem (con Time-Lapse incluido) de <b>Descend Into Heaven</b>, nuestro primer juego utilizando el famoso game engine llamado Unity3D. Este juego nació por dos motivos principalmente: 
 </p>
 
 <p class="margin-top-30">

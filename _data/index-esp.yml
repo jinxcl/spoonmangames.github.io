@@ -1,7 +1,7 @@
 index:
     title: "¡Bienvenidos a Spoonman Games, la aventura recién comienza!"
     latest-posts:
-        title: "Úlimas publicaciones"
+        title: "Últimas publicaciones"
         description: "Acá podrás ver las últimas cuatro publicaciones de Spoonman Games, para ver el listado completo revisa la pestaña <a href='/blog/'>'Blog'</a>!"
         view-game: "Ver publicación"
     carousel:

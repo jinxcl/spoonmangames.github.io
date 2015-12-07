@@ -12,8 +12,8 @@ image:
     cover: blog/cover/composicionMusicalP1-cover.png
 ---
 
-<p class="margin-top-30" markdown='1'>
-¡Hola a todos los lectores del blog de **Spoonman Games**! Hoy les estaré escribiendo sobre la composición musical en el mundo de los videojuegos. Lo que para mí ha significado, y los aprendizajes que creo importante compartir sobre este gran proceso (que continúa y continúa).
+<p class="margin-top-30">
+¡Hola a todos los lectores del blog de <b>Spoonman Games</b>! Hoy les estaré escribiendo sobre la composición musical en el mundo de los videojuegos. Lo que para mí ha significado, y los aprendizajes que creo importante compartir sobre este gran proceso (que continúa y continúa).
 </p>
 
 <div class="page-header margin-top-30" markdown='1'>

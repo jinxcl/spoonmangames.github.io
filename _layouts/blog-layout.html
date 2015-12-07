@@ -29,7 +29,11 @@ masonry: true
             {% if post.author %}
                 {% assign postAuthor = site.data.authors-esp[post.author] %}
             {% else %}
-                {% assign postAuthor = site.owner %}
+                {% if page.english %}
+                    {% assign postAuthor = site.owner-en %}
+                {% else %}
+                    {% assign postAuthor = site.owner %}
+                {% endif %}   
             {% endif %}
             <div class="post">
                 <div class="box no-radius">

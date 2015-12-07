@@ -14,7 +14,7 @@ image:
     cover: blog/cover/introCommunityManagement-cover.png
 ---
 
-<p class="margin-top-30" markdown='1'>
+<p class="margin-top-30">
 Pequeñitos Paladines Seguidores de Spoonman Games! Para mí el jugar es una experiencia tan simple de sentir como compleja de explicar ¿Quién no ha sentido el escalofrío de entrar a una habitación donde repentinamente la música se detiene? o ¿Acaso no se te olvida por un momento que estás mirando una pantalla y tienes un control en mano cuando estás peleando contra ese jefe que te tiene con el último suspiro de vida? Crear videojuegos te permiten darle esa sensación a los demás y no se diferencia mucho de una buena serie, libro o película ,algo que, quería transmitir creando mis juegos propios, sin embargo, no tengo ni la más mínima idea de programar, tampoco se componer música, mi dibujo no es un arte, es decir, dentro de la construcción de un videojuego no tengo más que aportar la experiencia que vivo cada vez que tomaba el joystick.
 </p>
 

@@ -10,7 +10,7 @@
     <ul>
         <li>
             {% for tag in site.tags | sort %}
-                <a href="{{ site.url }}{{ blogData["blog"].tag-link }}{{ tag[0] }}" class="btn btn-xs btn-warning">
+                <a href="{{ site.url }}{{ blogData["blog"].tag-link }}{{ tag[0] }}" class="btn btn-xs btn-warning bgcolor-black color-yellow">
                     <i class="fa fa-tag"></i> {{ tag[0] }}
                 </a>
             {% endfor %}
