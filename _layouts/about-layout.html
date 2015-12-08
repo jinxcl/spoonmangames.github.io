@@ -1,0 +1,104 @@
+---
+layout: default
+background: bg-grey-100
+carousel: true
+ekko-lightbox: true
+easypiechart: true
+acercade: true
+founders:
+- esteban_gaete
+- victor_gaete
+- nikolai
+---
+
+{% if page.english %}
+{% assign aboutData = site.data.about-en %}
+{% else %}
+{% assign aboutData = site.data.about-esp %}
+{% endif %}
+
+<section class="hero height-240" style="background-image: url({{ site.url }}{{ aboutData["about"].image-url }});">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="page-header game">
+            <div class="page-title">{{ aboutData["about"].titleimage-text }}</div>
+            <ol class="breadcrumb">
+                <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].home-url }}" class="no-padding-left">{{ aboutData["breadcrumb"].home }}</a></li>
+                <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].acercade-url }}">{{ aboutData["breadcrumb"].acercade }}</a></li>
+                <li class="active">{{ aboutData["breadcrumb"].history }}</li>
+            </ol>   
+            <a href="{{ aboutData["youtube"].link }}" class="btn btn-lg btn-success margin-top-30 text-initial bgcolor-yellow color-black" data-toggle="lightbox" data-width="1280">{{ aboutData["youtube"].text }}</a>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white tab-select no-padding hidden-xs border-bottom-1 border-grey-300">
+    <div class="container">
+        <ul class="nav nav-tabs no-border inline" role="tablist">
+            <li class="active"><a href="#">{{ aboutData["titleimage"].title }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].history-url }}"><i class="fa fa-book margin-right-10"></i> {{ aboutData["breadcrumb"].history }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].members-url }}"><i class="fa fa-users margin-right-10"></i> {{ aboutData["breadcrumb"].members }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].timeline-url }}"><i class="fa fa-clock-o margin-right-10"></i> {{ aboutData["breadcrumb"].timeline }}</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="no-padding">
+    <div class="container">
+        <div class="row margin-top-50 margin-bottom-50">
+            <div class="col-lg-9">
+                <div class="box padding-top-40 padding-left-40 padding-right-40 padding-bottom-10">
+                    <div class="post no-margin-bottom">
+                        <div class="post-header margin-top-10">
+                            <div class="post-title">
+                                <h2 class="text-uppercase"><a href="{{ aboutData["breadcrumb"].history-url }}">{{ aboutData["history"].title }}</a></h2>
+                            </div>
+                        </div>
+                        
+                        {{ content }}
+                        
+                    </div>
+                </div>
+            </div>          
+            
+            <!-- Right Column -->
+            <div class="col-lg-3">                
+                <div class="widget">
+                    <div class="title"><a href="{{ aboutData["breadcrumb"].members-url }}">{{ aboutData["founders"].title }}</a></div>
+                    <div class="widget-list comment">
+                        <ul>
+                            {% for founder in page.founders %}
+                                {% if page.english %}
+                                {% assign person = site.data.authors-en[founder] %}
+                                {% else %}
+                                {% assign person = site.data.authors-esp[founder] %}
+                                {% endif %}
+                                <li>
+                                    <a href="{{ aboutData["breadcrumb"].members-url }}" class="thumb"><img src="{{ site.url }}/img/about/{{ person.avatar }}" alt="{{ person.name }}"></a>
+                                    <div class="widget-list-meta">
+                                        <h4 class="widget-list-title"><a href="{{ aboutData["breadcrumb"].members-url }}">{{ person.name }}</a></h4>
+                                        <p>{{ person.rol }}</p>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="widget">
+                    <div class="title"><a href="{{ aboutData["breadcrumb"].timeline-url }}">{{ aboutData["timeline"].title }}</a></div>
+                    <div class="entry-post video">
+                        <div class="thumb">
+                            <a href="{{ aboutData["breadcrumb"].timeline-url }}">
+                                <img src="{{ site.url }}{{ aboutData["timeline"].image-url }}" alt="">
+                            </a>
+                        </div>
+                        <div class="caption">
+                            <h3 class="main-title"><a href="{{ aboutData["breadcrumb"].timeline-url }}">{{ aboutData["timeline"].title2 }}</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

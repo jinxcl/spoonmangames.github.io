@@ -1,0 +1,83 @@
+---
+layout: default
+background: bg-grey-100
+members:
+- esteban_gaete
+- victor_gaete
+- nikolai
+- rojo
+- ignacio
+---
+
+{% if page.english %}
+{% assign aboutData = site.data.about-en %}
+{% else %}
+{% assign aboutData = site.data.about-esp %}
+{% endif %}
+
+<section class="hero height-240" style="background-image: url({{ site.url }}{{ aboutData["members"].image-url }});">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="page-header">
+            <div class="page-title">{{ aboutData["members"].titleimage-text }}</div>
+            <ol class="breadcrumb">
+                <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].home-url }}" class="no-padding-left">{{ aboutData["breadcrumb"].home }}</a></li>
+                <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].acercade-url }}">{{ aboutData["breadcrumb"].acercade }}</a></li>
+                <li class="active">{{ aboutData["breadcrumb"].members }}</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white tab-select no-padding hidden-xs border-bottom-1 border-grey-300">
+    <div class="container">
+        <ul class="nav nav-tabs no-border inline" role="tablist">
+            <li class="active"><a href="#">{{ aboutData["titleimage"].title }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].history-url }}"><i class="fa fa-book margin-right-10"></i> {{ aboutData["breadcrumb"].history }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].members-url }}"><i class="fa fa-users margin-right-10"></i> {{ aboutData["breadcrumb"].members }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].timeline-url }}"><i class="fa fa-clock-o margin-right-10"></i> {{ aboutData["breadcrumb"].timeline }}</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="bg-grey-100 border-top-1 border-grey-300">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 hidden-xs">                    
+                <div class="widget">
+                    <div class="title">{{ aboutData["members"].titleimage-text }}</div>
+                    <div class="bg-white padding-20 border-1 border-grey-300 border-radius-3 widget-list comment">
+                        <ul>
+                            {% for member in page.members %}
+                                {% if page.english %}
+                                {% assign person = site.data.authors-en[member] %}
+                                {% else %}
+                                {% assign person = site.data.authors-esp[member] %}
+                                {% endif %}
+                                <li>
+                                    <a href="#{{ person.name }}" class="thumb" data-toggle="tooltip" title="YAKUZI">
+                                        <img src="{{ site.url }}/img/about/{{ person.avatar }}" alt="">
+                                    </a>
+                                    <div class="widget-list-meta">
+                                        <h4 class="widget-list-title"><a href="#{{ person.name }}"> {{ person.name }}</a></h4>
+                                        <p> {{ person.rol }}</p>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container padding-sm-15 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                {% for member in page.members %}
+                    {% if page.english %}
+                    {% assign person = site.data.authors-en[member] %}
+                    {% else %}
+                    {% assign person = site.data.authors-esp[member] %}
+                    {% endif %}
+                    {% include generalWidgets/author.html %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

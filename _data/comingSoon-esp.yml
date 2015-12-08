@@ -1,0 +1,14 @@
+title:
+    text: Próximamente
+breadcrumb:
+    home: Inicio
+    home-url: /
+    comingSoon: Próximamente
+    comingSoon-url: /coming-soon/
+quotes:
+    - text: "Estamos trabajando para implementar esta opción en la página :D ten paciencia!."
+      author: Esteban Gaete Flores
+    - text: "Siente el ritmo con tus manos, Spoonman. Próximamente."
+      author: Victor Gaete Flores
+    - text: "Esta opción no está lista aún. ¡Sigue atento! :)"
+      author: Nikolai M. Henriquez

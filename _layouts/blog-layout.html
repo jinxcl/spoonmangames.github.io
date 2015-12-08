@@ -1,0 +1,64 @@
+---
+layout: default
+imagesloaded: true
+masonry: true
+---
+
+{% if page.english %}
+{% assign blogData = site.data.blog-en %}
+{% else %}
+{% assign blogData = site.data.blog-esp %}
+{% endif %}
+
+<section class="hero height-300" style="background-image: url({{ site.url }}{{ blogData["blog"].image-url }});">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="page-header">
+            <div class="page-title">{{ blogData["blog"].titleimage-text }}</div>
+            <ol class="breadcrumb">
+                <li><a href="{{ site.url }}{{ blogData["breadcrumb"].home-url }}" class="no-padding-left">{{ blogData["breadcrumb"].home }}</a></li>
+                <li class="active">{{ blogData["breadcrumb"].blog }}</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="bg-grey-100">
+    <div class="container masonry padding-sm-15">
+        {% for post in site.posts %}
+            {% if post.author %}
+                {% assign postAuthor = site.data.authors-esp[post.author] %}
+            {% else %}
+                {% if page.english %}
+                    {% assign postAuthor = site.owner-en %}
+                {% else %}
+                    {% assign postAuthor = site.owner %}
+                {% endif %}   
+            {% endif %}
+            <div class="post">
+                <div class="box no-radius">
+                    {% include blogPage/blog-post-teaser.html %}
+                            
+                    <div class="padding-20">
+                        <div class="post-header margin-top-5">
+                            <div class="post-title">
+                                <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                            </div>
+                        </div>
+                                
+                        <p>
+                            {% if post.summary %}
+                              {{ post.summary | strip_html}}
+                            {% else %}
+                              {{ post.excerpt | strip_html | truncate: 160 }}
+                            {% endif %}  
+                        </p>
+                        
+                        {% include blogPage/blog-post-meta.html %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+

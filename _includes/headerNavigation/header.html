@@ -1,0 +1,17 @@
+<header>
+    <div class="container">
+        <span class="bar hide"></span>
+        {% if page.english %}
+        <a href="{{ site.url }}/en/" class="logo">
+        {% else %}
+        <a href="{{ site.url }}/" class="logo">
+        {% endif %}
+            <img src="{{ site.url }}/img/logo.png" alt="">
+        </a>
+        <nav>
+            {% include headerNavigation/main-navigation.html %}
+        </nav>
+        {% include headerNavigation/right-navigation.html %}
+    </div>
+</header>
+<!-- /header -->

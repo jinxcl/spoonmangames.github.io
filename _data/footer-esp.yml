@@ -1,0 +1,21 @@
+# Site footer data - Español
+
+about:
+    title: Sobre Spoonman Games
+    content: "Bienvenidos a este rincón de desarrollo de vídeojuegos, aquí encontrarás tips para desarrollar tus propios juegos, códigos fuentes de ayuda, tutoriales, comentarios y por supuesto juegos desarrollados por nosotros! Enjoy!"
+categories:
+    title: Páginas
+newsletter:
+    title: Boletín informativo
+    content: Suscríbete a nuestro boletín informativo y recibe notificaciones cada vez que haya nueva información en la página.
+social:
+    twitter: Síguenos en Twitter
+    twitter-url: http://twitter.com/spoonmangames
+    facebook: Síguenos en Facebook
+    facebook-url: https://twitter.com/spoonmangames
+    google: Síguenos en Google+
+    google-url: https://plus.google.com/+SpoonmanGames
+    youtube: Suscríbete a nuestro canal de Youtube
+    youtube-url: https://www.youtube.com/c/SpoonmanGames
+copyright:
+    title: potenciado por

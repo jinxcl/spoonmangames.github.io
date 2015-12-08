@@ -1,0 +1,25 @@
+# Site contact data - English
+
+banner:
+    title: "We would like to know about you, just send us a message! :D"
+contact:
+    title: Let's be in touch!
+    content: 
+        "Are you interested about what it means to be part of The Big Spoon?
+         Or maybe you just want to know more about us or
+         networking, whatever the case may be
+         send us a message directly with the next
+         form, we will contact you back as soon as possible. <br> <br>
+         Cheers!"
+address:
+    title: Address
+    address-1: No address.
+    address-2: Office coming soon,
+    phone-name: "Phone"
+    phone-abbr: "P:"
+    phone-number: "+56 9 8305 4041"
+    email-title: "Email"
+thanks:
+    titleimage-text1: "¡Gracias!"
+    titleimage-text2: "Nos tomamos muy enserio todos los mensajes de nuestros fans, haremos sonar las cucharas para que tu mail sea respondido lo más pronto posible ~"
+    image-url: "/img/blog/cover/sp-cover.png"

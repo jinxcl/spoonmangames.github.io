@@ -1,0 +1,24 @@
+# Site contact data - Español
+
+banner:
+    title: "Nos gustaría saber de tí, tan solo mandanos un mensaje! :D"
+contact:
+    title: Comuniquémonos!
+    content: 
+        "¿Interesado sobre lo que significa ser parte de La Gran Cuchara? 
+        ¿O quizás solo deseas saber más de nosotros o hacer contactos? 
+        Sea cual sea el caso, puedes enviarnos un mensaje directamente con el siguiente formulario, 
+        nos pondremos en contacto contigo lo más pronto posible.<br><br>
+        ¡Saludos!"
+address:
+    title: Dirección
+    address-1: Sin dirección.
+    address-2: Oficina próximamente,
+    phone-name: "Celular"
+    phone-abbr: "C:"
+    phone-number: "+56 9 8305 4041"
+    email-title: "Email"
+thanks:
+    titleimage-text1: "¡Gracias!"
+    titleimage-text2: "Nos tomamos muy enserio todos los mensajes de nuestros fans, haremos sonar las cucharas para que tu mail sea respondido lo más pronto posible ~"
+    image-url: "/img/blog/cover/sp-cover.png"

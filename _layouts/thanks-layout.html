@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+{% if page.english %}
+{% assign contactData = site.data.contact-en %}
+{% else %}
+{% assign contactData = site.data.contact-esp %}
+{% endif %}
+
+<section class="hero height-240" style="background-image: url({{ site.url }}{{ contactData["thanks"].image-url }});">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="page-header">
+            <div class="page-title">
+                {{ contactData["thanks"].titleimage-text1 }}
+            </div>
+            <div class="color-white">
+                <i class="fa fa-music"></i><i class="fa fa-spoon"></i><i class="fa fa-spoon"></i><i class="fa fa-spoon"></i><i class="fa fa-music"></i><br>
+                {{ contactData["thanks"].titleimage-text2 }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-grey-100 border-top-1 border-grey-300">
+    <div class="container">
+        <div class="row">
+            <div class="container padding-sm-15 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                {% if page.english %}
+                    {% assign person = site.owner-en %}
+                {% else %}
+                    {% assign person = site.owner %}
+                {% endif %}
+                {% include generalWidgets/author.html %}
+            </div>
+        </div>
+    </div>
+</section>

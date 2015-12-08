@@ -1,0 +1,15 @@
+<div class="title">
+    <i class="fa fa-pencil margin-right-10"></i> 
+    {% if page.english %}
+        Suscribe!
+    {% else %}
+        Suscríbete!
+    {% endif %}
+</div>
+<div class="widget-list">
+    <ul>
+      <li>
+        {% include social/mailchimp/mailchimp-formTitle.html %}
+      </li>
+  </ul>
+</div>

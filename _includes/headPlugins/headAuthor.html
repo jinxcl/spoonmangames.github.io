@@ -1,0 +1,13 @@
+{% if page.english %}
+    {% if page.author %}
+        {% assign headAuthor = site.data.authors-en[page.author] %}
+    {% else %}
+        {% assign headAuthor = site.owner-en %}
+    {% endif %}
+{% else %}
+    {% if page.author %}
+        {% assign headAuthor = site.data.authors-esp[page.author] %}
+    {% else %}
+        {% assign headAuthor = site.owner %}
+    {% endif %}
+{% endif %}

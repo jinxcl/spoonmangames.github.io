@@ -1,0 +1,45 @@
+{% if page.image.featured %}
+    <p class="margin-top-30">
+        <p align="center">
+            <img src="{{ site.url }}/img/{{ page.image.featured }}" alt="{{ page.title }}">
+        </p>
+        {% if page.image.featured-text %}
+            <p align="center">“{{ page.image.featured-text }}”</p>
+        {% endif %}
+        {% if page.image.featured-credit %}
+            <p align="center"><i>{{ page.image.featured-credit }}</i></p>
+        {% endif %}
+    </p>
+{% endif %}
+
+<!-- 
+<div id="post-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#post-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#post-carousel" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="holder.js/1130x500" alt="">
+        </div>
+        <div class="item">
+            <img src="holder.js/1130x500" alt="">
+        </div>
+    </div>
+</div>
+-->
+{% if page.video.featured %}
+    <p align="center">
+        <div class="embed-video-container embed-responsive embed-responsive-16by9 margin-top-30">
+            <iframe src="{{ page.video.featured }}" class="embed-responsive-item"></iframe>
+        </div>
+    </p>  
+{% endif %}
+
+{% if page.music.featured %}
+    <p class="margin-top-30">
+        <p align="center">
+            <iframe src="{{ page.music.featured }}"></iframe>
+        </p>
+    </p>
+{% endif %}

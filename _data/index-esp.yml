@@ -1,0 +1,26 @@
+index:
+    title: "¡Bienvenidos a Spoonman Games, la aventura recién comienza!"
+    latest-posts:
+        title: "Últimas publicaciones"
+        description: "Acá podrás ver las últimas cuatro publicaciones de Spoonman Games, para ver el listado completo revisa la pestaña <a href='/blog/'>'Blog'</a>!"
+        view-game: "Ver publicación"
+    carousel:
+        - active: true
+          img-url: "index/portada2.png" #1920x630
+          img-alt: "¡Nueva Página Web!"
+          img-title: "¡Nueva Página Web!"
+          img-description: "Nueva página web full responsive, ordenada y agradable :)"
+          img-button-text:
+          img-button-url:
+        - img-url: "index/portada1.png" #1920x630
+          img-alt: "Descend Into Heaven"
+          img-title: "Descend Into Heaven"
+          img-description: "Eres el único que puede poner en orden las cosas, ¡desciende hacia los Cielos en busca de la verdad!"
+          img-button-text: "¿Te atreves a tomar el desafío?"
+          img-button-url: "http://spoonmangames.itch.io/descendintoheaven"
+        - img-url: "index/portada3.png" #1920x630
+          img-alt: "Tower of Horizon"
+          img-title: "Tower of Horizon"
+          img-description: "Adéntrate en la mágica aventura de Joe y su búsqueda de un misterioso artefacto."
+          img-button-text: "Siempre hay otra opción"
+          img-button-url: "/proximamente/"

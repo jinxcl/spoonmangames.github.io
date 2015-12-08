@@ -1,0 +1,16 @@
+<ul class="post-meta">
+    <li>
+        <i class="fa fa-user margin-right-5"></i> <a href="{{ blogData["blog"].members-link }}">{{ author.name }}</a>
+    </li>
+    <li>
+        {% include generalWidgets/page-date.html %}
+    </li>
+    <li>
+        {% include social/disqus/page-comment-counter.html %}
+    </li>
+</ul>
+<ul class="post-meta">
+    <li>
+        {% include blogPage/blog-page-tags.html %}
+    </li>
+</ul>

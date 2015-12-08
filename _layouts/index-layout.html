@@ -1,0 +1,23 @@
+---
+layout: default
+carousel: true
+portada: true
+---
+
+{% if page.english %}
+{% assign indexData = site.data.index-en %}
+{% else %}
+{% assign indexData = site.data.index-esp %}
+{% endif %}
+
+{% include indexPage/carousel-imgs.html %}
+
+<section class="bg-primary padding-40 bgcolor-yellow">
+    <div class="container text-center">
+        <h2 class="font-size-26 font-weight-300 font-open-sans color-black">
+            {{ indexData["index"].title }}
+        </h2>
+    </div>
+</section>
+
+{% include indexPage/latest-post.html %}

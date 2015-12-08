@@ -1,0 +1,13 @@
+{% if page.english %}
+    {% assign blogData2 = site.data.blog-en %}
+{% else %}
+    {% assign blogData2 = site.data.blog-esp %}
+{% endif %}
+
+{% if post.tags.size > 0 %}
+  {% for tag in post.tags %}
+    <a href="{{ site.url }}{{ blogData2["blog"].tag-link }}{{ tag }}" class="btn btn-xs btn-warning bgcolor-black color-yellow"><i class="fa fa-tag"></i>  {{ tag }}</a> 
+  {% endfor %}
+{% else %}
+   <a href="#" class="btn btn-xs btn-default bgcolor-black color-yellow">{{ blogData2["blog"].notag-text }}</a> 
+{% endif %}

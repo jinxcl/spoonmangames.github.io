@@ -1,0 +1,22 @@
+---
+layout: default
+post: true
+---
+
+{% include blogPage/meta-data.html %}
+
+{% include blogPage/image-header.html %}
+
+<section class="no-padding boxed-section">
+    <div class="container padding-40 padding-xs-15">
+        <div class="row">
+            <div class="col-lg-9">
+                {% include blogPage/blog-content.html %}
+            </div>
+
+            <div class="col-lg-3">
+                {% include blogPage/vertical-info.html %}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,42 @@
+about:
+    titleimage-text: Acerca de Spoonman Games
+    image-url: /img/about/SpoonmanGamesBanner.png
+members:
+    titleimage-text: Miembros de Spoonman Games
+    image-url: /img/about/SpoonmanGamesBanner.png
+timeline:
+    title: Timeline
+    title2: La vida de Spoonman Games
+    titleimage-text: Timeline de Spoonman Games
+    image-url: /img/about/SpoonmanGamesBanner.png
+    stories:
+        - title: Titulo 1
+          favicon: fa-battery-1
+          left: true
+          image-url: /holder.js/550x300
+          body: Body 1
+          footer: Footer 1
+        - title: Titulo 2
+          favicon: fa-battery-1
+          left: false
+          image-url: /holder.js/550x300
+          body: Body 2
+          footer: Footer 2
+breadcrumb:
+    home: Inicio
+    home-url: /
+    acercade: Acerca De
+    acercade-url: /acercade/
+    history: Historia
+    history-url: /acercade/
+    members: Miembros
+    members-url: /acercade/miembros/
+    timeline: Timeline
+    timeline-url: /proximamente/ #/acercade/timeline/
+youtube:
+    link: https://www.youtube.com/watch?v=wMSbj_iL4mE
+    text: Vídeo de presentación
+history:
+    title: Historia de Spoonman Games
+founders:
+    title: Fundadores

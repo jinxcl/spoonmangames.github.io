@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: blogarticle-layout
 title: 
 comments:
 author:

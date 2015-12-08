@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+{% if page.english %}
+{% assign aboutData = site.data.about-en %}
+{% else %}
+{% assign aboutData = site.data.about-esp %}
+{% endif %}
+
+<section class="hero height-240" style="background-image: url({{ site.url }}{{ aboutData["timeline"].image-url }});">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="page-header">
+            <div class="page-title">{{ aboutData["timeline"].titleimage-text }}</div>
+            <ol class="breadcrumb">
+                <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].home-url }}" class="no-padding-left">{{ aboutData["breadcrumb"].home }}</a></li>
+                <li><a href="{{ site.url }}{{ aboutData["breadcrumb"].acercade-url }}">{{ aboutData["breadcrumb"].acercade }}</a></li>
+                <li class="active">{{ aboutData["breadcrumb"].timeline }}</li>
+            </ol>
+        </div>
+    </div>
+</section>
+        
+<section class="bg-white tab-select no-padding hidden-xs border-bottom-1 border-grey-300">
+    <div class="container">
+        <ul class="nav nav-tabs no-border inline" role="tablist">
+            <li class="active"><a href="#">{{ aboutData["titleimage"].title }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].history-url }}"><i class="fa fa-book margin-right-10"></i> {{ aboutData["breadcrumb"].history }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].members-url }}"><i class="fa fa-users margin-right-10"></i> {{ aboutData["breadcrumb"].members }}</a></li>
+            <li><a href="{{ aboutData["breadcrumb"].timeline-url }}"><i class="fa fa-clock-o margin-right-10"></i> {{ aboutData["breadcrumb"].timeline }}</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="bg-grey-100 border-top-1 border-grey-300">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline no-margin-bottom">
+                    {% for story in aboutData["timeline"].stories %}
+                    {% if story.left %}
+                    <li>
+                    {% else %}
+                    <li class="timeline-inverted">
+                    {% endif %}
+                        <div class="timeline-badge primary"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><i class="fa {{ story.favicon }} margin-right-10"></i> {{ story.title }}</h4>
+                                <img class="full-width" src="{{ site.url}}{{ story.image-url }}" alt="" />  
+                            </div>
+                            <div class="timeline-body">
+                                <p>{{ story.body }}</p>
+                            </div>
+                            <div class="timeline-footer">
+                                <i class="fa fa-calendar"></i> {{ story.footer }}
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                    <div class="clearfix pull-none"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

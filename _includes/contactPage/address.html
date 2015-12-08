@@ -1,0 +1,18 @@
+<div class="page-header">
+    <h4>{{ contactData["address"].title }}</h4>
+</div>
+<address>
+    <strong>Spoonman Games SpA.</strong><br>
+    {{ contactData["address"].address-1 }}<br>
+    {{ contactData["address"].address-2 }}<br>
+    <abbr title="{{ contactData["address"].phone-name }}">{{ contactData["address"].phone-abbr }}</abbr> {{ contactData["address"].phone-number }}
+</address>
+
+
+<div class="page-header margin-top-60">
+    <h4>{{ contactData["address"].email-title }}</h4>
+</div>
+<address>
+    <strong>Spoonman Games</strong><br>
+    <a href="mailto:#">spoonman.desarrollo@gmail.com</a>
+</address>
