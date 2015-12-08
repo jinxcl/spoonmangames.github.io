@@ -24,7 +24,7 @@ Hola Spoonmanianos, hoy hablaremos de un tema que nos interesa mucho desarrollar
 Generalmente cuando comenzamos el desarrollo de un videojuego nos planteamos varias preguntas que en el transcurso del proceso vamos resolviendo, como por ejemplo:
 </p>
 
- * <p class="margin-top-30">¿Cuántos gráficos necesitare?</p>
+ * <p class="margin-top-30">¿Cuántos gráficos necesitaré?</p>
  * <p>¿Qué tipo de música es necesaria?</p>
  * <p>¿Voy a necesitar historia?</p>
 
@@ -45,7 +45,7 @@ Es fácil darse cuenta que debemos utilizar algún método más eficiente para p
 </p>
 
 <p class="margin-top-30" markdown='1'>
-En **Spoonman Games**, en un afán de organizarnos mejor como equipo y empresa, utilizamos Trello para todos nuestros proyectos. Muchos probablemente ya conocen la herramienta, pero para los que no se puede decir muy resumidamente que Trello es una herramienta colaborativa de gestión de tareas y actividades, es extremadamente flexible y puede adaptarse de la mejor forma que a ti te funcione y a tu equipo.
+En **Spoonman Games**, en un afán de organizarnos mejor como equipo y empresa, utilizamos Trello para todos nuestros proyectos. Muchos probablemente ya conocen la herramienta, pero para los que no, se puede decir muy resumidamente que Trello es una herramienta colaborativa de gestión de tareas y actividades, es extremadamente flexible y puede adaptarse de la mejor forma que a ti te funcione y a tu equipo.
 </p>
 
 <p class="margin-top-30" markdown='1'>
