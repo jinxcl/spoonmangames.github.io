@@ -131,7 +131,7 @@ Podría seguir hablando de este punto y de muchos más para ayudarte a controlar
 </div>
 
 <div class="page-header margin-top-30" markdown='1'>
-## Resumen y conclusión
+    <h2 id="resumen">Resumen y conclusión</h2>
 </div>
 
 <p class="margin-top-30" markdown='1'>
