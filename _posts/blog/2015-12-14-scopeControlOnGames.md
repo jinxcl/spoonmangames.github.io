@@ -30,7 +30,7 @@ Ha ocurrido millones de veces en la industria y es uno de los factores principal
 Me imagino que se estarán preguntando, *“¿Y a que va todo esto querido **Spoonman**?”*, pues queridos lectores, en **Spoonman Games** hemos tenido malas, muy malas y también algunas buenas experiencias respecto al manejo del tamaño (también conocido como alcance o scope en inglés)  de proyectos de desarrollo de software, por lo que esta entrada tratará sobre algunos trucos que hemos aprendido en el camino así como las técnicas comunes usadas en este tipo de proyectos. Es posible que esto no aplique a todo tipo de juegos, pero espero que te ayude a tener una guía en tu desarrollo. *Si prefieres no leer todo el blog explicativo y saltar directamente a una lista resumen haz [click aquí](#resumen)*.
 </p>
 
-<div class="page-header margin-top-30" markdown='1'>
+<div class="page-header margin-top-30">
 ## Experiencia
 </div>
 
