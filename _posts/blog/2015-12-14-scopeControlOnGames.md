@@ -35,7 +35,7 @@ Me imagino que se estarán preguntando, *“¿Y a que va todo esto querido **Spo
 </div>
 
 <p class="margin-top-30" markdown='1'>
-Como les venía contando, en **Spoonman Games** tenemos un poco de experiencia con este tema, nuestra cuchara **Victor Gaete** ya lleva más de 7 años en el mundo del desarrollo de software empresarial y por otro lado está la cuchara **Esteban Gaete**, quién desde el 2010 ha intentado formar esta empresa (pueden leer un poco de eso aquí) y que desde entonces ha estado trabajando en distintos desarrollo de software, tanto empresariales como vídeojuegos. Sin embargo en cuanto a lo que es **Spoonman Games** podemos presumir de lo siguiente:
+Como les venía contando, en **Spoonman Games** tenemos un poco de experiencia con este tema, nuestra cuchara **Victor Gaete** ya lleva más de 7 años en el mundo del desarrollo de software empresarial y por otro lado está la cuchara **Esteban Gaete**, quién desde el 2010 ha intentado formar esta empresa (pueden leer un poco de eso haciendo [click aquí](http://www.spoonmangames.cl/acercade/)) y que desde entonces ha estado trabajando en distintos desarrollo de software, tanto empresariales como vídeojuegos. Sin embargo en cuanto a lo que es **Spoonman Games** podemos presumir de lo siguiente:
 </p>
 
  * <p class="margin-top-30" markdown='1'>Win 10 Game Jam (Marzo 2015): Tercer lugar con [Sunset Roboto: The Eternal Rider](http://www.spoonmangames.cl/blog/win10gamejam/), tiempo 24 horas.</p>
