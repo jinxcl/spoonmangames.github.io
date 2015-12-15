@@ -1,7 +1,12 @@
-<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-    {% if post.image.teaser %}
-        <img src="{{ site.url }}/img/{{ post.image.teaser }}" class="img-responsive full-width" alt="{{ post.title }}" />
-    {% else %}
-        <img src="{{ site.url }}/img/{{ site.teaser }}" class="img-responsive full-width" alt="{{ site.teaser-alt }}" />
-    {% endif %}
-</a>
+<div class="grid">
+    <figure class="effect-apollo">
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+            {% if post.image.teaser %}
+                <img src="{{ site.url }}/img/{{ post.image.teaser }}" class="img-responsive full-width img-thumbnail" alt="{{ post.title }}" />
+            {% else %}
+                <img src="{{ site.url }}/img/{{ site.teaser }}" class="img-responsive full-width img-thumbnail" alt="{{ site.teaser-alt }}" />
+            {% endif %}
+            <figcaption></figcaption>
+        </a>
+    </figure>
+</div>

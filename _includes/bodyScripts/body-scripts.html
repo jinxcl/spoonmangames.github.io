@@ -3,6 +3,7 @@
 <script src="{{ site.url }}/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="{{ site.url }}/plugins/core.js"></script>
 
+{% if page.isotope %}<script src="{{ site.url }}/plugins/isotope/jquery.isotope.min.js"></script>{% endif %}
 {% if page.ekko-lightbox %}<script src="{{ site.url }}/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>{% endif %}
 {% if page.easypiechart %}<script src="{{ site.url }}/plugins/easypiechart/jquery.easypiechart.min.js"></script>{% endif %}
 {% if page.imagesloaded %}<script src="{{ site.url }}/plugins/masonry/imagesloaded.pkgd.min.js"></script>{% endif %}
@@ -10,3 +11,4 @@
 {% include bodyScripts/carousel.html %}
 {% include bodyScripts/googleMaps.html %}
 {% include bodyScripts/masonry.html %}
+{% include bodyScripts/gallery.html %}
