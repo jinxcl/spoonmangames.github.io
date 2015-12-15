@@ -3153,7 +3153,7 @@ footer .widget li .btn {
 
 .grid {
 	margin-bottom: 30px !important;
-	max-height: 278px !important;
+	max-height: 100% !important;
 }
 .grid img { 
 	opacity: 1 !important;
@@ -3681,7 +3681,6 @@ footer .widget > div {
 	margin-bottom: 0 !important;
 }
 .grid figure {
-	max-height: initial !important;
 	margin: 0 !important;
 	display: block !important;
 }

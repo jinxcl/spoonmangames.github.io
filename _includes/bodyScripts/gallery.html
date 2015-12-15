@@ -1,0 +1,76 @@
+{% if page.gallery %}
+<script>
+(function($) {
+"use strict";
+    /*  Lightbox
+    /*----------------------------------------------------*/
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) { 
+        event.preventDefault(); 
+        $(this).ekkoLightbox();
+    }); 
+    
+    $.fn.hideReveal = function( options ) {
+      options = $.extend({
+        filter: '*',
+        hiddenStyle: { opacity: 0.05 },
+        visibleStyle: { opacity: 1 },
+      }, options );
+      this.each( function() {
+        var $items = $(this).children();
+        var $visible = $items.filter( options.filter );
+        var $hidden = $items.not( options.filter );
+        // reveal visible
+        $visible.animate( options.visibleStyle );
+        // hide hidden
+        $hidden.animate( options.hiddenStyle );
+      });
+    };
+
+    var $container = $('.isotope');
+    var $container_masonry = $('.masonry');
+          $container_masonry.imagesLoaded( function(){
+            $container_masonry.isotope({
+            filter: '*',
+            animationOptions: {
+              easing: 'linear',
+              queue: false,
+           }
+        });
+    });
+    
+    // filter functions
+    var filterFns = {
+        // show if number is greater than 50
+        numberGreaterThan50: function() {
+          var number = $(this).find('.number').text();
+          return parseInt( number, 10 ) > 50;
+        },
+        // show if name ends with -ium
+        ium: function() {
+          var name = $(this).find('.name').text();
+          return name.match( /ium$/ );
+        }
+    };
+
+    // bind filter button click
+    $('#filter').on( 'click', 'a', function() {
+        var filterValue = $( this ).attr('data-filter');
+        // use filterFn if matches value
+        filterValue = filterFns[ filterValue ] || filterValue;
+        $container.hideReveal({ filter: filterValue });
+        $container_masonry.hideReveal({ filter: filterValue });
+        return false;
+      });
+
+    // change is-checked class on buttons
+    $('#filter').each( function( i, buttonGroup ) {
+        var $buttonGroup = $( buttonGroup );
+        $buttonGroup.on( 'click', 'a', function() {
+          $buttonGroup.find('.active').removeClass('active');
+          $( this ).addClass('active');
+          return false;
+        });
+    });
+})(jQuery);
+</script>
+{% endif %}

@@ -1,14 +1,20 @@
 {% if page.image.featured %}
     <p class="margin-top-30">
-        <p align="center">
-            <img src="{{ site.url }}/img/{{ page.image.featured }}" alt="{{ page.title }}">
-        </p>
-        {% if page.image.featured-text %}
-            <p align="center">“{{ page.image.featured-text }}”</p>
-        {% endif %}
-        {% if page.image.featured-credit %}
-            <p align="center"><i>{{ page.image.featured-credit }}</i></p>
-        {% endif %}
+        <div class="grid">
+            <figure class="effect-sadie">
+                <img class="img-rounded full-width" src="{{ site.url }}/img/{{ page.image.featured }}" alt="{{ page.title }}">
+                <figcaption>
+                    {% if page.image.featured-text %}
+                        <p align="center">“{{ page.image.featured-text }}”
+                            {% if page.image.featured-credit %}
+                                <br><i>{{ page.image.featured-credit }}</i>
+                            {% endif %}
+                        </p>
+                        <a href="{{ site.url }}/img/{{ page.image.featured }}" data-title="{{ page.image.featured-text }}" data-toggle="lightbox" data-gallery="multiimages">Zoom</a>
+                    {% endif %}
+                </figcaption>  
+            </figure>
+        </div>
     </p>
 {% endif %}
 
