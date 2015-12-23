@@ -61,7 +61,7 @@ Nuestro querido contacto en Microsoft, sin ella este evento no habría sido posi
 </p>
 
 <p align="center" class="margin-top-30">
-    <img src="{{ site.url }}/img/blog/content/resumenGJLC-03.png">
+    <img src="{{ site.url }}/img/blog/content/resumenGJLC-03.jpg">
 </p>
 
 * <p class="margin-top-30" markdown='1'>Eileen González</p>
@@ -71,7 +71,7 @@ Una cucharita de corazón que se ofrecio a ayudarnos como staff para el evento, 
 </p>
 
 <p align="center" class="margin-top-30">
-    <img src="{{ site.url }}/img/blog/content/resumenGJLC-04.png">
+    <img src="{{ site.url }}/img/blog/content/resumenGJLC-04.jpg">
 </p>
 
 <div class="page-header margin-top-30" markdown='1'>
