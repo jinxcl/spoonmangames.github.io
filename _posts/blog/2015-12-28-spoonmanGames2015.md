@@ -13,7 +13,11 @@ image:
 ---
 
 <p class="margin-top-30" markdown='1'>
-Hoy es el último Lunes del año y queremos hacer algo especial para este blog, una pequeña recopilación de los grandes hitos que Spoonman ha vivido este 2015, que es lo que hemos aprendido, lo bueno y lo malo también! Si buscamos el punto de partida de Spoonman Games de este año sin duda que es con nuestro querido proyecto Sunset Roboto, el cual fue uno de los pilares, o más bien, la mecha del TNT que detonaría en los meses posteriores.
+Hoy es el último Lunes del año y queremos hacer algo especial para este blog, una pequeña recopilación de los grandes hitos que Spoonman ha vivido este 2015, que si bien ha sido corto (ya que recién empezamos en Julio) han pasado varias cosas.
+</p>
+
+<p class="margin-top-30" markdown='1'>
+Si buscamos el punto de partida de Spoonman Games de este año sin duda que es con nuestro querido proyecto Sunset Roboto, el cual fue uno de los pilares, o más bien, la mecha del TNT que detonaría en los meses posteriores.
 </p>
 
 <p align="center" class="margin-top-30">
@@ -97,7 +101,7 @@ Continuando con el recuento, en nuestro camino apareció una persona singular, a
     <img src="{{ site.url }}/img/blog/content/spoonmanGames2015-01.png">
 </p>
 
-<p class="margin-top-30" markdown='1'> 
+<p class="margin-top-30" markdown='1'>
 Ya en Diciembre Spoonman Games se está planificando para lo que será un 2016 movido y lleno de proyectos y aventuras por vivir, esperamos aprender lo máximo de todas las experiencias y llevar al siguiente nivel a nuestra querida cuchara.
 </p>
 
