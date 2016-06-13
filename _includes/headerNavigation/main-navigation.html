@@ -61,7 +61,7 @@
         </li>
         <li class="dropdown">
             <a href="{{ navigationData["events"].url }}" class="dropdown-toggle">{{ navigationData["events"].title }} <i class="fa fa-angle-down"></i></a>
-            {if navigationData["events"].menu-url}
+            #{% if navigationData["events"].menu-url %}
                 <ul class="dropdown-menu default">
                     <li class="dropdown-submenu">
                         <a href="blog-large.html"><i class="fa fa-align-justify"></i> Blog Large</a>
@@ -92,7 +92,7 @@
                     <li><a href="blog-masonry.html"><i class="fa fa-th-large"></i> Masonry Blog</a></li>
                     <li><a href="blog-thumbnail.html"><i class="fa fa-image"></i> Thumbnail Blog</a></li>
                 </ul>
-            {% endif %}
+            #{% endif %}
         </li>
         <li><a href="{{ navigationData["press"].url }}">{{ navigationData["press"].title }}</a></li>
         <li><a href="{{ navigationData["about"].url }}">{{ navigationData["about"].title }}</a></li>
